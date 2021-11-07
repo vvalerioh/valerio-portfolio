@@ -1,0 +1,32 @@
+# Resources
+
+Check out more of my work!
+
+**Projects I led on:**
+* [The Impact of COVID-19 on antenatal careseeking in the US (In progress, 2021)](https://healthcostinstitute.org/in-the-news/winners-of-covid-19-research-accelerator-grants-announced): Lead technical developer and grant writing coordinator
+
+* The US Maternal Vulnerability index
+** [Website (2021)](https://www.mvi.surgoventures.org): Lead technical developer, lead research scientist
+** [Zenodo repository (2020)](https://zenodo.org/record/5590225#.YYfGd5pBw2w): Lead technical developer
+** [Methodology (2021)](https://mvi-us.s3.amazonaws.com/assets/SurgoVentures_MVI_Methodology_Jul2021.pdf): Lead author
+** [Findings report (2021)](https://surgoventures.org/resource-library/getting-hyperlocal-to-improve-outcomes-achieve-racial-equity-in-maternal-health-the-us-maternal-vulnerability-index): Lead technical developer, co-author
+
+* Livestock Trade in West Africa:
+** [OECD West African Paper (2020)](https://read.oecd.org/10.1787/f8c71341-en?format=pdf): Author
+** [Feed the Future Livestock Systems Innovation Lab Infographic](https://github.com/vvalerioh/valerio-portfolio/blob/main/assets/INFOGRAPHIC_Valerio_Mapping_Regional_Patterns_Livestock_Trade_West_Africa_approved-2020.06.10%20(1).pdf): Author
+** [Youtube video](https://www.youtube.com/watch?v=yYDZfLe5aSs): Author and narrator
+** [Scientific Manuscript](https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0232681): First author
+
+
+**Projects I contributed to:**
+
+* [The US COVID-10 Community Vulnerability Index (US CCVI)](https://precisionforcovid.org/ccvi): Contributing research scientist, supported code review, coding, analysis and the construction of the index (Specifically, the High Risk Environments Theme)
+
+* The Africa COVID-19 Community Vulnerability Index (CCVI)
+** [Blog post - _As COVID-19 cases in Ghana continue to rise, which regions are most vulnerable?_ (2020)](https://surgoventures.medium.com/as-covid-19-cases-in-ghana-continue-to-rise-which-regions-are-most-vulnerable-2be1e6940c17): Lead developer
+** Scientific manuscript (2020, submitted): Co-author
+
+* [Filling knowledge gaps to strenghthen livesotck policies in low-income countries(2020)](https://linkinghub.elsevier.com/retrieve/pii/S2211912420300821): Co-author
+
+** Grad school projects:**
+* Modeling Cassava G using the SIMPLE R model
