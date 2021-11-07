@@ -10,7 +10,7 @@ link-citations: yes
 description: "This website contains examples from Valerie's analytical portfolio."
 ---
 
-# ABout this site
+# About this site
 
 This website contains short _analytical examples_ from Valerie's portfolio. These examples might include code and analyses carried out as a PhD student at the University of Florida, as a Research Scientist at Surgo Ventures, and/or as side (aka passion) projects. If you have any questions, please don't hesitate to reach out (valerievalerioh@gmail.com). To see more of my work, please visit the Resources Chapter (# \@ref(resources)).
 
