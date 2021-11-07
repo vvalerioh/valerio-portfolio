@@ -15,14 +15,14 @@ You can label chapter and section titles using `{#label}` after them, e.g., we c
 
 ### Data sources
 
-```{r nice-tab, tidy = FALSE}
+```{r tab-1, tidy = FALSE}
 
 table1 <- data.frame(
   Dataset = c('US Maternal Vulnerability Index (MVI)', 'Natality data', 'Mortality data*'),
   Source = c('Surgo Ventures (2021)', 'CDC Wonder (2020)', 'CDC Wonder(2020)'),
   Description = c('US MVI state-level scores (overall)', 'National Vital Statistics data including all births that occurred in the US between 2007 and 2019, to mothers between 10 and 44 years of age by state and race', 'National Vital Statistics data including all deaths that occurred in the US between 2007 and 2019, of mothers between 15 and 44 years of age by state and race.')  
 )
-knitr::kable(
+knitr::kable( x = table1,
   caption = 'Data sources used in this analysis',
   booktabls = TRUE
 )
