@@ -12,9 +12,14 @@ description: "This website contains examples from Valerie's analytical portfolio
 
 # ABout this site
 
-This website contains short _analytical examples_ from Valerie's portfolio. These examples might include code and analyses carried out as a PhD student at the University of Florida, as a Research Scientist at Surgo Ventures, and/or as side (aka passion) projects. If you have any questions, please don't hesitate to reach out (valerievalerioh@gmail.com). To see more of my work, please visit the Resources (Chapter \@ref(resources)).
+This website contains short _analytical examples_ from Valerie's portfolio. These examples might include code and analyses carried out as a PhD student at the University of Florida, as a Research Scientist at Surgo Ventures, and/or as side (aka passion) projects. If you have any questions, please don't hesitate to reach out (valerievalerioh@gmail.com). To see more of my work, please visit the Resources Chapter (# \@ref(resources)).
 
-The website includes text, figures and R code chunks. Code chunks will appear as follows:
+## Notes
+
+This website includes text, figures and R code chunks. 
+
+1. Most figures are generated with R code
+2. Code chunks will appear as follows:
 
 ```{r eval=FALSE}
 # This is a comment in an R code chunk
