@@ -4,7 +4,7 @@
 
 The US has one of the highest maternal mortality ratios amongst high-income countries. 
 
-You can label chapter and section titles using `{#label}` after them, e.g., we can reference Chapter \@ref(intro). If you do not manually label them, there will be automatic labels anyway, e.g., Chapter \@ref(methods).
+You can label chapter and section titles using `{#label}` after them, e.g., we can reference Chapter \@ref(resources). If you do not manually label them, there will be automatic labels anyway, e.g., Chapter \@ref(methods).
 
 ## Objective
 
@@ -35,7 +35,7 @@ _Following [Hoyert (2019)](https://www.cdc.gov/nchs/data/hestat/maternal-mortali
 #### Race and ethnicity
 
 #### Maternal Mortality Ratio (MMR)
-The Maternal Mortality Ratio was calculated as: $MMR = (deaths/births)* 100000 & births$
+The Maternal Mortality Ratio was calculated as: $MMR = (deaths/births)* 100,000 births$
 
 #### Visualization
 
