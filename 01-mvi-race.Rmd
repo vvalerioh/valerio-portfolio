@@ -1,0 +1,64 @@
+# Racial disparities in maternal mortality in the US {#mvi-race}
+
+## Background
+
+The US has one of the highest maternal mortality ratios amongst high-income countries. 
+
+You can label chapter and section titles using `{#label}` after them, e.g., we can reference Chapter \@ref(intro). If you do not manually label them, there will be automatic labels anyway, e.g., Chapter \@ref(methods).
+
+## Objective
+
+
+
+
+## Methods
+
+### Data sources
+
+```{r nice-tab, tidy = FALSE}
+
+table1 <- data.frame(
+  Dataset = c('US Maternal Vulnerability Index (MVI)', 'Natality data', 'Mortality data*'),
+  Source = c('Surgo Ventures (2021)', 'CDC Wonder (2020)', 'CDC Wonder(2020)'),
+  Description = c('US MVI state-level scores (overall)', 'National Vital Statistics data including all births that occurred in the US between 2007 and 2019, to mothers between 10 and 44 years of age by state and race', 'National Vital Statistics data including all deaths that occurred in the US between 2007 and 2019, of mothers between 15 and 44 years of age by state and race.')  
+)
+knitr::kable(
+  caption = 'Data sources used in this analysis',
+  booktabls = TRUE
+)
+```
+
+_Following [Hoyert (2019)](https://www.cdc.gov/nchs/data/hestat/maternal-mortality-2021/E-Stat-Maternal-Mortality-Rates-H.pdf), deaths were included if the underlying cause of death corresponded to ICD-10 (International Statistical Classification of Diseases, 10th Revision) codes A34, O00-O95, and O98-O99_ 
+
+### Data pre-processing
+
+#### Race and ethnicity
+
+#### Maternal Mortality Ratio (MMR)
+The Maternal Mortality Ratio was calculated as: $MMR = (deaths/births)* 100000 & births$
+
+#### Visualization
+
+The dataset used in this analysis contains the 
+```{r }
+```
+
+
+#### Analysis
+
+
+```{r nice-fig, fig.cap='Here is a nice figure!', out.width='80%', fig.asp=.75, fig.align='center'}
+par(mar = c(4, 4, .1, .1))
+plot(pressure, type = 'b', pch = 19)
+```
+
+Reference a figure by its code chunk label with the `fig:` prefix, e.g., see Figure \@ref(fig:nice-fig). Similarly, you can reference tables generated from `knitr::kable()`, e.g., see Table \@ref(tab:nice-tab).
+
+```{r nice-tab, tidy=FALSE}
+knitr::kable(
+  head(iris, 20), caption = 'Here is a nice table!',
+  booktabs = TRUE
+)
+```
+
+You can write citations, too. For example, we are using the **bookdown** package [@R-bookdown] in this sample book, which was built on top of R Markdown and **knitr** [@xie2015].
