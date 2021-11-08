@@ -12,7 +12,7 @@ description: "This website contains examples from Valerie's analytical portfolio
 
 # About this site
 
-This website contains short _analytical examples_ from Valerie's portfolio. These examples might include code and analyses carried out as a PhD student at the University of Florida, as a Research Scientist at Surgo Ventures, and/or as side (aka passion) projects. If you have any questions, please don't hesitate to reach out (valerievalerioh@gmail.com). To see more of my work, please visit the Resources Chapter (# \@ref(resources)).
+This website contains short _analytical examples_ from Valerie's portfolio. These examples might include code and analyses carried out as a PhD student at the University of Florida, as a Research Scientist at Surgo Ventures, and/or as side (aka passion) projects. If you have any questions, please don't hesitate to reach out [valerievalerioh@gmail.com](mailto: valerievalerioh@gmail.com). To see more of my work, please visit the Resources Chapter (# \@ref(resources)).
 
 ## Notes
 
@@ -22,7 +22,7 @@ This website includes text, figures and R code chunks.
 2. Code chunks will appear as follows:
 
 ```{r eval=FALSE}
-# This is a comment in an R code chunk
+# Comments are preceded by a hash sign (#)
 # Comments help my colleagues (and Valerie from the future) understand what the code is supposed to do and why
 
 ## Install packages -----

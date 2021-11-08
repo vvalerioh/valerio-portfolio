@@ -2,47 +2,91 @@
 
 ## Background
 
-The US has one of the highest maternal mortality ratios amongst high-income countries. 
+* The US has one of the highest maternal mortality risks amongst high-income countries, along with some of the highest racial disparities - Black and Native American women are 2-4 times more likely than their White counterparts to die from pregnancy-related causes.
 
-You can label chapter and section titles using `{#label}` after them, e.g., we can reference Chapter \@ref(resources). If you do not manually label them, there will be automatic labels anyway, e.g., Chapter \@ref(methods).
+* Evidence-based interventions are needed to address this public health crisis. A systematic understanding of why maternal mortality ratios are so high in the United States is lacking, partly due to surveillance data gaps and standardization issues.
 
-## Objective
+* It is now well-established that death certificate changes - like adoption of the pregnancy check box - have contributed to the 'increasing' trend of maternal mortality in the US. In addition, individual-level characteristics like heart disease, diabetes and increasing age at pregnancy also contribute to the observed maternal mortality rate (MMR). However, neither surveillance changes nor individual-level characteristics can explain the marked racial disparities in maternal health.
 
+* Multiple studies have found that characteristics of the environments in which birthing individuals live, work and give birth in are associated with pregnancy outcomes. These studies tend to consider on one covariate at a time (e.g. rate of obgyns per 100k population, abortion supportive policies, educational attainment), and systematic knowledge on how these affect maternal health outcomes is lacking in the US. To address this, Surgo Ventures created the US Maternal Vulnerability Index (MVI), a multi-dimensional index that ranks US counties and states on a score from 0-100, where 0 and 100 are assigned to the geographies that are the most and least conducive to good maternal health, respectively.
 
+* Another potential driver of these inequities is racism. Though the field is still young, various racism metrics (like educational attainment disparities) have been found to be associated with disparities in maternal health outcomes.
 
+* Using the MVI, Surgo Ventures found that Black and American Indian and Native American (AIAN) mothers are 2.6 and 1.6 more likely to live under 'High Maternal Vulnerability' as their White counterparts, suggesting part of the observed racial disparities can be attributed to ecological/environmental characteristics. However, it remains unclear if there is an interaction between maternal vulneability and race. In other words: _does maternal vulnerability affect mothers from different races differently?_
+
+The objective of this analysis are to:
+
+1. Examine the relationship between maternal vulnerability and maternal morality at the state level across the U.S.
+
+2. Assess if maternal vulnerability affects maternal mortality differently for Black and White birthing individuals.
 
 ## Methods
 
+First, the data will be visualized. Based on the visual inspection of the relationships,I will use the following statistical analyses:
+
+1. Linear regression of maternal mortality on state-level Maternal Vulnerability (MV) Score.
+
+2. Linear regression of maternal mortality by race on state-level MVS, including an interaction between race and MV Score
+
 ### Data sources
+
+Open-source data were obtained from Surgo Ventures and the CDC National Center for Health Statistics.
 
 ```{r tab-1, tidy = FALSE}
 
 table1 <- data.frame(
   Dataset = c('US Maternal Vulnerability Index (MVI)', 'Natality data', 'Mortality data*'),
   Source = c('Surgo Ventures (2021)', 'CDC Wonder (2020)', 'CDC Wonder(2020)'),
-  Description = c('US MVI state-level scores (overall)', 'National Vital Statistics data including all births that occurred in the US between 2007 and 2019, to mothers between 10 and 44 years of age by state and race', 'National Vital Statistics data including all deaths that occurred in the US between 2007 and 2019, of mothers between 15 and 44 years of age by state and race.')  
+  Description = c('US MVI state-level scores (overall). The US MVI "...ranks [...] states and counties on indicators measuring drivers of poor maternal health outcomes. Maternal vulnerability is assessed based on 43 drivers grouped into six themes: (1) Reproductive Healthcare, (2) Physical Health, (3) Mental Health and Substance Abuse, (4) General Healthcare, (5) Socioeconomic Determinants, and (6) Physical Environment. The MVI captures factors that put birthing people at increased risk of adverse outcomes during pregnancy that may lead to morbidities and/or death."[source](https://zenodo.org/record/5590225#.YYfkK5pBw2w)', 'National Vital Statistics data including all births that occurred in the US between 2007 and 2019, to mothers between 10 and 44 years of age by state and race', 'National Vital Statistics data including all deaths that occurred in the US between 2007 and 2019, of mothers between 15 and 44 years of age by state and race.')  
 )
+
 knitr::kable( x = table1,
   caption = 'Data sources used in this analysis',
   booktabls = TRUE
 )
 ```
 
-_Following [Hoyert (2019)](https://www.cdc.gov/nchs/data/hestat/maternal-mortality-2021/E-Stat-Maternal-Mortality-Rates-H.pdf), deaths were included if the underlying cause of death corresponded to ICD-10 (International Statistical Classification of Diseases, 10th Revision) codes A34, O00-O95, and O98-O99_ 
+_*See Data pre-processing (subsection '\@ref(data-preprocess)) for details_ 
 
-### Data pre-processing
+### Data pre-processing {#data-preprocess}
+
+The MVI and data dictionary are downloaded from a [Zenodo repository](https://zenodo.org/record/5590225#.YYfkK5pBw2w) and need no pre-processing (see preview below).
+
+```{r }
+
+# Download MVI data ----
+# Set urls
+url1 <- 'https://zenodo.org/record/5590225/files/mvi_state.csv?download=1'
+url2 <- 'https://zenodo.org/record/5590225/files/mvi_data_dictionary.xlsx?download=1'
+  
+# Download data
+mvi.state <- read.csv(url1)
+# Use rio library because file extension is .xlsx
+data.dict <- rio::import(url2)
+
+# Preview data
+head(mvi.state)
+# Data dictionary
+head(data.dict)
+
+```
+CDC's natality and mortality data are downloaded from CDC Wonder. For reproducibility purposes, I've provided the 2 data files below:
+
+1. [Natality data]()
+
+2. [Mortality data]()
+
 
 #### Race and ethnicity
 
+#### Births
+
+#### Deaths
+
+Following [Hoyert (2019)](https://www.cdc.gov/nchs/data/hestat/maternal-mortality-2021/E-Stat-Maternal-Mortality-Rates-H.pdf), deaths were included if the underlying cause of death corresponded to ICD-10 (International Statistical Classification of Diseases, 10th Revision) codes A34, O00-O95, and O98-O99. Only births and deaths to and of mothers under 45 years of age were included, following the CDC's recommendations - which are based on [NCHS assessment of errors](https://www.cdc.gov/nchs/maternal-mortality/faq.htm).
+
 #### Maternal Mortality Ratio (MMR)
 The Maternal Mortality Ratio was calculated as: $MMR = (deaths/births)* 100,000 births$
-
-#### Visualization
-
-The dataset used in this analysis contains the 
-```{r }
-```
-
 
 #### Analysis
 
@@ -61,4 +105,9 @@ knitr::kable(
 )
 ```
 
+# Discussion
+
+## Limitations
+
+## Future work
 You can write citations, too. For example, we are using the **bookdown** package [@R-bookdown] in this sample book, which was built on top of R Markdown and **knitr** [@xie2015].

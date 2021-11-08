@@ -35,7 +35,7 @@ Check out more of my work
 
 * The Africa COVID-19 Community Vulnerability Index (CCVI)
 
-  * [Blog post - _As COVID-19 cases in Ghana continue to rise, which regions are most vulnerable?_ (2020)](https://surgoventures.medium.com/as-covid-19-cases-in-ghana-continue-to-rise-which-regions-are-most-vulnerable-2be1e6940c17): Lead developer
+  * [Blog post - _As COVID-19 cases in Ghana continue to rise, which regions are most vulnerable?_ (2020)](https://surgoventures.medium.com/as-covid-19-cases-in-ghana-continue-to-rise-which-regions-are-most-vulnerable-2be1e6940c17): Lead researcher and author
 
   * Scientific manuscript (2020, submitted): Co-author
 
@@ -43,6 +43,6 @@ Check out more of my work
 * [Filling knowledge gaps to strenghthen livestock policies in low-income countries(2020)](https://linkinghub.elsevier.com/retrieve/pii/S2211912420300821): Co-author
 
 
-* **Grad school projects:**
+**Grad school projects:**
 
   * Modeling Cassava G using the SIMPLE R model
