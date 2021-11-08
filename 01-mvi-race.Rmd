@@ -22,22 +22,22 @@ The objective of this analysis are to:
 
 ## Methods
 
-First, the data will be visualized. Based on the visual inspection of the relationships,I will use the following statistical analyses:
+First, the data will be visualized. Based on the visual inspection of the relationships, I will use the following statistical analyses:
 
 1. Linear regression of maternal mortality on state-level Maternal Vulnerability (MV) Score.
 
 2. Linear regression of maternal mortality by race on state-level MVS, including an interaction between race and MV Score
 
-### Data sources
+## Data sources
 
 Open-source data were obtained from Surgo Ventures and the CDC National Center for Health Statistics.
 
-```{r tab-1, tidy = FALSE}
+```{r tab-1, tidy = FALSE, echo = FALSE}
 
 table1 <- data.frame(
   Dataset = c('US Maternal Vulnerability Index (MVI)', 'Natality data', 'Mortality data*'),
   Source = c('Surgo Ventures (2021)', 'CDC Wonder (2020)', 'CDC Wonder(2020)'),
-  Description = c('US MVI state-level scores (overall). The US MVI "...ranks [...] states and counties on indicators measuring drivers of poor maternal health outcomes. Maternal vulnerability is assessed based on 43 drivers grouped into six themes: (1) Reproductive Healthcare, (2) Physical Health, (3) Mental Health and Substance Abuse, (4) General Healthcare, (5) Socioeconomic Determinants, and (6) Physical Environment. The MVI captures factors that put birthing people at increased risk of adverse outcomes during pregnancy that may lead to morbidities and/or death."[source](https://zenodo.org/record/5590225#.YYfkK5pBw2w)', 'National Vital Statistics data including all births that occurred in the US between 2007 and 2019, to mothers between 10 and 44 years of age by state and race', 'National Vital Statistics data including all deaths that occurred in the US between 2007 and 2019, of mothers between 15 and 44 years of age by state and race.')  
+  Description = c('US MVI state-level scores (overall). The US MVI "...ranks [...] states and counties on indicators measuring drivers of poor maternal health outcomes. Maternal vulnerability is assessed based on 43 drivers grouped into six themes: (1) Reproductive Healthcare, (2) Physical Health, (3) Mental Health and Substance Abuse, (4) General Healthcare, (5) Socioeconomic Determinants, and (6) Physical Environment. The MVI captures factors that put birthing people at increased risk of adverse outcomes during pregnancy that may lead to morbidities and/or death." [@mvi-zenodo]', 'National Vital Statistics data including all births that occurred in the US between 2007 and 2019, to mothers between 10 and 44 years of age by state and race', 'National Vital Statistics data including all deaths that occurred in the US between 2007 and 2019, of mothers between 15 and 44 years of age by state and race.')  
 )
 
 knitr::kable( x = table1,
@@ -46,9 +46,9 @@ knitr::kable( x = table1,
 )
 ```
 
-_*See Data pre-processing (subsection '\@ref(data-preprocess)) for details_ 
+*See Data pre-processing (subsection '\@ref(data-preprocess)) for details
 
-### Data pre-processing {#data-preprocess}
+## Data pre-processing {#data-preprocess}
 
 The MVI and data dictionary are downloaded from a [Zenodo repository](https://zenodo.org/record/5590225#.YYfkK5pBw2w) and need no pre-processing (see preview below).
 
@@ -70,18 +70,17 @@ head(mvi.state)
 head(data.dict)
 
 ```
-CDC's natality and mortality data are downloaded from CDC Wonder. For reproducibility purposes, I've provided the 2 data files below:
+CDC's natality and mortality data are downloaded from CDC Wonder. For reproducibility purposes, I've provided the 2 data files below (click to download):
 
 1. [Natality data]()
 
 2. [Mortality data]()
 
+### Race and ethnicity
 
-#### Race and ethnicity
+### Births
 
-#### Births
-
-#### Deaths
+### Deaths
 
 Following [Hoyert (2019)](https://www.cdc.gov/nchs/data/hestat/maternal-mortality-2021/E-Stat-Maternal-Mortality-Rates-H.pdf), deaths were included if the underlying cause of death corresponded to ICD-10 (International Statistical Classification of Diseases, 10th Revision) codes A34, O00-O95, and O98-O99. Only births and deaths to and of mothers under 45 years of age were included, following the CDC's recommendations - which are based on [NCHS assessment of errors](https://www.cdc.gov/nchs/maternal-mortality/faq.htm).
 
