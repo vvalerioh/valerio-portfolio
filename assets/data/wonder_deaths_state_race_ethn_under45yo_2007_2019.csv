@@ -1,0 +1,705 @@
+Notes,State,State Code,Race,Race Code,Hispanic Origin,Hispanic Origin Code,Deaths,Population,Crude Rate
+,Alabama,1,American Indian or Alaska Native,1002-5,Hispanic or Latino,2135-2,Suppressed,81032,Suppressed
+,Alabama,1,American Indian or Alaska Native,1002-5,Not Hispanic or Latino,2186-2,Suppressed,223041,Suppressed
+,Alabama,1,American Indian or Alaska Native,1002-5,Not Stated,NS,Suppressed,Not Applicable,Not Applicable
+,Alabama,1,Asian or Pacific Islander,A-PI,Hispanic or Latino,2135-2,Suppressed,54423,Suppressed
+,Alabama,1,Asian or Pacific Islander,A-PI,Not Hispanic or Latino,2186-2,Suppressed,610174,Suppressed
+,Alabama,1,Asian or Pacific Islander,A-PI,Not Stated,NS,Suppressed,Not Applicable,Not Applicable
+,Alabama,1,Black or African American,2054-5,Hispanic or Latino,2135-2,Suppressed,164572,Suppressed
+,Alabama,1,Black or African American,2054-5,Not Hispanic or Latino,2186-2,77,10913400,0.7
+,Alabama,1,Black or African American,2054-5,Not Stated,NS,Suppressed,Not Applicable,Not Applicable
+,Alabama,1,White,2106-3,Hispanic or Latino,2135-2,Suppressed,1800759,Suppressed
+,Alabama,1,White,2106-3,Not Hispanic or Latino,2186-2,57,22752080,0.3
+,Alabama,1,White,2106-3,Not Stated,NS,Suppressed,Not Applicable,Not Applicable
+,Alaska,2,American Indian or Alaska Native,1002-5,Hispanic or Latino,2135-2,Suppressed,69401,Suppressed
+,Alaska,2,American Indian or Alaska Native,1002-5,Not Hispanic or Latino,2186-2,Suppressed,1084830,Suppressed
+,Alaska,2,American Indian or Alaska Native,1002-5,Not Stated,NS,Suppressed,Not Applicable,Not Applicable
+,Alaska,2,Asian or Pacific Islander,A-PI,Hispanic or Latino,2135-2,Suppressed,21664,Suppressed
+,Alaska,2,Asian or Pacific Islander,A-PI,Not Hispanic or Latino,2186-2,Suppressed,477394,Suppressed
+,Alaska,2,Asian or Pacific Islander,A-PI,Not Stated,NS,Suppressed,Not Applicable,Not Applicable
+,Alaska,2,Black or African American,2054-5,Hispanic or Latino,2135-2,Suppressed,38839,Suppressed
+,Alaska,2,Black or African American,2054-5,Not Hispanic or Latino,2186-2,Suppressed,306076,Suppressed
+,Alaska,2,Black or African American,2054-5,Not Stated,NS,Suppressed,Not Applicable,Not Applicable
+,Alaska,2,White,2106-3,Hispanic or Latino,2135-2,Suppressed,349800,Suppressed
+,Alaska,2,White,2106-3,Not Hispanic or Latino,2186-2,Suppressed,3695115,Suppressed
+,Alaska,2,White,2106-3,Not Stated,NS,Suppressed,Not Applicable,Not Applicable
+,Arizona,4,American Indian or Alaska Native,1002-5,Hispanic or Latino,2135-2,Suppressed,1006130,Suppressed
+,Arizona,4,American Indian or Alaska Native,1002-5,Not Hispanic or Latino,2186-2,27,2599290,1
+,Arizona,4,American Indian or Alaska Native,1002-5,Not Stated,NS,Suppressed,Not Applicable,Not Applicable
+,Arizona,4,Asian or Pacific Islander,A-PI,Hispanic or Latino,2135-2,Suppressed,291970,Suppressed
+,Arizona,4,Asian or Pacific Islander,A-PI,Not Hispanic or Latino,2186-2,Suppressed,2013560,Suppressed
+,Arizona,4,Asian or Pacific Islander,A-PI,Not Stated,NS,Suppressed,Not Applicable,Not Applicable
+,Arizona,4,Black or African American,2054-5,Hispanic or Latino,2135-2,Suppressed,573354,Suppressed
+,Arizona,4,Black or African American,2054-5,Not Hispanic or Latino,2186-2,19,2786828,Unreliable
+,Arizona,4,Black or African American,2054-5,Not Stated,NS,Suppressed,Not Applicable,Not Applicable
+,Arizona,4,White,2106-3,Hispanic or Latino,2135-2,66,18350469,0.4
+,Arizona,4,White,2106-3,Not Hispanic or Latino,2186-2,62,24747779,0.3
+,Arizona,4,White,2106-3,Not Stated,NS,Suppressed,Not Applicable,Not Applicable
+,Arkansas,5,American Indian or Alaska Native,1002-5,Hispanic or Latino,2135-2,Suppressed,74185,Suppressed
+,Arkansas,5,American Indian or Alaska Native,1002-5,Not Hispanic or Latino,2186-2,Suppressed,198295,Suppressed
+,Arkansas,5,American Indian or Alaska Native,1002-5,Not Stated,NS,Suppressed,Not Applicable,Not Applicable
+,Arkansas,5,Asian or Pacific Islander,A-PI,Hispanic or Latino,2135-2,Suppressed,31475,Suppressed
+,Arkansas,5,Asian or Pacific Islander,A-PI,Not Hispanic or Latino,2186-2,Suppressed,494744,Suppressed
+,Arkansas,5,Asian or Pacific Islander,A-PI,Not Stated,NS,Suppressed,Not Applicable,Not Applicable
+,Arkansas,5,Black or African American,2054-5,Hispanic or Latino,2135-2,Suppressed,81973,Suppressed
+,Arkansas,5,Black or African American,2054-5,Not Hispanic or Latino,2186-2,54,4118766,1.3
+,Arkansas,5,Black or African American,2054-5,Not Stated,NS,Suppressed,Not Applicable,Not Applicable
+,Arkansas,5,White,2106-3,Hispanic or Latino,2135-2,Suppressed,1990265,Suppressed
+,Arkansas,5,White,2106-3,Not Hispanic or Latino,2186-2,80,15647385,0.5
+,Arkansas,5,White,2106-3,Not Stated,NS,Suppressed,Not Applicable,Not Applicable
+,California,6,American Indian or Alaska Native,1002-5,Hispanic or Latino,2135-2,Suppressed,5292359,Suppressed
+,California,6,American Indian or Alaska Native,1002-5,Not Hispanic or Latino,2186-2,Suppressed,1644919,Suppressed
+,California,6,American Indian or Alaska Native,1002-5,Not Stated,NS,Suppressed,Not Applicable,Not Applicable
+,California,6,Asian or Pacific Islander,A-PI,Hispanic or Latino,2135-2,Suppressed,3582011,Suppressed
+,California,6,Asian or Pacific Islander,A-PI,Not Hispanic or Latino,2186-2,66,44343444,0.1
+,California,6,Asian or Pacific Islander,A-PI,Not Stated,NS,Suppressed,Not Applicable,Not Applicable
+,California,6,Black or African American,2054-5,Hispanic or Latino,2135-2,Suppressed,3965828,Suppressed
+,California,6,Black or African American,2054-5,Not Hispanic or Latino,2186-2,79,19892836,0.4
+,California,6,Black or African American,2054-5,Not Stated,NS,Suppressed,Not Applicable,Not Applicable
+,California,6,White,2106-3,Hispanic or Latino,2135-2,182,129754155,0.1
+,California,6,White,2106-3,Not Hispanic or Latino,2186-2,112,101998471,0.1
+,California,6,White,2106-3,Not Stated,NS,Suppressed,Not Applicable,Not Applicable
+,Colorado,8,American Indian or Alaska Native,1002-5,Hispanic or Latino,2135-2,Suppressed,571581,Suppressed
+,Colorado,8,American Indian or Alaska Native,1002-5,Not Hispanic or Latino,2186-2,Suppressed,352061,Suppressed
+,Colorado,8,American Indian or Alaska Native,1002-5,Not Stated,NS,Suppressed,Not Applicable,Not Applicable
+,Colorado,8,Asian or Pacific Islander,A-PI,Hispanic or Latino,2135-2,Suppressed,159365,Suppressed
+,Colorado,8,Asian or Pacific Islander,A-PI,Not Hispanic or Latino,2186-2,Suppressed,1618304,Suppressed
+,Colorado,8,Asian or Pacific Islander,A-PI,Not Stated,NS,Suppressed,Not Applicable,Not Applicable
+,Colorado,8,Black or African American,2054-5,Hispanic or Latino,2135-2,Suppressed,372700,Suppressed
+,Colorado,8,Black or African American,2054-5,Not Hispanic or Latino,2186-2,14,2135567,Unreliable
+,Colorado,8,Black or African American,2054-5,Not Stated,NS,Suppressed,Not Applicable,Not Applicable
+,Colorado,8,White,2106-3,Hispanic or Latino,2135-2,17,9949487,Unreliable
+,Colorado,8,White,2106-3,Not Hispanic or Latino,2186-2,46,27270166,0.2
+,Colorado,8,White,2106-3,Not Stated,NS,Suppressed,Not Applicable,Not Applicable
+,Connecticut,9,American Indian or Alaska Native,1002-5,Hispanic or Latino,2135-2,Suppressed,120937,Suppressed
+,Connecticut,9,American Indian or Alaska Native,1002-5,Not Hispanic or Latino,2186-2,Suppressed,76660,Suppressed
+,Connecticut,9,American Indian or Alaska Native,1002-5,Not Stated,NS,Suppressed,Not Applicable,Not Applicable
+,Connecticut,9,Asian or Pacific Islander,A-PI,Hispanic or Latino,2135-2,Suppressed,76220,Suppressed
+,Connecticut,9,Asian or Pacific Islander,A-PI,Not Hispanic or Latino,2186-2,Suppressed,1461511,Suppressed
+,Connecticut,9,Asian or Pacific Islander,A-PI,Not Stated,NS,Suppressed,Not Applicable,Not Applicable
+,Connecticut,9,Black or African American,2054-5,Hispanic or Latino,2135-2,Suppressed,667806,Suppressed
+,Connecticut,9,Black or African American,2054-5,Not Hispanic or Latino,2186-2,11,3186715,Unreliable
+,Connecticut,9,Black or African American,2054-5,Not Stated,NS,Suppressed,Not Applicable,Not Applicable
+,Connecticut,9,White,2106-3,Hispanic or Latino,2135-2,11,4290740,Unreliable
+,Connecticut,9,White,2106-3,Not Hispanic or Latino,2186-2,26,16270764,0.2
+,Connecticut,9,White,2106-3,Not Stated,NS,Suppressed,Not Applicable,Not Applicable
+,Delaware,10,American Indian or Alaska Native,1002-5,Hispanic or Latino,2135-2,Suppressed,36924,Suppressed
+,Delaware,10,American Indian or Alaska Native,1002-5,Not Hispanic or Latino,2186-2,Suppressed,22853,Suppressed
+,Delaware,10,American Indian or Alaska Native,1002-5,Not Stated,NS,Suppressed,Not Applicable,Not Applicable
+,Delaware,10,Asian or Pacific Islander,A-PI,Hispanic or Latino,2135-2,Suppressed,13355,Suppressed
+,Delaware,10,Asian or Pacific Islander,A-PI,Not Hispanic or Latino,2186-2,Suppressed,316352,Suppressed
+,Delaware,10,Asian or Pacific Islander,A-PI,Not Stated,NS,Suppressed,Not Applicable,Not Applicable
+,Delaware,10,Black or African American,2054-5,Hispanic or Latino,2135-2,Suppressed,111835,Suppressed
+,Delaware,10,Black or African American,2054-5,Not Hispanic or Latino,2186-2,12,1736592,Unreliable
+,Delaware,10,Black or African American,2054-5,Not Stated,NS,Suppressed,Not Applicable,Not Applicable
+,Delaware,10,White,2106-3,Hispanic or Latino,2135-2,Suppressed,679661,Suppressed
+,Delaware,10,White,2106-3,Not Hispanic or Latino,2186-2,Suppressed,3925714,Suppressed
+,Delaware,10,White,2106-3,Not Stated,NS,Suppressed,Not Applicable,Not Applicable
+,District of Columbia,11,American Indian or Alaska Native,1002-5,Hispanic or Latino,2135-2,Suppressed,26338,Suppressed
+,District of Columbia,11,American Indian or Alaska Native,1002-5,Not Hispanic or Latino,2186-2,Suppressed,14447,Suppressed
+,District of Columbia,11,American Indian or Alaska Native,1002-5,Not Stated,NS,Suppressed,Not Applicable,Not Applicable
+,District of Columbia,11,Asian or Pacific Islander,A-PI,Hispanic or Latino,2135-2,Suppressed,17440,Suppressed
+,District of Columbia,11,Asian or Pacific Islander,A-PI,Not Hispanic or Latino,2186-2,Suppressed,273049,Suppressed
+,District of Columbia,11,Asian or Pacific Islander,A-PI,Not Stated,NS,Suppressed,Not Applicable,Not Applicable
+,District of Columbia,11,Black or African American,2054-5,Hispanic or Latino,2135-2,Suppressed,110207,Suppressed
+,District of Columbia,11,Black or African American,2054-5,Not Hispanic or Latino,2186-2,32,2445816,1.3
+,District of Columbia,11,Black or African American,2054-5,Not Stated,NS,Suppressed,Not Applicable,Not Applicable
+,District of Columbia,11,White,2106-3,Hispanic or Latino,2135-2,Suppressed,495670,Suppressed
+,District of Columbia,11,White,2106-3,Not Hispanic or Latino,2186-2,Suppressed,2147779,Suppressed
+,District of Columbia,11,White,2106-3,Not Stated,NS,Suppressed,Not Applicable,Not Applicable
+,Florida,12,American Indian or Alaska Native,1002-5,Hispanic or Latino,2135-2,Suppressed,501031,Suppressed
+,Florida,12,American Indian or Alaska Native,1002-5,Not Hispanic or Latino,2186-2,Suppressed,415872,Suppressed
+,Florida,12,American Indian or Alaska Native,1002-5,Not Stated,NS,Suppressed,Not Applicable,Not Applicable
+,Florida,12,Asian or Pacific Islander,A-PI,Hispanic or Latino,2135-2,Suppressed,375427,Suppressed
+,Florida,12,Asian or Pacific Islander,A-PI,Not Hispanic or Latino,2186-2,15,4739021,Unreliable
+,Florida,12,Asian or Pacific Islander,A-PI,Not Stated,NS,Suppressed,Not Applicable,Not Applicable
+,Florida,12,Black or African American,2054-5,Hispanic or Latino,2135-2,Suppressed,2460744,Suppressed
+,Florida,12,Black or African American,2054-5,Not Hispanic or Latino,2186-2,236,27548880,0.9
+,Florida,12,Black or African American,2054-5,Not Stated,NS,Suppressed,Not Applicable,Not Applicable
+,Florida,12,White,2106-3,Hispanic or Latino,2135-2,100,36912316,0.3
+,Florida,12,White,2106-3,Not Hispanic or Latino,2186-2,222,67427481,0.3
+,Florida,12,White,2106-3,Not Stated,NS,Suppressed,Not Applicable,Not Applicable
+,Georgia,13,American Indian or Alaska Native,1002-5,Hispanic or Latino,2135-2,Suppressed,328587,Suppressed
+,Georgia,13,American Indian or Alaska Native,1002-5,Not Hispanic or Latino,2186-2,Suppressed,204016,Suppressed
+,Georgia,13,American Indian or Alaska Native,1002-5,Not Stated,NS,Suppressed,Not Applicable,Not Applicable
+,Georgia,13,Asian or Pacific Islander,A-PI,Hispanic or Latino,2135-2,Suppressed,171378,Suppressed
+,Georgia,13,Asian or Pacific Islander,A-PI,Not Hispanic or Latino,2186-2,14,3536970,Unreliable
+,Georgia,13,Asian or Pacific Islander,A-PI,Not Stated,NS,Suppressed,Not Applicable,Not Applicable
+,Georgia,13,Black or African American,2054-5,Hispanic or Latino,2135-2,Suppressed,971973,Suppressed
+,Georgia,13,Black or African American,2054-5,Not Hispanic or Latino,2186-2,269,27640705,1
+,Georgia,13,Black or African American,2054-5,Not Stated,NS,Suppressed,Not Applicable,Not Applicable
+,Georgia,13,White,2106-3,Hispanic or Latino,2135-2,30,8325130,0.4
+,Georgia,13,White,2106-3,Not Hispanic or Latino,2186-2,153,40219766,0.4
+,Georgia,13,White,2106-3,Not Stated,NS,Suppressed,Not Applicable,Not Applicable
+,Hawaii,15,American Indian or Alaska Native,1002-5,Hispanic or Latino,2135-2,Suppressed,25497,Suppressed
+,Hawaii,15,American Indian or Alaska Native,1002-5,Not Hispanic or Latino,2186-2,Suppressed,31977,Suppressed
+,Hawaii,15,American Indian or Alaska Native,1002-5,Not Stated,NS,Suppressed,Not Applicable,Not Applicable
+,Hawaii,15,Asian or Pacific Islander,A-PI,Hispanic or Latino,2135-2,Suppressed,706073,Suppressed
+,Hawaii,15,Asian or Pacific Islander,A-PI,Not Hispanic or Latino,2186-2,22,6099518,0.4
+,Hawaii,15,Asian or Pacific Islander,A-PI,Not Stated,NS,Suppressed,Not Applicable,Not Applicable
+,Hawaii,15,Black or African American,2054-5,Hispanic or Latino,2135-2,Suppressed,58234,Suppressed
+,Hawaii,15,Black or African American,2054-5,Not Hispanic or Latino,2186-2,Suppressed,369309,Suppressed
+,Hawaii,15,Black or African American,2054-5,Not Stated,NS,Suppressed,Not Applicable,Not Applicable
+,Hawaii,15,White,2106-3,Hispanic or Latino,2135-2,Suppressed,603552,Suppressed
+,Hawaii,15,White,2106-3,Not Hispanic or Latino,2186-2,Suppressed,2627008,Suppressed
+,Hawaii,15,White,2106-3,Not Stated,NS,Suppressed,Not Applicable,Not Applicable
+,Idaho,16,American Indian or Alaska Native,1002-5,Hispanic or Latino,2135-2,Suppressed,115800,Suppressed
+,Idaho,16,American Indian or Alaska Native,1002-5,Not Hispanic or Latino,2186-2,Suppressed,182231,Suppressed
+,Idaho,16,American Indian or Alaska Native,1002-5,Not Stated,NS,Suppressed,Not Applicable,Not Applicable
+,Idaho,16,Asian or Pacific Islander,A-PI,Hispanic or Latino,2135-2,Suppressed,27417,Suppressed
+,Idaho,16,Asian or Pacific Islander,A-PI,Not Hispanic or Latino,2186-2,Suppressed,248926,Suppressed
+,Idaho,16,Asian or Pacific Islander,A-PI,Not Stated,NS,Suppressed,Not Applicable,Not Applicable
+,Idaho,16,Black or African American,2054-5,Hispanic or Latino,2135-2,Suppressed,35350,Suppressed
+,Idaho,16,Black or African American,2054-5,Not Hispanic or Latino,2186-2,Suppressed,161281,Suppressed
+,Idaho,16,Black or African American,2054-5,Not Stated,NS,Suppressed,Not Applicable,Not Applicable
+,Idaho,16,White,2106-3,Hispanic or Latino,2135-2,10,1848695,Unreliable
+,Idaho,16,White,2106-3,Not Hispanic or Latino,2186-2,39,10459257,0.4
+,Idaho,16,White,2106-3,Not Stated,NS,Suppressed,Not Applicable,Not Applicable
+,Illinois,17,American Indian or Alaska Native,1002-5,Hispanic or Latino,2135-2,Suppressed,615217,Suppressed
+,Illinois,17,American Indian or Alaska Native,1002-5,Not Hispanic or Latino,2186-2,Suppressed,202981,Suppressed
+,Illinois,17,American Indian or Alaska Native,1002-5,Not Stated,NS,Suppressed,Not Applicable,Not Applicable
+,Illinois,17,Asian or Pacific Islander,A-PI,Hispanic or Latino,2135-2,Suppressed,247848,Suppressed
+,Illinois,17,Asian or Pacific Islander,A-PI,Not Hispanic or Latino,2186-2,14,5888199,Unreliable
+,Illinois,17,Asian or Pacific Islander,A-PI,Not Stated,NS,Suppressed,Not Applicable,Not Applicable
+,Illinois,17,Black or African American,2054-5,Hispanic or Latino,2135-2,Suppressed,810824,Suppressed
+,Illinois,17,Black or African American,2054-5,Not Hispanic or Latino,2186-2,106,15973919,0.7
+,Illinois,17,Black or African American,2054-5,Not Stated,NS,Suppressed,Not Applicable,Not Applicable
+,Illinois,17,White,2106-3,Hispanic or Latino,2135-2,39,19529245,0.2
+,Illinois,17,White,2106-3,Not Hispanic or Latino,2186-2,96,57029071,0.2
+,Illinois,17,White,2106-3,Not Stated,NS,Suppressed,Not Applicable,Not Applicable
+,Indiana,18,American Indian or Alaska Native,1002-5,Hispanic or Latino,2135-2,Suppressed,130989,Suppressed
+,Indiana,18,American Indian or Alaska Native,1002-5,Not Hispanic or Latino,2186-2,Suppressed,139355,Suppressed
+,Indiana,18,American Indian or Alaska Native,1002-5,Not Stated,NS,Suppressed,Not Applicable,Not Applicable
+,Indiana,18,Asian or Pacific Islander,A-PI,Hispanic or Latino,2135-2,Suppressed,60161,Suppressed
+,Indiana,18,Asian or Pacific Islander,A-PI,Not Hispanic or Latino,2186-2,Suppressed,1349739,Suppressed
+,Indiana,18,Asian or Pacific Islander,A-PI,Not Stated,NS,Suppressed,Not Applicable,Not Applicable
+,Indiana,18,Black or African American,2054-5,Hispanic or Latino,2135-2,Suppressed,270909,Suppressed
+,Indiana,18,Black or African American,2054-5,Not Hispanic or Latino,2186-2,49,5852086,0.8
+,Indiana,18,Black or African American,2054-5,Not Stated,NS,Suppressed,Not Applicable,Not Applicable
+,Indiana,18,White,2106-3,Hispanic or Latino,2135-2,12,3983244,Unreliable
+,Indiana,18,White,2106-3,Not Hispanic or Latino,2186-2,188,39264551,0.5
+,Indiana,18,White,2106-3,Not Stated,NS,Suppressed,Not Applicable,Not Applicable
+,Iowa,19,American Indian or Alaska Native,1002-5,Hispanic or Latino,2135-2,Suppressed,71615,Suppressed
+,Iowa,19,American Indian or Alaska Native,1002-5,Not Hispanic or Latino,2186-2,Suppressed,93690,Suppressed
+,Iowa,19,American Indian or Alaska Native,1002-5,Not Stated,NS,Suppressed,Not Applicable,Not Applicable
+,Iowa,19,Asian or Pacific Islander,A-PI,Hispanic or Latino,2135-2,Suppressed,23353,Suppressed
+,Iowa,19,Asian or Pacific Islander,A-PI,Not Hispanic or Latino,2186-2,Suppressed,716021,Suppressed
+,Iowa,19,Asian or Pacific Islander,A-PI,Not Stated,NS,Suppressed,Not Applicable,Not Applicable
+,Iowa,19,Black or African American,2054-5,Hispanic or Latino,2135-2,Suppressed,69163,Suppressed
+,Iowa,19,Black or African American,2054-5,Not Hispanic or Latino,2186-2,Suppressed,1196498,Suppressed
+,Iowa,19,Black or African American,2054-5,Not Stated,NS,Suppressed,Not Applicable,Not Applicable
+,Iowa,19,White,2106-3,Hispanic or Latino,2135-2,Suppressed,1638405,Suppressed
+,Iowa,19,White,2106-3,Not Hispanic or Latino,2186-2,41,19571577,0.2
+,Iowa,19,White,2106-3,Not Stated,NS,Suppressed,Not Applicable,Not Applicable
+,Kansas,20,American Indian or Alaska Native,1002-5,Hispanic or Latino,2135-2,Suppressed,134855,Suppressed
+,Kansas,20,American Indian or Alaska Native,1002-5,Not Hispanic or Latino,2186-2,Suppressed,254992,Suppressed
+,Kansas,20,American Indian or Alaska Native,1002-5,Not Stated,NS,Suppressed,Not Applicable,Not Applicable
+,Kansas,20,Asian or Pacific Islander,A-PI,Hispanic or Latino,2135-2,Suppressed,38659,Suppressed
+,Kansas,20,Asian or Pacific Islander,A-PI,Not Hispanic or Latino,2186-2,Suppressed,805151,Suppressed
+,Kansas,20,Asian or Pacific Islander,A-PI,Not Stated,NS,Suppressed,Not Applicable,Not Applicable
+,Kansas,20,Black or African American,2054-5,Hispanic or Latino,2135-2,Suppressed,149393,Suppressed
+,Kansas,20,Black or African American,2054-5,Not Hispanic or Latino,2186-2,15,1741643,Unreliable
+,Kansas,20,Black or African American,2054-5,Not Stated,NS,Suppressed,Not Applicable,Not Applicable
+,Kansas,20,White,2106-3,Hispanic or Latino,2135-2,13,3039937,Unreliable
+,Kansas,20,White,2106-3,Not Hispanic or Latino,2186-2,53,16478267,0.3
+,Kansas,20,White,2106-3,Not Stated,NS,Suppressed,Not Applicable,Not Applicable
+,Kentucky,21,American Indian or Alaska Native,1002-5,Hispanic or Latino,2135-2,Suppressed,40308,Suppressed
+,Kentucky,21,American Indian or Alaska Native,1002-5,Not Hispanic or Latino,2186-2,Suppressed,69552,Suppressed
+,Kentucky,21,American Indian or Alaska Native,1002-5,Not Stated,NS,Suppressed,Not Applicable,Not Applicable
+,Kentucky,21,Asian or Pacific Islander,A-PI,Hispanic or Latino,2135-2,Suppressed,32103,Suppressed
+,Kentucky,21,Asian or Pacific Islander,A-PI,Not Hispanic or Latino,2186-2,Suppressed,615932,Suppressed
+,Kentucky,21,Asian or Pacific Islander,A-PI,Not Stated,NS,Suppressed,Not Applicable,Not Applicable
+,Kentucky,21,Black or African American,2054-5,Hispanic or Latino,2135-2,Suppressed,109930,Suppressed
+,Kentucky,21,Black or African American,2054-5,Not Hispanic or Latino,2186-2,24,3285272,0.7
+,Kentucky,21,Black or African American,2054-5,Not Stated,NS,Suppressed,Not Applicable,Not Applicable
+,Kentucky,21,White,2106-3,Hispanic or Latino,2135-2,Suppressed,1373051,Suppressed
+,Kentucky,21,White,2106-3,Not Hispanic or Latino,2186-2,114,27896332,0.4
+,Kentucky,21,White,2106-3,Not Stated,NS,Suppressed,Not Applicable,Not Applicable
+,Louisiana,22,American Indian or Alaska Native,1002-5,Hispanic or Latino,2135-2,Suppressed,63910,Suppressed
+,Louisiana,22,American Indian or Alaska Native,1002-5,Not Hispanic or Latino,2186-2,Suppressed,265981,Suppressed
+,Louisiana,22,American Indian or Alaska Native,1002-5,Not Stated,NS,Suppressed,Not Applicable,Not Applicable
+,Louisiana,22,Asian or Pacific Islander,A-PI,Hispanic or Latino,2135-2,Suppressed,39003,Suppressed
+,Louisiana,22,Asian or Pacific Islander,A-PI,Not Hispanic or Latino,2186-2,Suppressed,738215,Suppressed
+,Louisiana,22,Asian or Pacific Islander,A-PI,Not Stated,NS,Suppressed,Not Applicable,Not Applicable
+,Louisiana,22,Black or African American,2054-5,Hispanic or Latino,2135-2,Suppressed,217906,Suppressed
+,Louisiana,22,Black or African American,2054-5,Not Hispanic or Latino,2186-2,133,12970737,1
+,Louisiana,22,Black or African American,2054-5,Not Stated,NS,Suppressed,Not Applicable,Not Applicable
+,Louisiana,22,White,2106-3,Hispanic or Latino,2135-2,Suppressed,1748678,Suppressed
+,Louisiana,22,White,2106-3,Not Hispanic or Latino,2186-2,73,20171025,0.4
+,Louisiana,22,White,2106-3,Not Stated,NS,Suppressed,Not Applicable,Not Applicable
+,Maine,23,American Indian or Alaska Native,1002-5,Hispanic or Latino,2135-2,Suppressed,7709,Suppressed
+,Maine,23,American Indian or Alaska Native,1002-5,Not Hispanic or Latino,2186-2,Suppressed,83638,Suppressed
+,Maine,23,American Indian or Alaska Native,1002-5,Not Stated,NS,Suppressed,Not Applicable,Not Applicable
+,Maine,23,Asian or Pacific Islander,A-PI,Hispanic or Latino,2135-2,Suppressed,4007,Suppressed
+,Maine,23,Asian or Pacific Islander,A-PI,Not Hispanic or Latino,2186-2,Suppressed,150314,Suppressed
+,Maine,23,Asian or Pacific Islander,A-PI,Not Stated,NS,Suppressed,Not Applicable,Not Applicable
+,Maine,23,Black or African American,2054-5,Hispanic or Latino,2135-2,Suppressed,13359,Suppressed
+,Maine,23,Black or African American,2054-5,Not Hispanic or Latino,2186-2,Suppressed,223166,Suppressed
+,Maine,23,Black or African American,2054-5,Not Stated,NS,Suppressed,Not Applicable,Not Applicable
+,Maine,23,White,2106-3,Hispanic or Latino,2135-2,Suppressed,170382,Suppressed
+,Maine,23,White,2106-3,Not Hispanic or Latino,2186-2,13,8345159,Unreliable
+,Maine,23,White,2106-3,Not Stated,NS,Suppressed,Not Applicable,Not Applicable
+,Maryland,24,American Indian or Alaska Native,1002-5,Hispanic or Latino,2135-2,Suppressed,215165,Suppressed
+,Maryland,24,American Indian or Alaska Native,1002-5,Not Hispanic or Latino,2186-2,Suppressed,134609,Suppressed
+,Maryland,24,American Indian or Alaska Native,1002-5,Not Stated,NS,Suppressed,Not Applicable,Not Applicable
+,Maryland,24,Asian or Pacific Islander,A-PI,Hispanic or Latino,2135-2,Suppressed,124420,Suppressed
+,Maryland,24,Asian or Pacific Islander,A-PI,Not Hispanic or Latino,2186-2,11,3179405,Unreliable
+,Maryland,24,Asian or Pacific Islander,A-PI,Not Stated,NS,Suppressed,Not Applicable,Not Applicable
+,Maryland,24,Black or African American,2054-5,Hispanic or Latino,2135-2,Suppressed,679612,Suppressed
+,Maryland,24,Black or African American,2054-5,Not Hispanic or Latino,2186-2,109,14673475,0.7
+,Maryland,24,Black or African American,2054-5,Not Stated,NS,Suppressed,Not Applicable,Not Applicable
+,Maryland,24,White,2106-3,Hispanic or Latino,2135-2,15,4413302,Unreliable
+,Maryland,24,White,2106-3,Not Hispanic or Latino,2186-2,69,21883707,0.3
+,Maryland,24,White,2106-3,Not Stated,NS,Suppressed,Not Applicable,Not Applicable
+,Massachusetts,25,American Indian or Alaska Native,1002-5,Hispanic or Latino,2135-2,Suppressed,220470,Suppressed
+,Massachusetts,25,American Indian or Alaska Native,1002-5,Not Hispanic or Latino,2186-2,Suppressed,119918,Suppressed
+,Massachusetts,25,American Indian or Alaska Native,1002-5,Not Stated,NS,Suppressed,Not Applicable,Not Applicable
+,Massachusetts,25,Asian or Pacific Islander,A-PI,Hispanic or Latino,2135-2,Suppressed,122326,Suppressed
+,Massachusetts,25,Asian or Pacific Islander,A-PI,Not Hispanic or Latino,2186-2,Suppressed,3917294,Suppressed
+,Massachusetts,25,Asian or Pacific Islander,A-PI,Not Stated,NS,Suppressed,Not Applicable,Not Applicable
+,Massachusetts,25,Black or African American,2054-5,Hispanic or Latino,2135-2,Suppressed,1103984,Suppressed
+,Massachusetts,25,Black or African American,2054-5,Not Hispanic or Latino,2186-2,12,4240801,Unreliable
+,Massachusetts,25,Black or African American,2054-5,Not Stated,NS,Suppressed,Not Applicable,Not Applicable
+,Massachusetts,25,White,2106-3,Hispanic or Latino,2135-2,16,5664177,Unreliable
+,Massachusetts,25,White,2106-3,Not Hispanic or Latino,2186-2,33,34721557,0.1
+,Massachusetts,25,White,2106-3,Not Stated,NS,Suppressed,Not Applicable,Not Applicable
+,Michigan,26,American Indian or Alaska Native,1002-5,Hispanic or Latino,2135-2,Suppressed,188376,Suppressed
+,Michigan,26,American Indian or Alaska Native,1002-5,Not Hispanic or Latino,2186-2,Suppressed,583091,Suppressed
+,Michigan,26,American Indian or Alaska Native,1002-5,Not Stated,NS,Suppressed,Not Applicable,Not Applicable
+,Michigan,26,Asian or Pacific Islander,A-PI,Hispanic or Latino,2135-2,Suppressed,66615,Suppressed
+,Michigan,26,Asian or Pacific Islander,A-PI,Not Hispanic or Latino,2186-2,Suppressed,2771607,Suppressed
+,Michigan,26,Asian or Pacific Islander,A-PI,Not Stated,NS,Suppressed,Not Applicable,Not Applicable
+,Michigan,26,Black or African American,2054-5,Hispanic or Latino,2135-2,Suppressed,395658,Suppressed
+,Michigan,26,Black or African American,2054-5,Not Hispanic or Latino,2186-2,99,12463216,0.8
+,Michigan,26,Black or African American,2054-5,Not Stated,NS,Suppressed,Not Applicable,Not Applicable
+,Michigan,26,White,2106-3,Hispanic or Latino,2135-2,13,4135381,Unreliable
+,Michigan,26,White,2106-3,Not Hispanic or Latino,2186-2,144,53460460,0.3
+,Michigan,26,White,2106-3,Not Stated,NS,Suppressed,Not Applicable,Not Applicable
+,Minnesota,27,American Indian or Alaska Native,1002-5,Hispanic or Latino,2135-2,Suppressed,180965,Suppressed
+,Minnesota,27,American Indian or Alaska Native,1002-5,Not Hispanic or Latino,2186-2,Suppressed,612255,Suppressed
+,Minnesota,27,American Indian or Alaska Native,1002-5,Not Stated,NS,Suppressed,Not Applicable,Not Applicable
+,Minnesota,27,Asian or Pacific Islander,A-PI,Hispanic or Latino,2135-2,Suppressed,55480,Suppressed
+,Minnesota,27,Asian or Pacific Islander,A-PI,Not Hispanic or Latino,2186-2,Suppressed,2631362,Suppressed
+,Minnesota,27,Asian or Pacific Islander,A-PI,Not Stated,NS,Suppressed,Not Applicable,Not Applicable
+,Minnesota,27,Black or African American,2054-5,Hispanic or Latino,2135-2,Suppressed,159682,Suppressed
+,Minnesota,27,Black or African American,2054-5,Not Hispanic or Latino,2186-2,18,3466853,Unreliable
+,Minnesota,27,Black or African American,2054-5,Not Stated,NS,Suppressed,Not Applicable,Not Applicable
+,Minnesota,27,White,2106-3,Hispanic or Latino,2135-2,Suppressed,2544188,Suppressed
+,Minnesota,27,White,2106-3,Not Hispanic or Latino,2186-2,57,32161674,0.2
+,Minnesota,27,White,2106-3,Not Stated,NS,Suppressed,Not Applicable,Not Applicable
+,Mississippi,28,American Indian or Alaska Native,1002-5,Hispanic or Latino,2135-2,Suppressed,36450,Suppressed
+,Mississippi,28,American Indian or Alaska Native,1002-5,Not Hispanic or Latino,2186-2,Suppressed,134568,Suppressed
+,Mississippi,28,American Indian or Alaska Native,1002-5,Not Stated,NS,Suppressed,Not Applicable,Not Applicable
+,Mississippi,28,Asian or Pacific Islander,A-PI,Hispanic or Latino,2135-2,Suppressed,18039,Suppressed
+,Mississippi,28,Asian or Pacific Islander,A-PI,Not Hispanic or Latino,2186-2,Suppressed,284830,Suppressed
+,Mississippi,28,Asian or Pacific Islander,A-PI,Not Stated,NS,Suppressed,Not Applicable,Not Applicable
+,Mississippi,28,Black or African American,2054-5,Hispanic or Latino,2135-2,Suppressed,105163,Suppressed
+,Mississippi,28,Black or African American,2054-5,Not Hispanic or Latino,2186-2,73,9770049,0.7
+,Mississippi,28,Black or African American,2054-5,Not Stated,NS,Suppressed,Not Applicable,Not Applicable
+,Mississippi,28,White,2106-3,Hispanic or Latino,2135-2,Suppressed,754403,Suppressed
+,Mississippi,28,White,2106-3,Not Hispanic or Latino,2186-2,38,12292457,0.3
+,Mississippi,28,White,2106-3,Not Stated,NS,Suppressed,Not Applicable,Not Applicable
+,Missouri,29,American Indian or Alaska Native,1002-5,Hispanic or Latino,2135-2,Suppressed,92594,Suppressed
+,Missouri,29,American Indian or Alaska Native,1002-5,Not Hispanic or Latino,2186-2,Suppressed,257937,Suppressed
+,Missouri,29,American Indian or Alaska Native,1002-5,Not Stated,NS,Suppressed,Not Applicable,Not Applicable
+,Missouri,29,Asian or Pacific Islander,A-PI,Hispanic or Latino,2135-2,Suppressed,46864,Suppressed
+,Missouri,29,Asian or Pacific Islander,A-PI,Not Hispanic or Latino,2186-2,Suppressed,1199794,Suppressed
+,Missouri,29,Asian or Pacific Islander,A-PI,Not Stated,NS,Suppressed,Not Applicable,Not Applicable
+,Missouri,29,Black or African American,2054-5,Hispanic or Latino,2135-2,Suppressed,159450,Suppressed
+,Missouri,29,Black or African American,2054-5,Not Hispanic or Latino,2186-2,61,6463139,0.9
+,Missouri,29,Black or African American,2054-5,Not Stated,NS,Suppressed,Not Applicable,Not Applicable
+,Missouri,29,White,2106-3,Hispanic or Latino,2135-2,Suppressed,2114853,Suppressed
+,Missouri,29,White,2106-3,Not Hispanic or Latino,2186-2,117,35502243,0.3
+,Missouri,29,White,2106-3,Not Stated,NS,Suppressed,Not Applicable,Not Applicable
+,Montana,30,American Indian or Alaska Native,1002-5,Hispanic or Latino,2135-2,Suppressed,59416,Suppressed
+,Montana,30,American Indian or Alaska Native,1002-5,Not Hispanic or Latino,2186-2,Suppressed,628854,Suppressed
+,Montana,30,American Indian or Alaska Native,1002-5,Not Stated,NS,Suppressed,Not Applicable,Not Applicable
+,Montana,30,Asian or Pacific Islander,A-PI,Hispanic or Latino,2135-2,Suppressed,5291,Suppressed
+,Montana,30,Asian or Pacific Islander,A-PI,Not Hispanic or Latino,2186-2,Suppressed,84489,Suppressed
+,Montana,30,Asian or Pacific Islander,A-PI,Not Stated,NS,Suppressed,Not Applicable,Not Applicable
+,Montana,30,Black or African American,2054-5,Hispanic or Latino,2135-2,Suppressed,10084,Suppressed
+,Montana,30,Black or African American,2054-5,Not Hispanic or Latino,2186-2,Suppressed,86076,Suppressed
+,Montana,30,Black or African American,2054-5,Not Stated,NS,Suppressed,Not Applicable,Not Applicable
+,Montana,30,White,2106-3,Hispanic or Latino,2135-2,Suppressed,271611,Suppressed
+,Montana,30,White,2106-3,Not Hispanic or Latino,2186-2,17,6247518,Unreliable
+,Montana,30,White,2106-3,Not Stated,NS,Suppressed,Not Applicable,Not Applicable
+,Nebraska,31,American Indian or Alaska Native,1002-5,Hispanic or Latino,2135-2,Suppressed,122820,Suppressed
+,Nebraska,31,American Indian or Alaska Native,1002-5,Not Hispanic or Latino,2186-2,Suppressed,162677,Suppressed
+,Nebraska,31,American Indian or Alaska Native,1002-5,Not Stated,NS,Suppressed,Not Applicable,Not Applicable
+,Nebraska,31,Asian or Pacific Islander,A-PI,Hispanic or Latino,2135-2,Suppressed,30168,Suppressed
+,Nebraska,31,Asian or Pacific Islander,A-PI,Not Hispanic or Latino,2186-2,Suppressed,426879,Suppressed
+,Nebraska,31,Asian or Pacific Islander,A-PI,Not Stated,NS,Suppressed,Not Applicable,Not Applicable
+,Nebraska,31,Black or African American,2054-5,Hispanic or Latino,2135-2,Suppressed,65969,Suppressed
+,Nebraska,31,Black or African American,2054-5,Not Hispanic or Latino,2186-2,Suppressed,936925,Suppressed
+,Nebraska,31,Black or African American,2054-5,Not Stated,NS,Suppressed,Not Applicable,Not Applicable
+,Nebraska,31,White,2106-3,Hispanic or Latino,2135-2,Suppressed,1765335,Suppressed
+,Nebraska,31,White,2106-3,Not Hispanic or Latino,2186-2,38,11171883,0.3
+,Nebraska,31,White,2106-3,Not Stated,NS,Suppressed,Not Applicable,Not Applicable
+,Nevada,32,American Indian or Alaska Native,1002-5,Hispanic or Latino,2135-2,Suppressed,254073,Suppressed
+,Nevada,32,American Indian or Alaska Native,1002-5,Not Hispanic or Latino,2186-2,Suppressed,231092,Suppressed
+,Nevada,32,American Indian or Alaska Native,1002-5,Not Stated,NS,Suppressed,Not Applicable,Not Applicable
+,Nevada,32,Asian or Pacific Islander,A-PI,Hispanic or Latino,2135-2,Suppressed,209388,Suppressed
+,Nevada,32,Asian or Pacific Islander,A-PI,Not Hispanic or Latino,2186-2,Suppressed,1946457,Suppressed
+,Nevada,32,Asian or Pacific Islander,A-PI,Not Stated,NS,Suppressed,Not Applicable,Not Applicable
+,Nevada,32,Black or African American,2054-5,Hispanic or Latino,2135-2,Suppressed,317546,Suppressed
+,Nevada,32,Black or African American,2054-5,Not Hispanic or Latino,2186-2,11,2286578,Unreliable
+,Nevada,32,Black or African American,2054-5,Not Stated,NS,Suppressed,Not Applicable,Not Applicable
+,Nevada,32,White,2106-3,Hispanic or Latino,2135-2,11,7064439,Unreliable
+,Nevada,32,White,2106-3,Not Hispanic or Latino,2186-2,16,10007682,Unreliable
+,Nevada,32,White,2106-3,Not Stated,NS,Suppressed,Not Applicable,Not Applicable
+,New Hampshire,33,American Indian or Alaska Native,1002-5,Hispanic or Latino,2135-2,Suppressed,11560,Suppressed
+,New Hampshire,33,American Indian or Alaska Native,1002-5,Not Hispanic or Latino,2186-2,Suppressed,28790,Suppressed
+,New Hampshire,33,American Indian or Alaska Native,1002-5,Not Stated,NS,Suppressed,Not Applicable,Not Applicable
+,New Hampshire,33,Asian or Pacific Islander,A-PI,Hispanic or Latino,2135-2,Suppressed,7750,Suppressed
+,New Hampshire,33,Asian or Pacific Islander,A-PI,Not Hispanic or Latino,2186-2,Suppressed,329767,Suppressed
+,New Hampshire,33,Asian or Pacific Islander,A-PI,Not Stated,NS,Suppressed,Not Applicable,Not Applicable
+,New Hampshire,33,Black or African American,2054-5,Hispanic or Latino,2135-2,Suppressed,37442,Suppressed
+,New Hampshire,33,Black or African American,2054-5,Not Hispanic or Latino,2186-2,Suppressed,190909,Suppressed
+,New Hampshire,33,Black or African American,2054-5,Not Stated,NS,Suppressed,Not Applicable,Not Applicable
+,New Hampshire,33,White,2106-3,Hispanic or Latino,2135-2,Suppressed,379981,Suppressed
+,New Hampshire,33,White,2106-3,Not Hispanic or Latino,2186-2,19,8394702,Unreliable
+,New Hampshire,33,White,2106-3,Not Stated,NS,Suppressed,Not Applicable,Not Applicable
+,New Jersey,34,American Indian or Alaska Native,1002-5,Hispanic or Latino,2135-2,Suppressed,426555,Suppressed
+,New Jersey,34,American Indian or Alaska Native,1002-5,Not Hispanic or Latino,2186-2,Suppressed,132321,Suppressed
+,New Jersey,34,American Indian or Alaska Native,1002-5,Not Stated,NS,Suppressed,Not Applicable,Not Applicable
+,New Jersey,34,Asian or Pacific Islander,A-PI,Hispanic or Latino,2135-2,Suppressed,233845,Suppressed
+,New Jersey,34,Asian or Pacific Islander,A-PI,Not Hispanic or Latino,2186-2,15,7032587,Unreliable
+,New Jersey,34,Asian or Pacific Islander,A-PI,Not Stated,NS,Suppressed,Not Applicable,Not Applicable
+,New Jersey,34,Black or African American,2054-5,Hispanic or Latino,2135-2,Suppressed,1792713,Suppressed
+,New Jersey,34,Black or African American,2054-5,Not Hispanic or Latino,2186-2,132,9812983,1.3
+,New Jersey,34,Black or African American,2054-5,Not Stated,NS,Suppressed,Not Applicable,Not Applicable
+,New Jersey,34,White,2106-3,Hispanic or Latino,2135-2,64,13228409,0.5
+,New Jersey,34,White,2106-3,Not Hispanic or Latino,2186-2,93,34016615,0.3
+,New Jersey,34,White,2106-3,Not Stated,NS,Suppressed,Not Applicable,Not Applicable
+,New Mexico,35,American Indian or Alaska Native,1002-5,Hispanic or Latino,2135-2,Suppressed,431648,Suppressed
+,New Mexico,35,American Indian or Alaska Native,1002-5,Not Hispanic or Latino,2186-2,12,1657872,Unreliable
+,New Mexico,35,American Indian or Alaska Native,1002-5,Not Stated,NS,Suppressed,Not Applicable,Not Applicable
+,New Mexico,35,Asian or Pacific Islander,A-PI,Hispanic or Latino,2135-2,Suppressed,77278,Suppressed
+,New Mexico,35,Asian or Pacific Islander,A-PI,Not Hispanic or Latino,2186-2,Suppressed,276022,Suppressed
+,New Mexico,35,Asian or Pacific Islander,A-PI,Not Stated,NS,Suppressed,Not Applicable,Not Applicable
+,New Mexico,35,Black or African American,2054-5,Hispanic or Latino,2135-2,Suppressed,183449,Suppressed
+,New Mexico,35,Black or African American,2054-5,Not Hispanic or Latino,2186-2,Suppressed,384440,Suppressed
+,New Mexico,35,Black or African American,2054-5,Not Stated,NS,Suppressed,Not Applicable,Not Applicable
+,New Mexico,35,White,2106-3,Hispanic or Latino,2135-2,41,8002602,0.5
+,New Mexico,35,White,2106-3,Not Hispanic or Latino,2186-2,17,4940193,Unreliable
+,New Mexico,35,White,2106-3,Not Stated,NS,Suppressed,Not Applicable,Not Applicable
+,New York,36,American Indian or Alaska Native,1002-5,Hispanic or Latino,2135-2,Suppressed,1402694,Suppressed
+,New York,36,American Indian or Alaska Native,1002-5,Not Hispanic or Latino,2186-2,Suppressed,582107,Suppressed
+,New York,36,American Indian or Alaska Native,1002-5,Not Stated,NS,Suppressed,Not Applicable,Not Applicable
+,New York,36,Asian or Pacific Islander,A-PI,Hispanic or Latino,2135-2,Suppressed,597720,Suppressed
+,New York,36,Asian or Pacific Islander,A-PI,Not Hispanic or Latino,2186-2,38,13616915,0.3
+,New York,36,Asian or Pacific Islander,A-PI,Not Stated,NS,Suppressed,Not Applicable,Not Applicable
+,New York,36,Black or African American,2054-5,Hispanic or Latino,2135-2,Suppressed,5929802,Suppressed
+,New York,36,Black or African American,2054-5,Not Hispanic or Latino,2186-2,258,24186920,1.1
+,New York,36,Black or African American,2054-5,Not Stated,NS,Suppressed,Not Applicable,Not Applicable
+,New York,36,White,2106-3,Hispanic or Latino,2135-2,98,24908997,0.4
+,New York,36,White,2106-3,Not Hispanic or Latino,2186-2,164,78129248,0.2
+,New York,36,White,2106-3,Not Stated,NS,Suppressed,Not Applicable,Not Applicable
+,North Carolina,37,American Indian or Alaska Native,1002-5,Hispanic or Latino,2135-2,Suppressed,487497,Suppressed
+,North Carolina,37,American Indian or Alaska Native,1002-5,Not Hispanic or Latino,2186-2,Suppressed,986738,Suppressed
+,North Carolina,37,American Indian or Alaska Native,1002-5,Not Stated,NS,Suppressed,Not Applicable,Not Applicable
+,North Carolina,37,Asian or Pacific Islander,A-PI,Hispanic or Latino,2135-2,Suppressed,171690,Suppressed
+,North Carolina,37,Asian or Pacific Islander,A-PI,Not Hispanic or Latino,2186-2,Suppressed,2573755,Suppressed
+,North Carolina,37,Asian or Pacific Islander,A-PI,Not Stated,NS,Suppressed,Not Applicable,Not Applicable
+,North Carolina,37,Black or African American,2054-5,Hispanic or Latino,2135-2,Suppressed,873123,Suppressed
+,North Carolina,37,Black or African American,2054-5,Not Hispanic or Latino,2186-2,104,18091179,0.6
+,North Carolina,37,Black or African American,2054-5,Not Stated,NS,Suppressed,Not Applicable,Not Applicable
+,North Carolina,37,White,2106-3,Hispanic or Latino,2135-2,13,7895258,Unreliable
+,North Carolina,37,White,2106-3,Not Hispanic or Latino,2186-2,84,44950324,0.2
+,North Carolina,37,White,2106-3,Not Stated,NS,Suppressed,Not Applicable,Not Applicable
+,North Dakota,38,American Indian or Alaska Native,1002-5,Hispanic or Latino,2135-2,Suppressed,30311,Suppressed
+,North Dakota,38,American Indian or Alaska Native,1002-5,Not Hispanic or Latino,2186-2,Suppressed,387909,Suppressed
+,North Dakota,38,American Indian or Alaska Native,1002-5,Not Stated,NS,Suppressed,Not Applicable,Not Applicable
+,North Dakota,38,Asian or Pacific Islander,A-PI,Hispanic or Latino,2135-2,Suppressed,4240,Suppressed
+,North Dakota,38,Asian or Pacific Islander,A-PI,Not Hispanic or Latino,2186-2,Suppressed,106039,Suppressed
+,North Dakota,38,Asian or Pacific Islander,A-PI,Not Stated,NS,Suppressed,Not Applicable,Not Applicable
+,North Dakota,38,Black or African American,2054-5,Hispanic or Latino,2135-2,Suppressed,10894,Suppressed
+,North Dakota,38,Black or African American,2054-5,Not Hispanic or Latino,2186-2,Suppressed,188429,Suppressed
+,North Dakota,38,Black or African American,2054-5,Not Stated,NS,Suppressed,Not Applicable,Not Applicable
+,North Dakota,38,White,2106-3,Hispanic or Latino,2135-2,Suppressed,188036,Suppressed
+,North Dakota,38,White,2106-3,Not Hispanic or Latino,2186-2,12,4703102,Unreliable
+,North Dakota,38,White,2106-3,Not Stated,NS,Suppressed,Not Applicable,Not Applicable
+,Ohio,39,American Indian or Alaska Native,1002-5,Hispanic or Latino,2135-2,Suppressed,116968,Suppressed
+,Ohio,39,American Indian or Alaska Native,1002-5,Not Hispanic or Latino,2186-2,Suppressed,223639,Suppressed
+,Ohio,39,American Indian or Alaska Native,1002-5,Not Stated,NS,Suppressed,Not Applicable,Not Applicable
+,Ohio,39,Asian or Pacific Islander,A-PI,Hispanic or Latino,2135-2,Suppressed,71119,Suppressed
+,Ohio,39,Asian or Pacific Islander,A-PI,Not Hispanic or Latino,2186-2,Suppressed,2304943,Suppressed
+,Ohio,39,Asian or Pacific Islander,A-PI,Not Stated,NS,Suppressed,Not Applicable,Not Applicable
+,Ohio,39,Black or African American,2054-5,Hispanic or Latino,2135-2,Suppressed,469775,Suppressed
+,Ohio,39,Black or African American,2054-5,Not Hispanic or Latino,2186-2,109,13092873,0.8
+,Ohio,39,Black or African American,2054-5,Not Stated,NS,Suppressed,Not Applicable,Not Applicable
+,Ohio,39,White,2106-3,Hispanic or Latino,2135-2,11,3377180,Unreliable
+,Ohio,39,White,2106-3,Not Hispanic or Latino,2186-2,201,67009550,0.3
+,Ohio,39,White,2106-3,Not Stated,NS,Suppressed,Not Applicable,Not Applicable
+,Oklahoma,40,American Indian or Alaska Native,1002-5,Hispanic or Latino,2135-2,Suppressed,432502,Suppressed
+,Oklahoma,40,American Indian or Alaska Native,1002-5,Not Hispanic or Latino,2186-2,15,3279277,Unreliable
+,Oklahoma,40,American Indian or Alaska Native,1002-5,Not Stated,NS,Suppressed,Not Applicable,Not Applicable
+,Oklahoma,40,Asian or Pacific Islander,A-PI,Hispanic or Latino,2135-2,Suppressed,51078,Suppressed
+,Oklahoma,40,Asian or Pacific Islander,A-PI,Not Hispanic or Latino,2186-2,Suppressed,811936,Suppressed
+,Oklahoma,40,Asian or Pacific Islander,A-PI,Not Stated,NS,Suppressed,Not Applicable,Not Applicable
+,Oklahoma,40,Black or African American,2054-5,Hispanic or Latino,2135-2,Suppressed,178197,Suppressed
+,Oklahoma,40,Black or African American,2054-5,Not Hispanic or Latino,2186-2,27,2913957,0.9
+,Oklahoma,40,Black or African American,2054-5,Not Stated,NS,Suppressed,Not Applicable,Not Applicable
+,Oklahoma,40,White,2106-3,Hispanic or Latino,2135-2,10,3280906,Unreliable
+,Oklahoma,40,White,2106-3,Not Hispanic or Latino,2186-2,88,19206781,0.5
+,Oklahoma,40,White,2106-3,Not Stated,NS,Suppressed,Not Applicable,Not Applicable
+,Oregon,41,American Indian or Alaska Native,1002-5,Hispanic or Latino,2135-2,Suppressed,326836,Suppressed
+,Oregon,41,American Indian or Alaska Native,1002-5,Not Hispanic or Latino,2186-2,Suppressed,461174,Suppressed
+,Oregon,41,American Indian or Alaska Native,1002-5,Not Stated,NS,Suppressed,Not Applicable,Not Applicable
+,Oregon,41,Asian or Pacific Islander,A-PI,Hispanic or Latino,2135-2,Suppressed,97891,Suppressed
+,Oregon,41,Asian or Pacific Islander,A-PI,Not Hispanic or Latino,2186-2,Suppressed,1734764,Suppressed
+,Oregon,41,Asian or Pacific Islander,A-PI,Not Stated,NS,Suppressed,Not Applicable,Not Applicable
+,Oregon,41,Black or African American,2054-5,Hispanic or Latino,2135-2,Suppressed,141687,Suppressed
+,Oregon,41,Black or African American,2054-5,Not Hispanic or Latino,2186-2,Suppressed,867732,Suppressed
+,Oregon,41,Black or African American,2054-5,Not Stated,NS,Suppressed,Not Applicable,Not Applicable
+,Oregon,41,White,2106-3,Hispanic or Latino,2135-2,11,4607057,Unreliable
+,Oregon,41,White,2106-3,Not Hispanic or Latino,2186-2,44,21610035,0.2
+,Oregon,41,White,2106-3,Not Stated,NS,Suppressed,Not Applicable,Not Applicable
+,Pennsylvania,42,American Indian or Alaska Native,1002-5,Hispanic or Latino,2135-2,Suppressed,297111,Suppressed
+,Pennsylvania,42,American Indian or Alaska Native,1002-5,Not Hispanic or Latino,2186-2,Suppressed,173733,Suppressed
+,Pennsylvania,42,American Indian or Alaska Native,1002-5,Not Stated,NS,Suppressed,Not Applicable,Not Applicable
+,Pennsylvania,42,Asian or Pacific Islander,A-PI,Hispanic or Latino,2135-2,Suppressed,159756,Suppressed
+,Pennsylvania,42,Asian or Pacific Islander,A-PI,Not Hispanic or Latino,2186-2,12,3782525,Unreliable
+,Pennsylvania,42,Asian or Pacific Islander,A-PI,Not Stated,NS,Suppressed,Not Applicable,Not Applicable
+,Pennsylvania,42,Black or African American,2054-5,Hispanic or Latino,2135-2,Suppressed,1374486,Suppressed
+,Pennsylvania,42,Black or African American,2054-5,Not Hispanic or Latino,2186-2,88,12272641,0.7
+,Pennsylvania,42,Black or African American,2054-5,Not Stated,NS,Suppressed,Not Applicable,Not Applicable
+,Pennsylvania,42,White,2106-3,Hispanic or Latino,2135-2,15,6453676,Unreliable
+,Pennsylvania,42,White,2106-3,Not Hispanic or Latino,2186-2,153,67911894,0.2
+,Pennsylvania,42,White,2106-3,Not Stated,NS,Suppressed,Not Applicable,Not Applicable
+,Rhode Island,44,American Indian or Alaska Native,1002-5,Hispanic or Latino,2135-2,Suppressed,60728,Suppressed
+,Rhode Island,44,American Indian or Alaska Native,1002-5,Not Hispanic or Latino,2186-2,Suppressed,45215,Suppressed
+,Rhode Island,44,American Indian or Alaska Native,1002-5,Not Stated,NS,Suppressed,Not Applicable,Not Applicable
+,Rhode Island,44,Asian or Pacific Islander,A-PI,Hispanic or Latino,2135-2,Suppressed,28759,Suppressed
+,Rhode Island,44,Asian or Pacific Islander,A-PI,Not Hispanic or Latino,2186-2,Suppressed,346820,Suppressed
+,Rhode Island,44,Asian or Pacific Islander,A-PI,Not Stated,NS,Suppressed,Not Applicable,Not Applicable
+,Rhode Island,44,Black or African American,2054-5,Hispanic or Latino,2135-2,Suppressed,237927,Suppressed
+,Rhode Island,44,Black or African American,2054-5,Not Hispanic or Latino,2186-2,Suppressed,616041,Suppressed
+,Rhode Island,44,Black or African American,2054-5,Not Stated,NS,Suppressed,Not Applicable,Not Applicable
+,Rhode Island,44,White,2106-3,Hispanic or Latino,2135-2,Suppressed,1137572,Suppressed
+,Rhode Island,44,White,2106-3,Not Hispanic or Latino,2186-2,Suppressed,5327832,Suppressed
+,Rhode Island,44,White,2106-3,Not Stated,NS,Suppressed,Not Applicable,Not Applicable
+,South Carolina,45,American Indian or Alaska Native,1002-5,Hispanic or Latino,2135-2,Suppressed,95199,Suppressed
+,South Carolina,45,American Indian or Alaska Native,1002-5,Not Hispanic or Latino,2186-2,Suppressed,151873,Suppressed
+,South Carolina,45,American Indian or Alaska Native,1002-5,Not Stated,NS,Suppressed,Not Applicable,Not Applicable
+,South Carolina,45,Asian or Pacific Islander,A-PI,Hispanic or Latino,2135-2,Suppressed,51849,Suppressed
+,South Carolina,45,Asian or Pacific Islander,A-PI,Not Hispanic or Latino,2186-2,Suppressed,699266,Suppressed
+,South Carolina,45,Asian or Pacific Islander,A-PI,Not Stated,NS,Suppressed,Not Applicable,Not Applicable
+,South Carolina,45,Black or African American,2054-5,Hispanic or Latino,2135-2,Suppressed,274560,Suppressed
+,South Carolina,45,Black or African American,2054-5,Not Hispanic or Latino,2186-2,116,11140282,1
+,South Carolina,45,Black or African American,2054-5,Not Stated,NS,Suppressed,Not Applicable,Not Applicable
+,South Carolina,45,White,2106-3,Hispanic or Latino,2135-2,Suppressed,2287893,Suppressed
+,South Carolina,45,White,2106-3,Not Hispanic or Latino,2186-2,73,21531718,0.3
+,South Carolina,45,White,2106-3,Not Stated,NS,Suppressed,Not Applicable,Not Applicable
+,South Dakota,46,American Indian or Alaska Native,1002-5,Hispanic or Latino,2135-2,Suppressed,60327,Suppressed
+,South Dakota,46,American Indian or Alaska Native,1002-5,Not Hispanic or Latino,2186-2,12,745016,Unreliable
+,South Dakota,46,American Indian or Alaska Native,1002-5,Not Stated,NS,Suppressed,Not Applicable,Not Applicable
+,South Dakota,46,Asian or Pacific Islander,A-PI,Hispanic or Latino,2135-2,Suppressed,5091,Suppressed
+,South Dakota,46,Asian or Pacific Islander,A-PI,Not Hispanic or Latino,2186-2,Suppressed,111506,Suppressed
+,South Dakota,46,Asian or Pacific Islander,A-PI,Not Stated,NS,Suppressed,Not Applicable,Not Applicable
+,South Dakota,46,Black or African American,2054-5,Hispanic or Latino,2135-2,Suppressed,10145,Suppressed
+,South Dakota,46,Black or African American,2054-5,Not Hispanic or Latino,2186-2,Suppressed,185794,Suppressed
+,South Dakota,46,Black or African American,2054-5,Not Stated,NS,Suppressed,Not Applicable,Not Applicable
+,South Dakota,46,White,2106-3,Hispanic or Latino,2135-2,Suppressed,226990,Suppressed
+,South Dakota,46,White,2106-3,Not Hispanic or Latino,2186-2,10,5120946,Unreliable
+,South Dakota,46,White,2106-3,Not Stated,NS,Suppressed,Not Applicable,Not Applicable
+,Tennessee,47,American Indian or Alaska Native,1002-5,Hispanic or Latino,2135-2,Suppressed,127761,Suppressed
+,Tennessee,47,American Indian or Alaska Native,1002-5,Not Hispanic or Latino,2186-2,Suppressed,137443,Suppressed
+,Tennessee,47,American Indian or Alaska Native,1002-5,Not Stated,NS,Suppressed,Not Applicable,Not Applicable
+,Tennessee,47,Asian or Pacific Islander,A-PI,Hispanic or Latino,2135-2,Suppressed,73098,Suppressed
+,Tennessee,47,Asian or Pacific Islander,A-PI,Not Hispanic or Latino,2186-2,Suppressed,1075340,Suppressed
+,Tennessee,47,Asian or Pacific Islander,A-PI,Not Stated,NS,Suppressed,Not Applicable,Not Applicable
+,Tennessee,47,Black or African American,2054-5,Hispanic or Latino,2135-2,Suppressed,235721,Suppressed
+,Tennessee,47,Black or African American,2054-5,Not Hispanic or Latino,2186-2,78,9796138,0.8
+,Tennessee,47,Black or African American,2054-5,Not Stated,NS,Suppressed,Not Applicable,Not Applicable
+,Tennessee,47,White,2106-3,Hispanic or Latino,2135-2,14,3051937,Unreliable
+,Tennessee,47,White,2106-3,Not Hispanic or Latino,2186-2,99,35185520,0.3
+,Tennessee,47,White,2106-3,Not Stated,NS,Suppressed,Not Applicable,Not Applicable
+,Texas,48,American Indian or Alaska Native,1002-5,Hispanic or Latino,2135-2,Suppressed,1943649,Suppressed
+,Texas,48,American Indian or Alaska Native,1002-5,Not Hispanic or Latino,2186-2,Suppressed,774534,Suppressed
+,Texas,48,American Indian or Alaska Native,1002-5,Not Stated,NS,Suppressed,Not Applicable,Not Applicable
+,Texas,48,Asian or Pacific Islander,A-PI,Hispanic or Latino,2135-2,Suppressed,783396,Suppressed
+,Texas,48,Asian or Pacific Islander,A-PI,Not Hispanic or Latino,2186-2,28,10831397,0.3
+,Texas,48,Asian or Pacific Islander,A-PI,Not Stated,NS,Suppressed,Not Applicable,Not Applicable
+,Texas,48,Black or African American,2054-5,Hispanic or Latino,2135-2,Suppressed,2344159,Suppressed
+,Texas,48,Black or African American,2054-5,Not Hispanic or Latino,2186-2,293,28255625,1
+,Texas,48,Black or African American,2054-5,Not Stated,NS,Suppressed,Not Applicable,Not Applicable
+,Texas,48,White,2106-3,Hispanic or Latino,2135-2,350,94343145,0.4
+,Texas,48,White,2106-3,Not Hispanic or Latino,2186-2,346,84314321,0.4
+,Texas,48,White,2106-3,Not Stated,NS,Suppressed,Not Applicable,Not Applicable
+,Utah,49,American Indian or Alaska Native,1002-5,Hispanic or Latino,2135-2,Suppressed,193653,Suppressed
+,Utah,49,American Indian or Alaska Native,1002-5,Not Hispanic or Latino,2186-2,Suppressed,306126,Suppressed
+,Utah,49,American Indian or Alaska Native,1002-5,Not Stated,NS,Suppressed,Not Applicable,Not Applicable
+,Utah,49,Asian or Pacific Islander,A-PI,Hispanic or Latino,2135-2,Suppressed,75861,Suppressed
+,Utah,49,Asian or Pacific Islander,A-PI,Not Hispanic or Latino,2186-2,Suppressed,994822,Suppressed
+,Utah,49,Asian or Pacific Islander,A-PI,Not Stated,NS,Suppressed,Not Applicable,Not Applicable
+,Utah,49,Black or African American,2054-5,Hispanic or Latino,2135-2,Suppressed,112262,Suppressed
+,Utah,49,Black or African American,2054-5,Not Hispanic or Latino,2186-2,Suppressed,407700,Suppressed
+,Utah,49,Black or African American,2054-5,Not Stated,NS,Suppressed,Not Applicable,Not Applicable
+,Utah,49,White,2106-3,Hispanic or Latino,2135-2,15,3760525,Unreliable
+,Utah,49,White,2106-3,Not Hispanic or Latino,2186-2,63,20713758,0.3
+,Utah,49,White,2106-3,Not Stated,NS,Suppressed,Not Applicable,Not Applicable
+,Vermont,50,American Indian or Alaska Native,1002-5,Hispanic or Latino,2135-2,Suppressed,4095,Suppressed
+,Vermont,50,American Indian or Alaska Native,1002-5,Not Hispanic or Latino,2186-2,Suppressed,19934,Suppressed
+,Vermont,50,American Indian or Alaska Native,1002-5,Not Stated,NS,Suppressed,Not Applicable,Not Applicable
+,Vermont,50,Asian or Pacific Islander,A-PI,Hispanic or Latino,2135-2,Suppressed,1992,Suppressed
+,Vermont,50,Asian or Pacific Islander,A-PI,Not Hispanic or Latino,2186-2,Suppressed,98761,Suppressed
+,Vermont,50,Asian or Pacific Islander,A-PI,Not Stated,NS,Suppressed,Not Applicable,Not Applicable
+,Vermont,50,Black or African American,2054-5,Hispanic or Latino,2135-2,Suppressed,8277,Suppressed
+,Vermont,50,Black or African American,2054-5,Not Hispanic or Latino,2186-2,Suppressed,91788,Suppressed
+,Vermont,50,Black or African American,2054-5,Not Stated,NS,Suppressed,Not Applicable,Not Applicable
+,Vermont,50,White,2106-3,Hispanic or Latino,2135-2,Suppressed,90901,Suppressed
+,Vermont,50,White,2106-3,Not Hispanic or Latino,2186-2,Suppressed,4052863,Suppressed
+,Vermont,50,White,2106-3,Not Stated,NS,Suppressed,Not Applicable,Not Applicable
+,Virginia,51,American Indian or Alaska Native,1002-5,Hispanic or Latino,2135-2,Suppressed,246423,Suppressed
+,Virginia,51,American Indian or Alaska Native,1002-5,Not Hispanic or Latino,2186-2,Suppressed,191898,Suppressed
+,Virginia,51,American Indian or Alaska Native,1002-5,Not Stated,NS,Suppressed,Not Applicable,Not Applicable
+,Virginia,51,Asian or Pacific Islander,A-PI,Hispanic or Latino,2135-2,Suppressed,165761,Suppressed
+,Virginia,51,Asian or Pacific Islander,A-PI,Not Hispanic or Latino,2186-2,Suppressed,4729964,Suppressed
+,Virginia,51,Asian or Pacific Islander,A-PI,Not Stated,NS,Suppressed,Not Applicable,Not Applicable
+,Virginia,51,Black or African American,2054-5,Hispanic or Latino,2135-2,Suppressed,669143,Suppressed
+,Virginia,51,Black or African American,2054-5,Not Hispanic or Latino,2186-2,87,13586165,0.6
+,Virginia,51,Black or African American,2054-5,Not Stated,NS,Suppressed,Not Applicable,Not Applicable
+,Virginia,51,White,2106-3,Hispanic or Latino,2135-2,10,6153045,Unreliable
+,Virginia,51,White,2106-3,Not Hispanic or Latino,2186-2,80,38072525,0.2
+,Virginia,51,White,2106-3,Not Stated,NS,Suppressed,Not Applicable,Not Applicable
+,Washington,53,American Indian or Alaska Native,1002-5,Hispanic or Latino,2135-2,Suppressed,524951,Suppressed
+,Washington,53,American Indian or Alaska Native,1002-5,Not Hispanic or Latino,2186-2,Suppressed,943533,Suppressed
+,Washington,53,American Indian or Alaska Native,1002-5,Not Stated,NS,Suppressed,Not Applicable,Not Applicable
+,Washington,53,Asian or Pacific Islander,A-PI,Hispanic or Latino,2135-2,Suppressed,260564,Suppressed
+,Washington,53,Asian or Pacific Islander,A-PI,Not Hispanic or Latino,2186-2,19,5678723,Unreliable
+,Washington,53,Asian or Pacific Islander,A-PI,Not Stated,NS,Suppressed,Not Applicable,Not Applicable
+,Washington,53,Black or African American,2054-5,Hispanic or Latino,2135-2,Suppressed,355526,Suppressed
+,Washington,53,Black or African American,2054-5,Not Hispanic or Latino,2186-2,10,2986658,Unreliable
+,Washington,53,Black or African American,2054-5,Not Stated,NS,Suppressed,Not Applicable,Not Applicable
+,Washington,53,White,2106-3,Hispanic or Latino,2135-2,28,7740408,0.4
+,Washington,53,White,2106-3,Not Hispanic or Latino,2186-2,86,36248544,0.2
+,Washington,53,White,2106-3,Not Stated,NS,Suppressed,Not Applicable,Not Applicable
+,West Virginia,54,American Indian or Alaska Native,1002-5,Hispanic or Latino,2135-2,Suppressed,6049,Suppressed
+,West Virginia,54,American Indian or Alaska Native,1002-5,Not Hispanic or Latino,2186-2,Suppressed,25119,Suppressed
+,West Virginia,54,American Indian or Alaska Native,1002-5,Not Stated,NS,Suppressed,Not Applicable,Not Applicable
+,West Virginia,54,Asian or Pacific Islander,A-PI,Hispanic or Latino,2135-2,Suppressed,4295,Suppressed
+,West Virginia,54,Asian or Pacific Islander,A-PI,Not Hispanic or Latino,2186-2,Suppressed,135705,Suppressed
+,West Virginia,54,Asian or Pacific Islander,A-PI,Not Stated,NS,Suppressed,Not Applicable,Not Applicable
+,West Virginia,54,Black or African American,2054-5,Hispanic or Latino,2135-2,Suppressed,20070,Suppressed
+,West Virginia,54,Black or African American,2054-5,Not Hispanic or Latino,2186-2,Suppressed,611803,Suppressed
+,West Virginia,54,Black or African American,2054-5,Not Stated,NS,Suppressed,Not Applicable,Not Applicable
+,West Virginia,54,White,2106-3,Hispanic or Latino,2135-2,Suppressed,223953,Suppressed
+,West Virginia,54,White,2106-3,Not Hispanic or Latino,2186-2,29,11897549,0.2
+,West Virginia,54,White,2106-3,Not Stated,NS,Suppressed,Not Applicable,Not Applicable
+,Wisconsin,55,American Indian or Alaska Native,1002-5,Hispanic or Latino,2135-2,Suppressed,168967,Suppressed
+,Wisconsin,55,American Indian or Alaska Native,1002-5,Not Hispanic or Latino,2186-2,Suppressed,494808,Suppressed
+,Wisconsin,55,American Indian or Alaska Native,1002-5,Not Stated,NS,Suppressed,Not Applicable,Not Applicable
+,Wisconsin,55,Asian or Pacific Islander,A-PI,Hispanic or Latino,2135-2,Suppressed,46257,Suppressed
+,Wisconsin,55,Asian or Pacific Islander,A-PI,Not Hispanic or Latino,2186-2,Suppressed,1596520,Suppressed
+,Wisconsin,55,Asian or Pacific Islander,A-PI,Not Stated,NS,Suppressed,Not Applicable,Not Applicable
+,Wisconsin,55,Black or African American,2054-5,Hispanic or Latino,2135-2,Suppressed,221102,Suppressed
+,Wisconsin,55,Black or African American,2054-5,Not Hispanic or Latino,2186-2,19,3711546,Unreliable
+,Wisconsin,55,Black or African American,2054-5,Not Stated,NS,Suppressed,Not Applicable,Not Applicable
+,Wisconsin,55,White,2106-3,Hispanic or Latino,2135-2,Suppressed,3424060,Suppressed
+,Wisconsin,55,White,2106-3,Not Hispanic or Latino,2186-2,65,33311311,0.2
+,Wisconsin,55,White,2106-3,Not Stated,NS,Suppressed,Not Applicable,Not Applicable
+,Wyoming,56,American Indian or Alaska Native,1002-5,Hispanic or Latino,2135-2,Suppressed,35896,Suppressed
+,Wyoming,56,American Indian or Alaska Native,1002-5,Not Hispanic or Latino,2186-2,Suppressed,123036,Suppressed
+,Wyoming,56,American Indian or Alaska Native,1002-5,Not Stated,NS,Suppressed,Not Applicable,Not Applicable
+,Wyoming,56,Asian or Pacific Islander,A-PI,Hispanic or Latino,2135-2,Suppressed,6601,Suppressed
+,Wyoming,56,Asian or Pacific Islander,A-PI,Not Hispanic or Latino,2186-2,Suppressed,54866,Suppressed
+,Wyoming,56,Asian or Pacific Islander,A-PI,Not Stated,NS,Suppressed,Not Applicable,Not Applicable
+,Wyoming,56,Black or African American,2054-5,Hispanic or Latino,2135-2,Suppressed,13859,Suppressed
+,Wyoming,56,Black or African American,2054-5,Not Hispanic or Latino,2186-2,Suppressed,77090,Suppressed
+,Wyoming,56,Black or African American,2054-5,Not Stated,NS,Suppressed,Not Applicable,Not Applicable
+,Wyoming,56,White,2106-3,Hispanic or Latino,2135-2,Suppressed,476032,Suppressed
+,Wyoming,56,White,2106-3,Not Hispanic or Latino,2186-2,14,3619486,Unreliable
+,Wyoming,56,White,2106-3,Not Stated,NS,Suppressed,Not Applicable,Not Applicable
+---,,,,,,,,,
+"Dataset: Underlying Cause of Death, 1999-2019",,,,,,,,,
+Query Parameters:,,,,,,,,,
+"ICD-10 Codes: A34 (Obstetrical tetanus); O00-O07 (Pregnancy with abortive outcome); O10-O16 (Oedema, proteinuria and",,,,,,,,,
+"hypertensive disorders in pregnancy, childbirth and the puerperium); O20-O29 (Other maternal disorders predominantly related to",,,,,,,,,
+pregnancy); O30-O48 (Maternal care related to the fetus and amniotic cavity and possible delivery problems); O60-O75,,,,,,,,,
+(Complications of labour and delivery); O85-O92 (Complications predominantly related to the puerperium); O95 (Obstetric death of,,,,,,,,,
+"unspecified cause); O98.0 (Tuberculosis complicating pregnancy, childbirth and the puerperium); O98.1 (Syphilis complicating",,,,,,,,,
+"pregnancy, childbirth and the puerperium); O98.2 (Gonorrhoea complicating pregnancy, childbirth and the puerperium); O98.3",,,,,,,,,
+"(Other infections with a predominantly sexual mode of transmission complicating pregnancy, childbirth and the puerperium); O98.4",,,,,,,,,
+"(Viral hepatitis complicating pregnancy, childbirth and the puerperium); O98.5 (Other viral diseases complicating pregnancy,",,,,,,,,,
+"childbirth and the puerperium); O98.6 (Protozoal diseases complicating pregnancy, childbirth and the puerperium); O98.7 (Human",,,,,,,,,
+"immunodeficiency [HIV] disease complicating pregnancy, childbirth and the puerperium); O98.8 (Other maternal infectious and",,,,,,,,,
+"parasitic diseases complicating pregnancy, childbirth and the puerperium); O98.9 (Unspecified maternal infectious or parasitic",,,,,,,,,
+"disease complicating pregnancy, childbirth and the puerperium); O99.0 (Anaemia complicating pregnancy, childbirth and the",,,,,,,,,
+puerperium); O99.1 (Other diseases of the blood and blood-forming organs and certain disorders involving the immune mechanism,,,,,,,,,
+"complicating pregnancy, childbirth and the puerperium); O99.2 (Endocrine, nutritional and metabolic diseases complicating",,,,,,,,,
+"pregnancy, childbirth and the puerperium); O99.3 (Mental disorders and diseases of the nervous system complicating pregnancy,",,,,,,,,,
+"childbirth and the puerperium); O99.4 (Diseases of the circulatory system complicating pregnancy, childbirth and the",,,,,,,,,
+"puerperium); O99.5 (Diseases of the respiratory system complicating pregnancy, childbirth and the puerperium); O99.6 (Diseases",,,,,,,,,
+"of the digestive system complicating pregnancy, childbirth and the puerperium); O99.7 (Diseases of the skin and subcutaneous",,,,,,,,,
+"tissue complicating pregnancy, childbirth and the puerperium); O99.8 (Other specified diseases and conditions complicating",,,,,,,,,
+"pregnancy, childbirth and the puerperium)",,,,,,,,,
+Ten-Year Age Groups: < 1 year; 1-4 years; 5-14 years; 15-24 years; 25-34 years; 35-44 years,,,,,,,,,
+Year/Month: 2007; 2008; 2009; 2010; 2011; 2012; 2013; 2014; 2015; 2016; 2017; 2018; 2019,,,,,,,,,
+Group By: State; Race; Hispanic Origin,,,,,,,,,
+Show Totals: Disabled,,,,,,,,,
+Show Zero Values: True,,,,,,,,,
+Show Suppressed: True,,,,,,,,,
+"Calculate Rates Per: 100,000",,,,,,,,,
+Rate Options: Default intercensal populations for years 2001-2009 (except Infant Age Groups),,,,,,,,,
+---,,,,,,,,,
+Help: See http://wonder.cdc.gov/wonder/help/ucd.html for more information.,,,,,,,,,
+---,,,,,,,,,
+"Query Date: Sep 2, 2021 6:47:20 AM",,,,,,,,,
+---,,,,,,,,,
+"Suggested Citation: Centers for Disease Control and Prevention, National Center for Health Statistics. Underlying Cause of Death",,,,,,,,,
+"1999-2019 on CDC WONDER Online Database, released in 2020. Data are from the Multiple Cause of Death Files, 1999-2019, as",,,,,,,,,
+compiled from data provided by the 57 vital statistics jurisdictions through the Vital Statistics Cooperative Program. Accessed,,,,,,,,,
+"at http://wonder.cdc.gov/ucd-icd10.html on Sep 2, 2021 6:47:20 AM",,,,,,,,,
+---,,,,,,,,,
+Messages:,,,,,,,,,
+1. Totals are not available for these results due to suppression constraints. More Information:,,,,,,,,,
+http://wonder.cdc.gov/wonder/help/faq.html#Privacy.,,,,,,,,,
+---,,,,,,,,,
+Caveats:,,,,,,,,,
+"1. As of April 3, 2017, the underlying cause of death has been revised for 125 deaths in 2014. More information:",,,,,,,,,
+http://wonder.cdc.gov/wonder/help/ucd.html#2014-Revision.,,,,,,,,,
+2. Circumstances in Georgia for the years 2008 and 2009 have resulted in unusually high death counts for the ICD-10 cause of,,,,,,,,,
+"death code R99, ""Other ill-defined and unspecified causes of mortality."" Caution should be used in interpreting these data.",,,,,,,,,
+More information: http://wonder.cdc.gov/wonder/help/ucd.html#Georgia-Reporting-Anomalies.,,,,,,,,,
+3. Circumstances in New Jersey for the year 2009 have resulted in unusually high death counts for the ICD-10 cause of death code,,,,,,,,,
+"R99, ""Other ill-defined and unspecified causes of mortality"" and therefore unusually low death counts in other ICD-10 codes,",,,,,,,,,
+"most notably R95, ""Sudden Infant Death Syndrome"" and X40-X49, ""Unintentional poisoning."" Caution should be used in",,,,,,,,,
+interpreting these data. More information: http://wonder.cdc.gov/wonder/help/ucd.html#New-Jersey-Reporting-Anomalies.,,,,,,,,,
+4. Data are Suppressed when the data meet the criteria for confidentiality constraints. More information:,,,,,,,,,
+http://wonder.cdc.gov/wonder/help/ucd.html#Assurance of Confidentiality.,,,,,,,,,
+5. Death rates are flagged as Unreliable when the rate is calculated with a numerator of 20 or less. More information:,,,,,,,,,
+http://wonder.cdc.gov/wonder/help/ucd.html#Unreliable.,,,,,,,,,
+"6. Deaths of persons with Age ""Not Stated"" are included in ""All"" counts and rates, but are not distributed among age groups,",,,,,,,,,
+"so are not included in age-specific counts, age-specific rates or in any age-adjusted rates. More information:",,,,,,,,,
+http://wonder.cdc.gov/wonder/help/ucd.html#Not Stated.,,,,,,,,,
+"7. Deaths of persons with Hispanic origin ""Not Stated"" are included in ""All"" counts and rates, but are not distributed among",,,,,,,,,
+"Hispanic Origin groups, so are not included in the Hispanic Origin specific counts and rates. More information:",,,,,,,,,
+http://wonder.cdc.gov/wonder/help/ucd.html#Not Stated.,,,,,,,,,
+8. Information included on the death certificate about the race and Hispanic ethnicity of the decedent is reported by the,,,,,,,,,
+"funeral director as provided by an informant, often the surviving next of kin, or, in the absence of an informant, on the basis",,,,,,,,,
+of observation. Race and ethnicity information from the census is by self-report. To the extent that race and Hispanic origin,,,,,,,,,
+"are inconsistent between these two data sources, death rates will be biased. More information:",,,,,,,,,
+http://wonder.cdc.gov/wonder/help/ucd.html#Racial Differences.,,,,,,,,,
+"9. The population figures for year 2019 are bridged-race estimates of the July 1 resident population, from the Vintage 2019",,,,,,,,,
+"postcensal series released by NCHS on July 9, 2020. The population figures for year 2018 are bridged-race estimates of the July",,,,,,,,,
+"1 resident population, from the Vintage 2018 postcensal series released by NCHS on June 25, 2019. The population figures for",,,,,,,,,
+"year 2017 are bridged-race estimates of the July 1 resident population, from the Vintage 2017 postcensal series released by NCHS",,,,,,,,,
+"on June 27, 2018. The population figures for year 2016 are bridged-race estimates of the July 1 resident population, from the",,,,,,,,,
+"Vintage 2016 postcensal series released by NCHS on June 26, 2017. The population figures for year 2015 are bridged-race",,,,,,,,,
+"estimates of the July 1 resident population, from the Vintage 2015 postcensal series released by NCHS on June 28, 2016. The",,,,,,,,,
+"population figures for year 2014 are bridged-race estimates of the July 1 resident population, from the Vintage 2014 postcensal",,,,,,,,,
+"series released by NCHS on June 30, 2015. The population figures for year 2013 are bridged-race estimates of the July 1 resident",,,,,,,,,
+"population, from the Vintage 2013 postcensal series released by NCHS on June 26, 2014. The population figures for year 2012 are",,,,,,,,,
+"bridged-race estimates of the July 1 resident population, from the Vintage 2012 postcensal series released by NCHS on June 13,",,,,,,,,,
+"2013. The population figures for year 2011 are bridged-race estimates of the July 1 resident population, from the Vintage 2011",,,,,,,,,
+"postcensal series released by NCHS on July 18, 2012. Population figures for 2010 are April 1 Census counts. The population",,,,,,,,,
+"figures for years 2001 - 2009 are bridged-race estimates of the July 1 resident population, from the revised intercensal",,,,,,,,,
+"county-level 2000 - 2009 series released by NCHS on October 26, 2012. Population figures for 2000 are April 1 Census counts.",,,,,,,,,
+Population figures for 1999 are from the 1990-1999 intercensal series of July 1 estimates. Population figures for the infant age,,,,,,,,,
+groups are the number of live births. <br/><b>Note:</b> Rates and population figures for years 2001 - 2009 differ slightly from,,,,,,,,,
+"previously published reports, due to use of the population estimates which were available at the time of release.",,,,,,,,,
+10. The population figures used in the calculation of death rates for the age group 'under 1 year' are the estimates of the,,,,,,,,,
+resident population that is under one year of age. More information: http://wonder.cdc.gov/wonder/help/ucd.html#Age Group.,,,,,,,,,
+11. Changes to cause of death classification affect reporting trends. More information:,,,,,,,,,
+http://wonder.cdc.gov/wonder/help/ucd.html#ICD-10 Changes.,,,,,,,,,
