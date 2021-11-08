@@ -1,0 +1,52 @@
+State,State Code,Region,Division,state_GEOID
+Alaska,AK,West,Pacific,2
+Alabama,AL,South,East South Central,1
+Arkansas,AR,South,West South Central,5
+Arizona,AZ,West,Mountain,4
+California,CA,West,Pacific,6
+Colorado,CO,West,Mountain,8
+Connecticut,CT,Northeast,New England,9
+District of Columbia,DC,South,South Atlantic,11
+Delaware,DE,South,South Atlantic,10
+Florida,FL,South,South Atlantic,12
+Georgia,GA,South,South Atlantic,13
+Hawaii,HI,West,Pacific,15
+Iowa,IA,Midwest,West North Central,19
+Idaho,ID,West,Mountain,16
+Illinois,IL,Midwest,East North Central,17
+Indiana,IN,Midwest,East North Central,18
+Kansas,KS,Midwest,West North Central,20
+Kentucky,KY,South,East South Central,21
+Louisiana,LA,South,West South Central,22
+Massachusetts,MA,Northeast,New England,25
+Maryland,MD,South,South Atlantic,24
+Maine,ME,Northeast,New England,23
+Michigan,MI,Midwest,East North Central,26
+Minnesota,MN,Midwest,West North Central,27
+Missouri,MO,Midwest,West North Central,29
+Mississippi,MS,South,East South Central,28
+Montana,MT,West,Mountain,30
+North Carolina,NC,South,South Atlantic,37
+North Dakota,ND,Midwest,West North Central,38
+Nebraska,NE,Midwest,West North Central,31
+New Hampshire,NH,Northeast,New England,33
+New Jersey,NJ,Northeast,Middle Atlantic,34
+New Mexico,NM,West,Mountain,35
+Nevada,NV,West,Mountain,32
+New York,NY,Northeast,Middle Atlantic,36
+Ohio,OH,Midwest,East North Central,39
+Oklahoma,OK,South,West South Central,40
+Oregon,OR,West,Pacific,41
+Pennsylvania,PA,Northeast,Middle Atlantic,42
+Rhode Island,RI,Northeast,New England,44
+South Carolina,SC,South,South Atlantic,45
+South Dakota,SD,Midwest,West North Central,46
+Tennessee,TN,South,East South Central,47
+Texas,TX,South,West South Central,48
+Utah,UT,West,Mountain,49
+Virginia,VA,South,South Atlantic,51
+Vermont,VT,Northeast,New England,50
+Washington,WA,West,Pacific,53
+Wisconsin,WI,Midwest,East North Central,55
+West Virginia,WV,South,South Atlantic,54
+Wyoming,WY,West,Mountain,56
