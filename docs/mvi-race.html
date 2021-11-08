@@ -6,7 +6,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <title>2 Racial disparities in maternal mortality in the US | Analytical Portfolio</title>
   <meta name="description" content="This website contains examples from Valerie’s analytical portfolio." />
-  <meta name="generator" content="bookdown 0.18 and GitBook 2.6.7" />
+  <meta name="generator" content="bookdown 0.24 and GitBook 2.6.7" />
 
   <meta property="og:title" content="2 Racial disparities in maternal mortality in the US | Analytical Portfolio" />
   <meta property="og:type" content="book" />
@@ -24,7 +24,7 @@
 <meta name="author" content="Valerie C. Valerio" />
 
 
-<meta name="date" content="2021-11-08" />
+<meta name="date" content="2021-11-09" />
 
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <meta name="apple-mobile-web-app-capable" content="yes" />
@@ -32,8 +32,10 @@
   
   
 <link rel="prev" href="index.html"/>
-<link rel="next" href="discussion.html"/>
-<script src="libs/jquery-2.2.3/jquery.min.js"></script>
+<link rel="next" href="resources.html"/>
+<script src="libs/header-attrs-2.11/header-attrs.js"></script>
+<script src="libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/fuse.js@6.4.6/dist/fuse.min.js"></script>
 <link href="libs/gitbook-2.6.7/css/style.css" rel="stylesheet" />
 <link href="libs/gitbook-2.6.7/css/plugin-table.css" rel="stylesheet" />
 <link href="libs/gitbook-2.6.7/css/plugin-bookdown.css" rel="stylesheet" />
@@ -49,29 +51,32 @@
 
 
 
-
+<link href="libs/anchor-sections-1.0.1/anchor-sections.css" rel="stylesheet" />
+<script src="libs/anchor-sections-1.0.1/anchor-sections.js"></script>
 
 
 <style type="text/css">
-a.sourceLine { display: inline-block; line-height: 1.25; }
-a.sourceLine { pointer-events: none; color: inherit; text-decoration: inherit; }
-a.sourceLine:empty { height: 1.2em; }
+pre > code.sourceCode { white-space: pre; position: relative; }
+pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
+pre > code.sourceCode > span:empty { height: 1.2em; }
 .sourceCode { overflow: visible; }
-code.sourceCode { white-space: pre; position: relative; }
+code.sourceCode > span { color: inherit; text-decoration: inherit; }
 pre.sourceCode { margin: 0; }
 @media screen {
 div.sourceCode { overflow: auto; }
 }
 @media print {
-code.sourceCode { white-space: pre-wrap; }
-a.sourceLine { text-indent: -1em; padding-left: 1em; }
+pre > code.sourceCode { white-space: pre-wrap; }
+pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
 }
-pre.numberSource a.sourceLine
-  { position: relative; left: -4em; }
-pre.numberSource a.sourceLine::before
-  { content: attr(title);
+pre.numberSource code
+  { counter-reset: source-line 0; }
+pre.numberSource code > span
+  { position: relative; left: -4em; counter-increment: source-line; }
+pre.numberSource code > span > a:first-child::before
+  { content: counter(source-line);
     position: relative; left: -1em; text-align: right; vertical-align: baseline;
-    border: none; pointer-events: all; display: inline-block;
+    border: none; display: inline-block;
     -webkit-touch-callout: none; -webkit-user-select: none;
     -khtml-user-select: none; -moz-user-select: none;
     -ms-user-select: none; user-select: none;
@@ -80,9 +85,9 @@ pre.numberSource a.sourceLine::before
   }
 pre.numberSource { margin-left: 3em; border-left: 1px solid #aaaaaa;  padding-left: 4px; }
 div.sourceCode
-  {  }
+  {   }
 @media screen {
-a.sourceLine::before { text-decoration: underline; }
+pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
 }
 code span.al { color: #ff0000; font-weight: bold; } /* Alert */
 code span.an { color: #60a0b0; font-weight: bold; font-style: italic; } /* Annotation */
@@ -115,6 +120,29 @@ code span.vs { color: #4070a0; } /* VerbatimString */
 code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warning */
 </style>
 
+<style type="text/css">
+/* Used with Pandoc 2.11+ new --citeproc when CSL is used */
+div.csl-bib-body { }
+div.csl-entry {
+  clear: both;
+}
+.hanging div.csl-entry {
+  margin-left:2em;
+  text-indent:-2em;
+}
+div.csl-left-margin {
+  min-width:2em;
+  float:left;
+}
+div.csl-right-inline {
+  margin-left:2em;
+  padding-left:1em;
+}
+div.csl-indent {
+  margin-left: 2em;
+}
+</style>
+
 <link rel="stylesheet" href="style.css" type="text/css" />
 </head>
 
@@ -131,24 +159,31 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 <li><a href="./">Valerie's Analytical Portfolio</a></li>
 
 <li class="divider"></li>
-<li class="chapter" data-level="1" data-path="index.html"><a href="index.html"><i class="fa fa-check"></i><b>1</b> About this site</a><ul>
+<li class="chapter" data-level="1" data-path="index.html"><a href="index.html"><i class="fa fa-check"></i><b>1</b> About this site</a>
+<ul>
 <li class="chapter" data-level="1.1" data-path="index.html"><a href="index.html#notes"><i class="fa fa-check"></i><b>1.1</b> Notes</a></li>
 </ul></li>
-<li class="chapter" data-level="2" data-path="mvi-race.html"><a href="mvi-race.html"><i class="fa fa-check"></i><b>2</b> Racial disparities in maternal mortality in the US</a><ul>
+<li class="chapter" data-level="2" data-path="mvi-race.html"><a href="mvi-race.html"><i class="fa fa-check"></i><b>2</b> Racial disparities in maternal mortality in the US</a>
+<ul>
 <li class="chapter" data-level="2.1" data-path="mvi-race.html"><a href="mvi-race.html#background"><i class="fa fa-check"></i><b>2.1</b> Background</a></li>
 <li class="chapter" data-level="2.2" data-path="mvi-race.html"><a href="mvi-race.html#methods"><i class="fa fa-check"></i><b>2.2</b> Methods</a></li>
 <li class="chapter" data-level="2.3" data-path="mvi-race.html"><a href="mvi-race.html#data-sources"><i class="fa fa-check"></i><b>2.3</b> Data sources</a></li>
-<li class="chapter" data-level="2.4" data-path="mvi-race.html"><a href="mvi-race.html#data-preprocess"><i class="fa fa-check"></i><b>2.4</b> Data pre-processing</a><ul>
-<li class="chapter" data-level="2.4.1" data-path="mvi-race.html"><a href="mvi-race.html#race-and-ethnicity"><i class="fa fa-check"></i><b>2.4.1</b> Race and ethnicity</a></li>
-<li class="chapter" data-level="2.4.2" data-path="mvi-race.html"><a href="mvi-race.html#births"><i class="fa fa-check"></i><b>2.4.2</b> Births</a></li>
-<li class="chapter" data-level="2.4.3" data-path="mvi-race.html"><a href="mvi-race.html#deaths"><i class="fa fa-check"></i><b>2.4.3</b> Deaths</a></li>
+<li class="chapter" data-level="2.4" data-path="mvi-race.html"><a href="mvi-race.html#data-preprocess"><i class="fa fa-check"></i><b>2.4</b> Data pre-processing</a>
+<ul>
+<li class="chapter" data-level="2.4.1" data-path="mvi-race.html"><a href="mvi-race.html#data-download"><i class="fa fa-check"></i><b>2.4.1</b> Data download</a></li>
+<li class="chapter" data-level="2.4.2" data-path="mvi-race.html"><a href="mvi-race.html#pre-process"><i class="fa fa-check"></i><b>2.4.2</b> Pre-process</a></li>
+</ul></li>
+<li class="chapter" data-level="2.5" data-path="mvi-race.html"><a href="mvi-race.html#results"><i class="fa fa-check"></i><b>2.5</b> Results</a>
+<ul>
+<li class="chapter" data-level="2.5.1" data-path="mvi-race.html"><a href="mvi-race.html#data-viz"><i class="fa fa-check"></i><b>2.5.1</b> Data visualization and exploration</a></li>
+<li class="chapter" data-level="2.5.2" data-path="mvi-race.html"><a href="mvi-race.html#stat-model"><i class="fa fa-check"></i><b>2.5.2</b> Statistical modeling</a></li>
+</ul></li>
+<li class="chapter" data-level="2.6" data-path="mvi-race.html"><a href="mvi-race.html#conclusion"><i class="fa fa-check"></i><b>2.6</b> Conclusion</a>
+<ul>
+<li class="chapter" data-level="2.6.1" data-path="mvi-race.html"><a href="mvi-race.html#limitations"><i class="fa fa-check"></i><b>2.6.1</b> Limitations</a></li>
 </ul></li>
 </ul></li>
-<li class="chapter" data-level="3" data-path="discussion.html"><a href="discussion.html"><i class="fa fa-check"></i><b>3</b> Discussion</a><ul>
-<li class="chapter" data-level="3.1" data-path="discussion.html"><a href="discussion.html#limitations"><i class="fa fa-check"></i><b>3.1</b> Limitations</a></li>
-<li class="chapter" data-level="3.2" data-path="discussion.html"><a href="discussion.html#future-work"><i class="fa fa-check"></i><b>3.2</b> Future work</a></li>
-</ul></li>
-<li class="chapter" data-level="4" data-path="resources.html"><a href="resources.html"><i class="fa fa-check"></i><b>4</b> Resources</a></li>
+<li class="chapter" data-level="3" data-path="resources.html"><a href="resources.html"><i class="fa fa-check"></i><b>3</b> Resources</a></li>
 <li class="chapter" data-level="" data-path="references.html"><a href="references.html"><i class="fa fa-check"></i>References</a></li>
 <li class="divider"></li>
 <li><a href="https://github.com/rstudio/bookdown" target="blank">Published with bookdown</a></li>
@@ -170,37 +205,45 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
           <div class="page-inner">
 
             <section class="normal" id="section-">
-<div id="mvi-race" class="section level1">
+<div id="mvi-race" class="section level1" number="2">
 <h1><span class="header-section-number">2</span> Racial disparities in maternal mortality in the US</h1>
-<div id="background" class="section level2">
+<div id="background" class="section level2" number="2.1">
 <h2><span class="header-section-number">2.1</span> Background</h2>
+<p>I conducted this analys with open-source data while Surgo Ventures experienced a delay in accessing restricted, individual-level data to evaluate the association between county-level Maternal Vulnerability, structural racism measures, and a birthing person’s individual-risk of maternal mortality. The secondary purpose was to understand at what levels structural racism may or may not affect maternal health in the US, which may inform future analyses and interventions to reduce maternal health disparities.</p>
 <ul>
-<li><p>The US has one of the highest maternal mortality risks amongst high-income countries, along with some of the highest racial disparities - Black and Native American women are 2-4 times more likely than their White counterparts to die from pregnancy-related causes.</p></li>
-<li><p>Evidence-based interventions are needed to address this public health crisis. A systematic understanding of why maternal mortality ratios are so high in the United States is lacking, partly due to surveillance data gaps and standardization issues.</p></li>
-<li><p>It is now well-established that death certificate changes - like adoption of the pregnancy check box - have contributed to the ‘increasing’ trend of maternal mortality in the US. In addition, individual-level characteristics like heart disease, diabetes and increasing age at pregnancy also contribute to the observed maternal mortality rate (MMR). However, neither surveillance changes nor individual-level characteristics can explain the marked racial disparities in maternal health.</p></li>
-<li><p>Multiple studies have found that characteristics of the environments in which birthing individuals live, work and give birth in are associated with pregnancy outcomes. These studies tend to consider on one covariate at a time (e.g. rate of obgyns per 100k population, abortion supportive policies, educational attainment), and systematic knowledge on how these affect maternal health outcomes is lacking in the US. To address this, Surgo Ventures created the US Maternal Vulnerability Index (MVI), a multi-dimensional index that ranks US counties and states on a score from 0-100, where 0 and 100 are assigned to the geographies that are the most and least conducive to good maternal health, respectively.</p></li>
-<li><p>Another potential driver of these inequities is racism. Though the field is still young, various racism metrics (like educational attainment disparities) have been found to be associated with disparities in maternal health outcomes.</p></li>
-<li><p>Using the MVI, Surgo Ventures found that Black and American Indian and Native American (AIAN) mothers are 2.6 and 1.6 more likely to live under ‘High Maternal Vulnerability’ as their White counterparts, suggesting part of the observed racial disparities can be attributed to ecological/environmental characteristics. However, it remains unclear if there is an interaction between maternal vulneability and race. In other words: <em>does maternal vulnerability affect mothers from different races differently?</em></p></li>
+<li><p>The US has one of the highest maternal mortality risks amongst high-income countries, along with some of the highest racial disparities - Black and Native American mothers are 2-4 times more likely to die from pregnancy-related causes than White mothers.</p></li>
+<li><p>Evidence-based interventions are needed to address this public health crisis. However, this is hampered by surveillance data gaps and standardization issues.</p></li>
+<li><p>It is now well-established that surveillance changes and population health trends - such as the adoption of a pregnancy check box, heart disease, diabetes and increase maternal age - contribute to the increasing maternal mortality ratios (MMR). However, it is likely that neither surveillance changes nor individual-level characteristics fully explain the marked racial disparities in maternal health.</p></li>
+<li><p>The environments in which birthing individuals live, work and give birth in have been found to be associated with pregnancy outcomes <span class="citation">(<a href="#ref-mujahid_birth_2021" role="doc-biblioref">Mujahid et al. 2021</a>)</span>. Existing studies tend to consider one or few covariates at a time, and systematic knowledge on how these affect maternal health outcomes is lacking in the US. Specifically, the contribution of each ‘level’ (individual, neighborhood/community, birth hospital, state) is still unknown.</p></li>
+<li><p>Black and American Indian and Native American (AIAN) mothers are 2.6 and 1.6 more likely to live under ‘Very High’ maternal vulnerability environments as their White counterparts, suggesting part of the observed racial disparities might be attributable to ecological/environmental characteristics.</p></li>
+<li><p>Another potential driver of these inequities is racism. Though the field is still young and developing, various structural racism metrics, like racial gap in educational attainment <span class="citation">(<a href="#ref-liu_structural_2019" role="doc-biblioref">Liu et al. 2019</a>)</span>, have been associated with disparities in maternal health outcomes.</p></li>
 </ul>
-<p>The objective of this analysis are to:</p>
+<p>The objectives of this analysis are to:</p>
 <ol style="list-style-type: decimal">
-<li><p>Examine the relationship between maternal vulnerability and maternal morality at the state level across the U.S.</p></li>
-<li><p>Assess if maternal vulnerability affects maternal mortality differently for Black and White birthing individuals.</p></li>
+<li><p><strong>Examine the relationship between maternal vulnerability and maternal morality at the state level in the US</strong></p></li>
+<li><p><strong>Assess if maternal vulnerability is differently associated with Black and White maternal mortality.</strong></p></li>
+<li><p><strong>Determine if residential segregation helps explain maternal mortality</strong></p></li>
 </ol>
 </div>
-<div id="methods" class="section level2">
+<div id="methods" class="section level2" number="2.2">
 <h2><span class="header-section-number">2.2</span> Methods</h2>
-<p>First, the data will be visualized. Based on the visual inspection of the relationships, I will use the following statistical analyses:</p>
+<p>First, the data will be visualized. Based on the visual inspection of the relationships (see <a href="mvi-race.html#data-viz">2.5.1</a>), I will use the following statistical analyses:</p>
 <ol style="list-style-type: decimal">
-<li><p>Linear regression of maternal mortality on state-level Maternal Vulnerability (MV) Score.</p></li>
-<li><p>Linear regression of maternal mortality by race on state-level MVS, including an interaction between race and MV Score</p></li>
+<li><p>Linear regression of maternal mortality on state-level Maternal Vulnerability Score.</p></li>
+<li><p>Linear regression of maternal mortality by race on state-level Maternal Vulnerability score, including an interaction between race and MVI Score.</p></li>
+<li><p>Linear regression of maternal mortality on state-level MVI and residential segregation, if possible.</p></li>
 </ol>
 </div>
-<div id="data-sources" class="section level2">
+<div id="data-sources" class="section level2" number="2.3">
 <h2><span class="header-section-number">2.3</span> Data sources</h2>
 <p>Open-source data were obtained from Surgo Ventures and the CDC National Center for Health Statistics.</p>
 <table>
-<caption><span id="tab:tab-1">Table 2.1: </span>Data sources used in this analysis</caption>
+<caption><span id="tab:tab-1">Table 2.1: </span>Description of data sources</caption>
+<colgroup>
+<col width="5%" />
+<col width="4%" />
+<col width="90%" />
+</colgroup>
 <thead>
 <tr class="header">
 <th align="left">Dataset</th>
@@ -212,37 +255,54 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 <tr class="odd">
 <td align="left">US Maternal Vulnerability Index (MVI)</td>
 <td align="left">Surgo Ventures (2021)</td>
-<td align="left">US MVI state-level scores (overall). The US MVI “…ranks […] states and counties on indicators measuring drivers of poor maternal health outcomes. Maternal vulnerability is assessed based on 43 drivers grouped into six themes: (1) Reproductive Healthcare, (2) Physical Health, (3) Mental Health and Substance Abuse, (4) General Healthcare, (5) Socioeconomic Determinants, and (6) Physical Environment. The MVI captures factors that put birthing people at increased risk of adverse outcomes during pregnancy that may lead to morbidities and/or death.” <span class="citation">(Valerio et al. <a href="#ref-mvi-zenodo" role="doc-biblioref">2021</a>)</span></td>
+<td align="left">US MVI state-level scores (overall). The US MVI “…ranks […] states and counties on indicators measuring drivers of poor maternal health outcomes. Maternal vulnerability is assessed based on 43 drivers grouped into six themes: (1) Reproductive Healthcare, (2) Physical Health, (3) Mental Health and Substance Abuse, (4) General Healthcare, (5) Socioeconomic Determinants, and (6) Physical Environment. The MVI captures factors that put birthing people at increased risk of adverse outcomes during pregnancy that may lead to morbidities and/or death.” <span class="citation">(<a href="#ref-mvi-zenodo" role="doc-biblioref">Valerio et al. 2021</a>)</span></td>
 </tr>
 <tr class="even">
 <td align="left">Natality data</td>
 <td align="left">CDC Wonder (2020)</td>
-<td align="left">National Vital Statistics data including all births that occurred in the US between 2007 and 2019, to mothers between 10 and 44 years of age by state and race</td>
+<td align="left">National Vital Statistics data including all births that occurred in the US between 2007 and 2019, to mothers between 10 and 44 years of age by state and race.</td>
 </tr>
 <tr class="odd">
 <td align="left">Mortality data*</td>
 <td align="left">CDC Wonder(2020)</td>
-<td align="left">National Vital Statistics data including all deaths that occurred in the US between 2007 and 2019, of mothers between 15 and 44 years of age by state and race.</td>
+<td align="left">National Vital Statistics data including all deaths that occurred in the US between 2007 and 2019, of mothers between 15 and 44 years of age by state and race. Following <a href="https://www.cdc.gov/nchs/data/hestat/maternal-mortality-2021/E-Stat-Maternal-Mortality-Rates-H.pdf">Hoyert (2019)</a>, deaths were included if the underlying cause of death corresponded to ICD-10 (International Statistical Classification of Diseases, 10th Revision) codes A34, O00-O95, and O98-O99. Only births and deaths to and of mothers under 45 years of age were included, following the CDC recommendations - which are based on <a href="https://www.cdc.gov/nchs/maternal-mortality/faq.htm">NCHS assessment of errors</a>.</td>
+</tr>
+<tr class="even">
+<td align="left">Residential segregation</td>
+<td align="left">County Health Rankings (2020)</td>
+<td align="left">Measure of racial residential segregation at the state-level.</td>
 </tr>
 </tbody>
 </table>
-<p>*See Data pre-processing (subsection ’<a href="mvi-race.html#data-preprocess">2.4</a>) for details</p>
+<p>*See Data pre-processing (subsection <a href="mvi-race.html#data-preprocess">2.4</a>) for details</p>
 </div>
-<div id="data-preprocess" class="section level2">
+<div id="data-preprocess" class="section level2" number="2.4">
 <h2><span class="header-section-number">2.4</span> Data pre-processing</h2>
+<div id="data-download" class="section level3" number="2.4.1">
+<h3><span class="header-section-number">2.4.1</span> Data download</h3>
 <p>The MVI and data dictionary are downloaded from a <a href="https://zenodo.org/record/5590225#.YYfkK5pBw2w">Zenodo repository</a> and need no pre-processing (see preview below).</p>
-<div class="sourceCode" id="cb2"><pre class="sourceCode r"><code class="sourceCode r"><a class="sourceLine" id="cb2-1" title="1"><span class="co"># Download MVI data ----</span></a>
-<a class="sourceLine" id="cb2-2" title="2"><span class="co"># Set urls</span></a>
-<a class="sourceLine" id="cb2-3" title="3">url1 &lt;-<span class="st"> &#39;https://zenodo.org/record/5590225/files/mvi_state.csv?download=1&#39;</span></a>
-<a class="sourceLine" id="cb2-4" title="4">url2 &lt;-<span class="st"> &#39;https://zenodo.org/record/5590225/files/mvi_data_dictionary.xlsx?download=1&#39;</span></a>
-<a class="sourceLine" id="cb2-5" title="5">  </a>
-<a class="sourceLine" id="cb2-6" title="6"><span class="co"># Download data</span></a>
-<a class="sourceLine" id="cb2-7" title="7">mvi.state &lt;-<span class="st"> </span><span class="kw">read.csv</span>(url1)</a>
-<a class="sourceLine" id="cb2-8" title="8"><span class="co"># Use rio library because file extension is .xlsx</span></a>
-<a class="sourceLine" id="cb2-9" title="9">data.dict &lt;-<span class="st"> </span>rio<span class="op">::</span><span class="kw">import</span>(url2)</a>
-<a class="sourceLine" id="cb2-10" title="10"></a>
-<a class="sourceLine" id="cb2-11" title="11"><span class="co"># Preview data</span></a>
-<a class="sourceLine" id="cb2-12" title="12"><span class="kw">head</span>(mvi.state)</a></code></pre></div>
+<div class="sourceCode" id="cb2"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb2-1"><a href="mvi-race.html#cb2-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Setup ---</span></span>
+<span id="cb2-2"><a href="mvi-race.html#cb2-2" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(tidyverse)</span></code></pre></div>
+<pre><code>## -- Attaching packages --------------------------------------- tidyverse 1.3.1 --</code></pre>
+<pre><code>## v ggplot2 3.3.3     v purrr   0.3.4
+## v tibble  3.1.1     v dplyr   1.0.5
+## v tidyr   1.1.3     v stringr 1.4.0
+## v readr   1.4.0     v forcats 0.5.1</code></pre>
+<pre><code>## -- Conflicts ------------------------------------------ tidyverse_conflicts() --
+## x dplyr::filter() masks stats::filter()
+## x dplyr::lag()    masks stats::lag()</code></pre>
+<div class="sourceCode" id="cb6"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb6-1"><a href="mvi-race.html#cb6-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Download MVI data ----</span></span>
+<span id="cb6-2"><a href="mvi-race.html#cb6-2" aria-hidden="true" tabindex="-1"></a><span class="co"># Set urls</span></span>
+<span id="cb6-3"><a href="mvi-race.html#cb6-3" aria-hidden="true" tabindex="-1"></a>url1 <span class="ot">&lt;-</span> <span class="st">&#39;https://zenodo.org/record/5590225/files/mvi_state.csv?download=1&#39;</span></span>
+<span id="cb6-4"><a href="mvi-race.html#cb6-4" aria-hidden="true" tabindex="-1"></a>url2 <span class="ot">&lt;-</span> <span class="st">&#39;https://zenodo.org/record/5590225/files/mvi_data_dictionary.xlsx?download=1&#39;</span></span>
+<span id="cb6-5"><a href="mvi-race.html#cb6-5" aria-hidden="true" tabindex="-1"></a>  </span>
+<span id="cb6-6"><a href="mvi-race.html#cb6-6" aria-hidden="true" tabindex="-1"></a><span class="co"># Download data</span></span>
+<span id="cb6-7"><a href="mvi-race.html#cb6-7" aria-hidden="true" tabindex="-1"></a>mvi.state <span class="ot">&lt;-</span> <span class="fu">read.csv</span>(url1)</span>
+<span id="cb6-8"><a href="mvi-race.html#cb6-8" aria-hidden="true" tabindex="-1"></a><span class="co"># Use rio library because file extension is .xlsx</span></span>
+<span id="cb6-9"><a href="mvi-race.html#cb6-9" aria-hidden="true" tabindex="-1"></a>data.dict <span class="ot">&lt;-</span> rio<span class="sc">::</span><span class="fu">import</span>(url2)</span>
+<span id="cb6-10"><a href="mvi-race.html#cb6-10" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb6-11"><a href="mvi-race.html#cb6-11" aria-hidden="true" tabindex="-1"></a><span class="co"># Preview data</span></span>
+<span id="cb6-12"><a href="mvi-race.html#cb6-12" aria-hidden="true" tabindex="-1"></a><span class="fu">head</span>(mvi.state)</span></code></pre></div>
 <pre><code>##   state_GEOID      State mvi Th1 Th2 Th3 Th4 Th5 Th6
 ## 1           2     Alaska  54  12  38  38  86  32  92
 ## 2           1    Alabama 100  60  96  98 100  88  98
@@ -250,8 +310,8 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 ## 4           4    Arizona  70  94  44  68  53  90  54
 ## 5           6 California  34  20  42   4  12  54  82
 ## 6           8   Colorado   0  20   2  10  35  10  20</code></pre>
-<div class="sourceCode" id="cb4"><pre class="sourceCode r"><code class="sourceCode r"><a class="sourceLine" id="cb4-1" title="1"><span class="co"># Data dictionary</span></a>
-<a class="sourceLine" id="cb4-2" title="2"><span class="kw">head</span>(data.dict)</a></code></pre></div>
+<div class="sourceCode" id="cb8"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb8-1"><a href="mvi-race.html#cb8-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Data dictionary</span></span>
+<span id="cb8-2"><a href="mvi-race.html#cb8-2" aria-hidden="true" tabindex="-1"></a><span class="fu">head</span>(data.dict)</span></code></pre></div>
 <pre><code>##                   Theme
 ## 1              SubTheme
 ## 2             Indicator
@@ -266,201 +326,473 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 ## 4                                       Denominator population for each indicator
 ## 5               Geographic aggregation levels of data obtained for each indicator
 ## 6                                               Data source(s) for each indicator</code></pre>
-<p>CDC’s natality and mortality data are downloaded from CDC Wonder. For reproducibility purposes, I’ve provided the 2 data files below (click to download):</p>
+<p>CDC’s natality and mortality data were downloaded from CDC Wonder. For reproducibility purposes, I will read the files from one of my GitHub repositories. The data are downloaded at the lowest level of detail needed for each calculation, because counts under10 will be suppressed (this is a concern with death counts in small states, and when disaggregating by race).</p>
+<div class="sourceCode" id="cb10"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb10-1"><a href="mvi-race.html#cb10-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Load natality and mortality data----</span></span>
+<span id="cb10-2"><a href="mvi-race.html#cb10-2" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb10-3"><a href="mvi-race.html#cb10-3" aria-hidden="true" tabindex="-1"></a><span class="do">## Region-level data ----</span></span>
+<span id="cb10-4"><a href="mvi-race.html#cb10-4" aria-hidden="true" tabindex="-1"></a><span class="co"># Births</span></span>
+<span id="cb10-5"><a href="mvi-race.html#cb10-5" aria-hidden="true" tabindex="-1"></a>wonder_births_region_under45yo_2007_2019 <span class="ot">&lt;-</span> <span class="fu">read.csv</span>(<span class="st">&#39;https://raw.githubusercontent.com/vvalerioh/valerio-portfolio/main/assets/data/wonder_births_region_under45yo_2007_2019.csv&#39;</span>)</span>
+<span id="cb10-6"><a href="mvi-race.html#cb10-6" aria-hidden="true" tabindex="-1"></a><span class="co"># Deaths</span></span>
+<span id="cb10-7"><a href="mvi-race.html#cb10-7" aria-hidden="true" tabindex="-1"></a>wonder_deaths_region_under45yo_2007_2019 <span class="ot">&lt;-</span> <span class="fu">read.csv</span>(<span class="st">&#39;https://raw.githubusercontent.com/vvalerioh/valerio-portfolio/main/assets/data/wonder_deaths_region_under45yo_2007_2019.csv&#39;</span>)</span>
+<span id="cb10-8"><a href="mvi-race.html#cb10-8" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb10-9"><a href="mvi-race.html#cb10-9" aria-hidden="true" tabindex="-1"></a><span class="do">## State-level data ----</span></span>
+<span id="cb10-10"><a href="mvi-race.html#cb10-10" aria-hidden="true" tabindex="-1"></a><span class="co"># Births</span></span>
+<span id="cb10-11"><a href="mvi-race.html#cb10-11" aria-hidden="true" tabindex="-1"></a>wonder_deaths_total_state_under45yo_2007_2019 <span class="ot">&lt;-</span> <span class="fu">read.csv</span>(<span class="st">&#39;https://raw.githubusercontent.com/vvalerioh/valerio-portfolio/main/assets/data/wonder_deaths_total_state_under45yo_2007_2019.csv&#39;</span>)</span>
+<span id="cb10-12"><a href="mvi-race.html#cb10-12" aria-hidden="true" tabindex="-1"></a><span class="co"># Deaths</span></span>
+<span id="cb10-13"><a href="mvi-race.html#cb10-13" aria-hidden="true" tabindex="-1"></a>wonder_births_total_state_under45yo_2007_2019 <span class="ot">&lt;-</span> <span class="fu">read.csv</span>(<span class="st">&#39;https://raw.githubusercontent.com/vvalerioh/valerio-portfolio/main/assets/data/wonder_births_total_state_under45yo_2007_2019.csv&#39;</span>)</span>
+<span id="cb10-14"><a href="mvi-race.html#cb10-14" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb10-15"><a href="mvi-race.html#cb10-15" aria-hidden="true" tabindex="-1"></a><span class="do">## State-level data by race and ethnicity ----</span></span>
+<span id="cb10-16"><a href="mvi-race.html#cb10-16" aria-hidden="true" tabindex="-1"></a><span class="co"># Births</span></span>
+<span id="cb10-17"><a href="mvi-race.html#cb10-17" aria-hidden="true" tabindex="-1"></a>wonder_births_state_race_ethn_under45yo_2007_2019 <span class="ot">&lt;-</span> <span class="fu">read.csv</span>(<span class="st">&#39;https://raw.githubusercontent.com/vvalerioh/valerio-portfolio/main/assets/data/wonder_births_state_race_ethn_under45yo_2007_2019.csv&#39;</span>)</span>
+<span id="cb10-18"><a href="mvi-race.html#cb10-18" aria-hidden="true" tabindex="-1"></a><span class="co"># Deaths</span></span>
+<span id="cb10-19"><a href="mvi-race.html#cb10-19" aria-hidden="true" tabindex="-1"></a>wonder_deaths_state_race_ethn_under45yo_2007_2019 <span class="ot">&lt;-</span> <span class="fu">read.csv</span>(<span class="st">&#39;https://raw.githubusercontent.com/vvalerioh/valerio-portfolio/main/assets/data/wonder_deaths_state_race_ethn_under45yo_2007_2019.csv&#39;</span>)</span></code></pre></div>
+<p>The residential segregation data were downloaded from County Health Rankings:</p>
+<div class="sourceCode" id="cb11"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb11-1"><a href="mvi-race.html#cb11-1" aria-hidden="true" tabindex="-1"></a><span class="do">## Res segregation state-level ----</span></span>
+<span id="cb11-2"><a href="mvi-race.html#cb11-2" aria-hidden="true" tabindex="-1"></a>df.res.segregation.state <span class="ot">&lt;-</span> <span class="fu">read.csv</span>(<span class="st">&#39;https://raw.githubusercontent.com/vvalerioh/valerio-portfolio/main/assets/data/2020-America_Health_Rankings_annual_report.csv&#39;</span>) <span class="sc">%&gt;%</span></span>
+<span id="cb11-3"><a href="mvi-race.html#cb11-3" aria-hidden="true" tabindex="-1"></a>  <span class="co"># Filter to desired measure and select relevant columns</span></span>
+<span id="cb11-4"><a href="mvi-race.html#cb11-4" aria-hidden="true" tabindex="-1"></a>  <span class="fu">filter</span>(Measure.Name <span class="sc">==</span> <span class="st">&#39;Residential Segregation&#39;</span>) <span class="sc">%&gt;%</span> </span>
+<span id="cb11-5"><a href="mvi-race.html#cb11-5" aria-hidden="true" tabindex="-1"></a>  <span class="fu">select</span>(<span class="at">State =</span> State.Name,</span>
+<span id="cb11-6"><a href="mvi-race.html#cb11-6" aria-hidden="true" tabindex="-1"></a>         <span class="at">res_segregation =</span> Value)</span></code></pre></div>
+<p>Population data are were downloaded from the American Community Survey:</p>
+<div class="sourceCode" id="cb12"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb12-1"><a href="mvi-race.html#cb12-1" aria-hidden="true" tabindex="-1"></a>pop_race_state <span class="ot">&lt;-</span> <span class="fu">read.csv</span>(<span class="st">&#39;https://raw.githubusercontent.com/vvalerioh/valerio-portfolio/main/assets/data/pop_race_state.csv&#39;</span>)</span>
+<span id="cb12-2"><a href="mvi-race.html#cb12-2" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb12-3"><a href="mvi-race.html#cb12-3" aria-hidden="true" tabindex="-1"></a><span class="co"># census.regions df needed to simplify plotting</span></span>
+<span id="cb12-4"><a href="mvi-race.html#cb12-4" aria-hidden="true" tabindex="-1"></a>census.regions <span class="ot">&lt;-</span> <span class="fu">read.csv</span>(<span class="st">&#39;https://raw.githubusercontent.com/vvalerioh/valerio-portfolio/main/assets/data/census_regions.csv&#39;</span>)</span></code></pre></div>
+</div>
+<div id="pre-process" class="section level3" number="2.4.2">
+<h3><span class="header-section-number">2.4.2</span> Pre-process</h3>
+<p>Then, I calculate:</p>
 <ol style="list-style-type: decimal">
-<li><p><a href="">Natality data</a></p></li>
-<li><p><a href="">Mortality data</a></p></li>
+<li>Maternal Mortality Ratio (MMR) for the US - using region-level data</li>
+<li>MMR by state - Using state-level data</li>
+<li>MMR by state and race and ethnicity - Using the state-level data by race and ethnicity</li>
 </ol>
-<div id="race-and-ethnicity" class="section level3">
-<h3><span class="header-section-number">2.4.1</span> Race and ethnicity</h3>
-</div>
-<div id="births" class="section level3">
-<h3><span class="header-section-number">2.4.2</span> Births</h3>
-</div>
-<div id="deaths" class="section level3">
-<h3><span class="header-section-number">2.4.3</span> Deaths</h3>
-<p>Following <a href="https://www.cdc.gov/nchs/data/hestat/maternal-mortality-2021/E-Stat-Maternal-Mortality-Rates-H.pdf">Hoyert (2019)</a>, deaths were included if the underlying cause of death corresponded to ICD-10 (International Statistical Classification of Diseases, 10th Revision) codes A34, O00-O95, and O98-O99. Only births and deaths to and of mothers under 45 years of age were included, following the CDC’s recommendations - which are based on <a href="https://www.cdc.gov/nchs/maternal-mortality/faq.htm">NCHS assessment of errors</a>.</p>
-<div id="maternal-mortality-ratio-mmr" class="section level4">
-<h4><span class="header-section-number">2.4.3.1</span> Maternal Mortality Ratio (MMR)</h4>
 <p>The Maternal Mortality Ratio was calculated as: <span class="math inline">\(MMR = (deaths/births)* 100,000 births\)</span></p>
+<div class="sourceCode" id="cb13"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb13-1"><a href="mvi-race.html#cb13-1" aria-hidden="true" tabindex="-1"></a><span class="co"># 1 US MMR (ALL states 2007-2019)----</span></span>
+<span id="cb13-2"><a href="mvi-race.html#cb13-2" aria-hidden="true" tabindex="-1"></a>mmr.us <span class="ot">&lt;-</span> wonder_deaths_region_under45yo_2007_2019 <span class="sc">%&gt;%</span> </span>
+<span id="cb13-3"><a href="mvi-race.html#cb13-3" aria-hidden="true" tabindex="-1"></a>  <span class="fu">filter</span>(Census.Region <span class="sc">!=</span> <span class="st">&#39;&#39;</span>) <span class="sc">%&gt;%</span></span>
+<span id="cb13-4"><a href="mvi-race.html#cb13-4" aria-hidden="true" tabindex="-1"></a>  <span class="fu">mutate</span>(<span class="at">Deaths =</span> <span class="fu">as.numeric</span>(Deaths)) <span class="sc">%&gt;%</span> </span>
+<span id="cb13-5"><a href="mvi-race.html#cb13-5" aria-hidden="true" tabindex="-1"></a>  <span class="fu">left_join</span>(wonder_births_region_under45yo_2007_2019 <span class="sc">%&gt;%</span></span>
+<span id="cb13-6"><a href="mvi-race.html#cb13-6" aria-hidden="true" tabindex="-1"></a>              <span class="fu">filter</span>(Census.Region<span class="sc">!=</span><span class="st">&#39;&#39;</span>) <span class="sc">%&gt;%</span></span>
+<span id="cb13-7"><a href="mvi-race.html#cb13-7" aria-hidden="true" tabindex="-1"></a>              <span class="fu">mutate</span>(<span class="at">Births =</span> <span class="fu">as.numeric</span>(Births))) <span class="sc">%&gt;%</span></span>
+<span id="cb13-8"><a href="mvi-race.html#cb13-8" aria-hidden="true" tabindex="-1"></a>  <span class="fu">summarize</span>(<span class="at">mmr_us=</span><span class="fu">sum</span>(Deaths)<span class="sc">/</span><span class="fu">sum</span>(Births)<span class="sc">*</span><span class="dv">100000</span>)</span></code></pre></div>
+<pre><code>## Joining, by = c(&quot;Census.Region&quot;, &quot;Census.Region.Code&quot;)</code></pre>
+<div class="sourceCode" id="cb15"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb15-1"><a href="mvi-race.html#cb15-1" aria-hidden="true" tabindex="-1"></a><span class="co"># 2 State-level MMR (excludes VT due to suppression of deaths)----</span></span>
+<span id="cb15-2"><a href="mvi-race.html#cb15-2" aria-hidden="true" tabindex="-1"></a>mmr.state <span class="ot">&lt;-</span> wonder_deaths_total_state_under45yo_2007_2019 <span class="sc">%&gt;%</span> </span>
+<span id="cb15-3"><a href="mvi-race.html#cb15-3" aria-hidden="true" tabindex="-1"></a>  <span class="fu">transmute</span>(State, <span class="at">Deaths =</span> <span class="fu">as.numeric</span>(Deaths)) <span class="sc">%&gt;%</span></span>
+<span id="cb15-4"><a href="mvi-race.html#cb15-4" aria-hidden="true" tabindex="-1"></a>  <span class="fu">filter</span>(State <span class="sc">!=</span><span class="st">&#39;&#39;</span>) <span class="sc">%&gt;%</span></span>
+<span id="cb15-5"><a href="mvi-race.html#cb15-5" aria-hidden="true" tabindex="-1"></a>  <span class="fu">left_join</span>(wonder_births_total_state_under45yo_2007_2019 <span class="sc">%&gt;%</span> </span>
+<span id="cb15-6"><a href="mvi-race.html#cb15-6" aria-hidden="true" tabindex="-1"></a>              <span class="fu">select</span>(State, Births) <span class="sc">%&gt;%</span> </span>
+<span id="cb15-7"><a href="mvi-race.html#cb15-7" aria-hidden="true" tabindex="-1"></a>              <span class="fu">filter</span>(State<span class="sc">!=</span><span class="st">&#39;&#39;</span>)) <span class="sc">%&gt;%</span></span>
+<span id="cb15-8"><a href="mvi-race.html#cb15-8" aria-hidden="true" tabindex="-1"></a>  <span class="fu">mutate</span>(<span class="at">mmr_state =</span> Deaths<span class="sc">/</span>Births<span class="sc">*</span><span class="dv">100000</span>) <span class="sc">%&gt;%</span></span>
+<span id="cb15-9"><a href="mvi-race.html#cb15-9" aria-hidden="true" tabindex="-1"></a>  <span class="fu">left_join</span>(mvi.state) <span class="sc">%&gt;%</span></span>
+<span id="cb15-10"><a href="mvi-race.html#cb15-10" aria-hidden="true" tabindex="-1"></a>  <span class="fu">left_join</span>(df.res.segregation.state) <span class="sc">%&gt;%</span></span>
+<span id="cb15-11"><a href="mvi-race.html#cb15-11" aria-hidden="true" tabindex="-1"></a>  <span class="fu">left_join</span>(pop_race_state) <span class="sc">%&gt;%</span></span>
+<span id="cb15-12"><a href="mvi-race.html#cb15-12" aria-hidden="true" tabindex="-1"></a>  <span class="fu">mutate</span>(<span class="at">mvi_mc =</span> mvi <span class="sc">-</span> <span class="fu">mean</span>(mvi),</span>
+<span id="cb15-13"><a href="mvi-race.html#cb15-13" aria-hidden="true" tabindex="-1"></a>         <span class="at">res_segregation =</span> res_segregation <span class="sc">-</span> <span class="fu">mean</span>(res_segregation))</span></code></pre></div>
+<pre><code>## Joining, by = &quot;State&quot;</code></pre>
+<pre><code>## Joining, by = &quot;State&quot;
+## Joining, by = &quot;State&quot;</code></pre>
+<pre><code>## Joining, by = c(&quot;State&quot;, &quot;state_GEOID&quot;)</code></pre>
+<div class="sourceCode" id="cb19"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb19-1"><a href="mvi-race.html#cb19-1" aria-hidden="true" tabindex="-1"></a><span class="co"># 3 State-level MMR by race/ethnicity (excludes various states) ----</span></span>
+<span id="cb19-2"><a href="mvi-race.html#cb19-2" aria-hidden="true" tabindex="-1"></a><span class="do">## Deaths by race/ethnicity ----</span></span>
+<span id="cb19-3"><a href="mvi-race.html#cb19-3" aria-hidden="true" tabindex="-1"></a>df.deaths <span class="ot">&lt;-</span> wonder_deaths_state_race_ethn_under45yo_2007_2019 <span class="sc">%&gt;%</span></span>
+<span id="cb19-4"><a href="mvi-race.html#cb19-4" aria-hidden="true" tabindex="-1"></a>  <span class="fu">select</span>(<span class="sc">-</span>Notes) <span class="sc">%&gt;%</span></span>
+<span id="cb19-5"><a href="mvi-race.html#cb19-5" aria-hidden="true" tabindex="-1"></a>  <span class="fu">filter</span>(State<span class="sc">!=</span><span class="st">&#39;&#39;</span>) <span class="sc">%&gt;%</span></span>
+<span id="cb19-6"><a href="mvi-race.html#cb19-6" aria-hidden="true" tabindex="-1"></a>  <span class="co"># Filter our &#39;Not Stated&#39; Hispanic.Origin to minimize suppressed values</span></span>
+<span id="cb19-7"><a href="mvi-race.html#cb19-7" aria-hidden="true" tabindex="-1"></a>  <span class="co"># This ensures that once filtering in only Black and White later, only </span></span>
+<span id="cb19-8"><a href="mvi-race.html#cb19-8" aria-hidden="true" tabindex="-1"></a>  <span class="co"># Hispanic.Origins == Not Hispanic or Latino remain in the df</span></span>
+<span id="cb19-9"><a href="mvi-race.html#cb19-9" aria-hidden="true" tabindex="-1"></a>  <span class="fu">filter</span>(Hispanic.Origin<span class="sc">!=</span><span class="st">&#39;Not Stated&#39;</span>) <span class="sc">%&gt;%</span></span>
+<span id="cb19-10"><a href="mvi-race.html#cb19-10" aria-hidden="true" tabindex="-1"></a>  <span class="fu">mutate</span>(<span class="at">race_ethn =</span> <span class="fu">case_when</span>(</span>
+<span id="cb19-11"><a href="mvi-race.html#cb19-11" aria-hidden="true" tabindex="-1"></a>    Race <span class="sc">==</span> <span class="st">&#39;White&#39;</span> <span class="sc">&amp;</span> Hispanic.Origin <span class="sc">!=</span> <span class="st">&#39;Hispanic or Latino&#39;</span> <span class="sc">~</span> <span class="st">&#39;White&#39;</span>,</span>
+<span id="cb19-12"><a href="mvi-race.html#cb19-12" aria-hidden="true" tabindex="-1"></a>    Race <span class="sc">==</span> <span class="st">&#39;Black or African American&#39;</span> <span class="sc">&amp;</span> Hispanic.Origin <span class="sc">!=</span> <span class="st">&#39;Hispanic or Latino&#39;</span> <span class="sc">~</span> <span class="st">&#39;Black&#39;</span>,</span>
+<span id="cb19-13"><a href="mvi-race.html#cb19-13" aria-hidden="true" tabindex="-1"></a>    Race <span class="sc">==</span> <span class="st">&#39;American Indian or Alaska Native&#39;</span> <span class="sc">&amp;</span> Hispanic.Origin <span class="sc">!=</span> <span class="st">&#39;Hispanic or Latino&#39;</span> <span class="sc">~</span> <span class="st">&#39;AIAN&#39;</span>,</span>
+<span id="cb19-14"><a href="mvi-race.html#cb19-14" aria-hidden="true" tabindex="-1"></a>    Race <span class="sc">==</span> <span class="st">&#39;Asian or Pacific Islander&#39;</span> <span class="sc">&amp;</span> Hispanic.Origin <span class="sc">!=</span> <span class="st">&#39;Hispanic or Latino&#39;</span> <span class="sc">~</span> <span class="st">&#39;AAPI&#39;</span>,</span>
+<span id="cb19-15"><a href="mvi-race.html#cb19-15" aria-hidden="true" tabindex="-1"></a>    Hispanic.Origin <span class="sc">==</span> <span class="st">&#39;Hispanic or Latino&#39;</span> <span class="sc">~</span> <span class="st">&#39;Hispanic or Latino&#39;</span>  ),</span>
+<span id="cb19-16"><a href="mvi-race.html#cb19-16" aria-hidden="true" tabindex="-1"></a>    <span class="at">Deaths =</span> <span class="fu">as.numeric</span>(Deaths)) <span class="sc">%&gt;%</span></span>
+<span id="cb19-17"><a href="mvi-race.html#cb19-17" aria-hidden="true" tabindex="-1"></a>  <span class="co"># For White and Black race_ethn only, calculate how many suppressed values there are</span></span>
+<span id="cb19-18"><a href="mvi-race.html#cb19-18" aria-hidden="true" tabindex="-1"></a>  <span class="co"># if 1 or more, that state needs to be excluded from the regression completely</span></span>
+<span id="cb19-19"><a href="mvi-race.html#cb19-19" aria-hidden="true" tabindex="-1"></a>  <span class="fu">filter</span>(race_ethn <span class="sc">%in%</span> <span class="fu">c</span>(<span class="st">&#39;White&#39;</span>, <span class="st">&#39;Black&#39;</span>)) <span class="sc">%&gt;%</span></span>
+<span id="cb19-20"><a href="mvi-race.html#cb19-20" aria-hidden="true" tabindex="-1"></a>  <span class="co"># For each State, how many suppressed values remain?</span></span>
+<span id="cb19-21"><a href="mvi-race.html#cb19-21" aria-hidden="true" tabindex="-1"></a>  <span class="fu">group_by</span>(State) <span class="sc">%&gt;%</span></span>
+<span id="cb19-22"><a href="mvi-race.html#cb19-22" aria-hidden="true" tabindex="-1"></a>  <span class="fu">mutate</span>(<span class="at">n_suppressed_rows =</span> <span class="fu">sum</span>(<span class="fu">is.na</span>(Deaths)))</span>
+<span id="cb19-23"><a href="mvi-race.html#cb19-23" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb19-24"><a href="mvi-race.html#cb19-24" aria-hidden="true" tabindex="-1"></a><span class="do">## Births by race/ethnicity ----</span></span>
+<span id="cb19-25"><a href="mvi-race.html#cb19-25" aria-hidden="true" tabindex="-1"></a>df.births <span class="ot">&lt;-</span> wonder_births_state_race_ethn_under45yo_2007_2019 <span class="sc">%&gt;%</span></span>
+<span id="cb19-26"><a href="mvi-race.html#cb19-26" aria-hidden="true" tabindex="-1"></a>  <span class="fu">rename</span> (<span class="at">Notes=</span><span class="dv">1</span>) <span class="sc">%&gt;%</span></span>
+<span id="cb19-27"><a href="mvi-race.html#cb19-27" aria-hidden="true" tabindex="-1"></a>  <span class="fu">select</span>(<span class="sc">-</span>Notes) <span class="sc">%&gt;%</span></span>
+<span id="cb19-28"><a href="mvi-race.html#cb19-28" aria-hidden="true" tabindex="-1"></a>  <span class="fu">filter</span>(State<span class="sc">!=</span><span class="st">&#39;&#39;</span>) <span class="sc">%&gt;%</span></span>
+<span id="cb19-29"><a href="mvi-race.html#cb19-29" aria-hidden="true" tabindex="-1"></a>  <span class="co"># Filter out unknown Mother.s.Hispanic.Origin == &#39;Unknown or Not Stated&#39;</span></span>
+<span id="cb19-30"><a href="mvi-race.html#cb19-30" aria-hidden="true" tabindex="-1"></a>  <span class="fu">filter</span>(Mother.s.Hispanic.Origin <span class="sc">!=</span> <span class="st">&#39;Unknown or Not Stated&#39;</span>) <span class="sc">%&gt;%</span></span>
+<span id="cb19-31"><a href="mvi-race.html#cb19-31" aria-hidden="true" tabindex="-1"></a>  <span class="fu">mutate</span>(State,</span>
+<span id="cb19-32"><a href="mvi-race.html#cb19-32" aria-hidden="true" tabindex="-1"></a>           <span class="at">race_ethn =</span> <span class="fu">case_when</span>(</span>
+<span id="cb19-33"><a href="mvi-race.html#cb19-33" aria-hidden="true" tabindex="-1"></a>             Mother.s.Bridged.Race <span class="sc">==</span> <span class="st">&#39;White&#39;</span> <span class="sc">&amp;</span> Mother.s.Hispanic.Origin <span class="sc">==</span> <span class="st">&#39;Not Hispanic or Latino&#39;</span> <span class="sc">~</span> <span class="st">&#39;White&#39;</span>,</span>
+<span id="cb19-34"><a href="mvi-race.html#cb19-34" aria-hidden="true" tabindex="-1"></a>             Mother.s.Bridged.Race <span class="sc">==</span> <span class="st">&#39;Black or African American&#39;</span> <span class="sc">&amp;</span> Mother.s.Hispanic.Origin <span class="sc">==</span> <span class="st">&#39;Not Hispanic or Latino&#39;</span> <span class="sc">~</span> <span class="st">&#39;Black&#39;</span>,</span>
+<span id="cb19-35"><a href="mvi-race.html#cb19-35" aria-hidden="true" tabindex="-1"></a>             Mother.s.Bridged.Race <span class="sc">==</span> <span class="st">&#39;American Indian or Alaska Native&#39;</span> <span class="sc">&amp;</span> Mother.s.Hispanic.Origin <span class="sc">==</span> <span class="st">&#39;Not Hispanic or Latino&#39;</span> <span class="sc">~</span> <span class="st">&#39;AIAN&#39;</span>,</span>
+<span id="cb19-36"><a href="mvi-race.html#cb19-36" aria-hidden="true" tabindex="-1"></a>             Mother.s.Bridged.Race <span class="sc">==</span> <span class="st">&#39;Asian or Pacific Islander&#39;</span> <span class="sc">&amp;</span> Mother.s.Hispanic.Origin <span class="sc">==</span> <span class="st">&#39;Not Hispanic or Latino&#39;</span> <span class="sc">~</span> <span class="st">&#39;AAPI&#39;</span>,</span>
+<span id="cb19-37"><a href="mvi-race.html#cb19-37" aria-hidden="true" tabindex="-1"></a>             Mother.s.Hispanic.Origin <span class="sc">==</span> <span class="st">&#39;Hispanic or Latino&#39;</span> <span class="sc">~</span> <span class="st">&#39;Hispanic or Latino&#39;</span>  )) <span class="sc">%&gt;%</span></span>
+<span id="cb19-38"><a href="mvi-race.html#cb19-38" aria-hidden="true" tabindex="-1"></a>  <span class="fu">filter</span>(race_ethn <span class="sc">%in%</span> <span class="fu">c</span>(<span class="st">&#39;Black&#39;</span>, <span class="st">&#39;White&#39;</span>))</span>
+<span id="cb19-39"><a href="mvi-race.html#cb19-39" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb19-40"><a href="mvi-race.html#cb19-40" aria-hidden="true" tabindex="-1"></a><span class="co"># Check that no suppressed values remain before adding Births by race_ethn and State</span></span>
+<span id="cb19-41"><a href="mvi-race.html#cb19-41" aria-hidden="true" tabindex="-1"></a><span class="fu">stopifnot</span>(df.births<span class="sc">$</span>Births<span class="sc">%&gt;%</span><span class="fu">is.na</span>()<span class="sc">%&gt;%</span><span class="fu">sum</span>()<span class="sc">==</span><span class="dv">0</span>)</span>
+<span id="cb19-42"><a href="mvi-race.html#cb19-42" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb19-43"><a href="mvi-race.html#cb19-43" aria-hidden="true" tabindex="-1"></a><span class="co"># Add births by race_ethn and state</span></span>
+<span id="cb19-44"><a href="mvi-race.html#cb19-44" aria-hidden="true" tabindex="-1"></a>df.births1 <span class="ot">&lt;-</span> df.births <span class="sc">%&gt;%</span></span>
+<span id="cb19-45"><a href="mvi-race.html#cb19-45" aria-hidden="true" tabindex="-1"></a>  <span class="fu">group_by</span>(State, race_ethn) <span class="sc">%&gt;%</span></span>
+<span id="cb19-46"><a href="mvi-race.html#cb19-46" aria-hidden="true" tabindex="-1"></a>  <span class="fu">summarize</span>(<span class="at">Births =</span> <span class="fu">sum</span>(<span class="fu">as.numeric</span>(Births)))</span></code></pre></div>
+<pre><code>## `summarise()` has grouped output by &#39;State&#39;. You can override using the `.groups` argument.</code></pre>
+<div class="sourceCode" id="cb21"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb21-1"><a href="mvi-race.html#cb21-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Check that no NAs in Births column </span></span>
+<span id="cb21-2"><a href="mvi-race.html#cb21-2" aria-hidden="true" tabindex="-1"></a><span class="fu">stopifnot</span>(df.births1<span class="sc">$</span>Births<span class="sc">%&gt;%</span><span class="fu">is.na</span>()<span class="sc">%&gt;%</span><span class="fu">sum</span>()<span class="sc">==</span><span class="dv">0</span>)</span>
+<span id="cb21-3"><a href="mvi-race.html#cb21-3" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb21-4"><a href="mvi-race.html#cb21-4" aria-hidden="true" tabindex="-1"></a><span class="do">#### State-level df ----</span></span>
+<span id="cb21-5"><a href="mvi-race.html#cb21-5" aria-hidden="true" tabindex="-1"></a>mmr.state.race.ethn <span class="ot">&lt;-</span> df.deaths <span class="sc">%&gt;%</span> <span class="fu">select</span>(<span class="sc">-</span>State.Code)<span class="sc">%&gt;%</span> </span>
+<span id="cb21-6"><a href="mvi-race.html#cb21-6" aria-hidden="true" tabindex="-1"></a>  <span class="fu">left_join</span>(df.births1)<span class="sc">%&gt;%</span> </span>
+<span id="cb21-7"><a href="mvi-race.html#cb21-7" aria-hidden="true" tabindex="-1"></a>  <span class="co"># Calculate mmr by race_ethnicity</span></span>
+<span id="cb21-8"><a href="mvi-race.html#cb21-8" aria-hidden="true" tabindex="-1"></a>  <span class="co"># Because some values are suppressed, some MMRs (mmr column) will be NAs</span></span>
+<span id="cb21-9"><a href="mvi-race.html#cb21-9" aria-hidden="true" tabindex="-1"></a>  <span class="co"># race_ethn has been filtered to White or Black only in earlier steps</span></span>
+<span id="cb21-10"><a href="mvi-race.html#cb21-10" aria-hidden="true" tabindex="-1"></a>  <span class="co"># Note: </span></span>
+<span id="cb21-11"><a href="mvi-race.html#cb21-11" aria-hidden="true" tabindex="-1"></a>  <span class="co"># The births used in the mmr calculation do not include </span></span>
+<span id="cb21-12"><a href="mvi-race.html#cb21-12" aria-hidden="true" tabindex="-1"></a>  <span class="co"># Mother.sHispanic.Origin == &#39;Unknown or not stated&quot;</span></span>
+<span id="cb21-13"><a href="mvi-race.html#cb21-13" aria-hidden="true" tabindex="-1"></a>  <span class="co"># The deaths used in the mmr calculation do not include</span></span>
+<span id="cb21-14"><a href="mvi-race.html#cb21-14" aria-hidden="true" tabindex="-1"></a>  <span class="co"># Hispanic.Origin == &#39;Not Stated&#39; </span></span>
+<span id="cb21-15"><a href="mvi-race.html#cb21-15" aria-hidden="true" tabindex="-1"></a>  <span class="fu">mutate</span>(<span class="at">mmr =</span> Deaths<span class="sc">/</span>Births<span class="sc">*</span><span class="dv">100000</span>) <span class="sc">%&gt;%</span></span>
+<span id="cb21-16"><a href="mvi-race.html#cb21-16" aria-hidden="true" tabindex="-1"></a>  <span class="fu">left_join</span>(mmr.state <span class="sc">%&gt;%</span> <span class="fu">select</span>(State, mmr_state)) <span class="sc">%&gt;%</span></span>
+<span id="cb21-17"><a href="mvi-race.html#cb21-17" aria-hidden="true" tabindex="-1"></a>  <span class="fu">left_join</span>(mvi.state) <span class="sc">%&gt;%</span></span>
+<span id="cb21-18"><a href="mvi-race.html#cb21-18" aria-hidden="true" tabindex="-1"></a>  <span class="fu">left_join</span>(census.regions) <span class="sc">%&gt;%</span></span>
+<span id="cb21-19"><a href="mvi-race.html#cb21-19" aria-hidden="true" tabindex="-1"></a>  <span class="co"># add structural racism data</span></span>
+<span id="cb21-20"><a href="mvi-race.html#cb21-20" aria-hidden="true" tabindex="-1"></a>  <span class="fu">left_join</span>(df.res.segregation.state) <span class="sc">%&gt;%</span></span>
+<span id="cb21-21"><a href="mvi-race.html#cb21-21" aria-hidden="true" tabindex="-1"></a>  <span class="fu">left_join</span>(pop_race_state<span class="sc">%&gt;%</span><span class="fu">select</span>(State,</span>
+<span id="cb21-22"><a href="mvi-race.html#cb21-22" aria-hidden="true" tabindex="-1"></a>                                        pop_wra_s,</span>
+<span id="cb21-23"><a href="mvi-race.html#cb21-23" aria-hidden="true" tabindex="-1"></a>                                        pop_wra_black,</span>
+<span id="cb21-24"><a href="mvi-race.html#cb21-24" aria-hidden="true" tabindex="-1"></a>                                        pop_wra_white) <span class="sc">%&gt;%</span></span>
+<span id="cb21-25"><a href="mvi-race.html#cb21-25" aria-hidden="true" tabindex="-1"></a>              <span class="fu">pivot_longer</span>(<span class="fu">c</span>(pop_wra_black, pop_wra_white),</span>
+<span id="cb21-26"><a href="mvi-race.html#cb21-26" aria-hidden="true" tabindex="-1"></a>                           <span class="at">names_to =</span> <span class="st">&#39;race_ethn&#39;</span>,</span>
+<span id="cb21-27"><a href="mvi-race.html#cb21-27" aria-hidden="true" tabindex="-1"></a>                           <span class="at">values_to =</span> <span class="st">&#39;pop_wra_race_ethn&#39;</span>) <span class="sc">%&gt;%</span></span>
+<span id="cb21-28"><a href="mvi-race.html#cb21-28" aria-hidden="true" tabindex="-1"></a>              <span class="fu">mutate</span>(<span class="at">race_ethn =</span> <span class="fu">case_when</span>(race_ethn <span class="sc">==</span> <span class="st">&#39;pop_wra_white&#39;</span> <span class="sc">~</span> <span class="st">&#39;White&#39;</span>,</span>
+<span id="cb21-29"><a href="mvi-race.html#cb21-29" aria-hidden="true" tabindex="-1"></a>                                           race_ethn <span class="sc">==</span> <span class="st">&#39;pop_wra_black&#39;</span> <span class="sc">~</span> <span class="st">&#39;Black&#39;</span>))) <span class="sc">%&gt;%</span></span>
+<span id="cb21-30"><a href="mvi-race.html#cb21-30" aria-hidden="true" tabindex="-1"></a>  <span class="fu">ungroup</span>() <span class="sc">%&gt;%</span></span>
+<span id="cb21-31"><a href="mvi-race.html#cb21-31" aria-hidden="true" tabindex="-1"></a>  <span class="co"># Mean-center MVI scores and residential segregation    </span></span>
+<span id="cb21-32"><a href="mvi-race.html#cb21-32" aria-hidden="true" tabindex="-1"></a>  <span class="fu">mutate</span>(<span class="at">mvi_mc =</span> mvi <span class="sc">-</span> <span class="fu">mean</span>(mvi),</span>
+<span id="cb21-33"><a href="mvi-race.html#cb21-33" aria-hidden="true" tabindex="-1"></a>         <span class="at">res_segregation_mc =</span> res_segregation <span class="sc">-</span> <span class="fu">mean</span>(res_segregation)) <span class="sc">%&gt;%</span></span>
+<span id="cb21-34"><a href="mvi-race.html#cb21-34" aria-hidden="true" tabindex="-1"></a>  <span class="co"># Select only columns needed</span></span>
+<span id="cb21-35"><a href="mvi-race.html#cb21-35" aria-hidden="true" tabindex="-1"></a>  <span class="fu">select</span>(State, Deaths, Births, mmr, Population, race_ethn, pop_wra_race_ethn, n_suppressed_rows, mvi, mvi_mc, res_segregation, res_segregation_mc)</span></code></pre></div>
+<pre><code>## Joining, by = c(&quot;State&quot;, &quot;race_ethn&quot;)</code></pre>
+<pre><code>## Joining, by = &quot;State&quot;
+## Joining, by = &quot;State&quot;</code></pre>
+<pre><code>## Joining, by = c(&quot;State&quot;, &quot;state_GEOID&quot;)</code></pre>
+<pre><code>## Joining, by = &quot;State&quot;</code></pre>
+<pre><code>## Joining, by = c(&quot;State&quot;, &quot;race_ethn&quot;)</code></pre>
 </div>
-<div id="analysis" class="section level4">
-<h4><span class="header-section-number">2.4.3.2</span> Analysis</h4>
-<div class="sourceCode" id="cb6"><pre class="sourceCode r"><code class="sourceCode r"><a class="sourceLine" id="cb6-1" title="1"><span class="kw">par</span>(<span class="dt">mar =</span> <span class="kw">c</span>(<span class="dv">4</span>, <span class="dv">4</span>, <span class="fl">.1</span>, <span class="fl">.1</span>))</a>
-<a class="sourceLine" id="cb6-2" title="2"><span class="kw">plot</span>(pressure, <span class="dt">type =</span> <span class="st">&#39;b&#39;</span>, <span class="dt">pch =</span> <span class="dv">19</span>)</a></code></pre></div>
-<div class="figure" style="text-align: center"><span id="fig:nice-fig"></span>
-<img src="valerio-portfolio_files/figure-html/nice-fig-1.png" alt="Here is a nice figure!" width="80%" />
-<p class="caption">
-Figure 2.1: Here is a nice figure!
-</p>
 </div>
-<p>Reference a figure by its code chunk label with the <code>fig:</code> prefix, e.g., see Figure <a href="mvi-race.html#fig:nice-fig">2.1</a>. Similarly, you can reference tables generated from <code>knitr::kable()</code>, e.g., see Table <a href="mvi-race.html#tab:nice-tab">2.2</a>.</p>
-<div class="sourceCode" id="cb7"><pre class="sourceCode r"><code class="sourceCode r"><a class="sourceLine" id="cb7-1" title="1">knitr<span class="op">::</span><span class="kw">kable</span>(</a>
-<a class="sourceLine" id="cb7-2" title="2">  <span class="kw">head</span>(iris, <span class="dv">20</span>), <span class="dt">caption =</span> <span class="st">&#39;Here is a nice table!&#39;</span>,</a>
-<a class="sourceLine" id="cb7-3" title="3">  <span class="dt">booktabs =</span> <span class="ot">TRUE</span></a>
-<a class="sourceLine" id="cb7-4" title="4">)</a></code></pre></div>
-<table>
-<caption><span id="tab:nice-tab">Table 2.2: </span>Here is a nice table!</caption>
-<thead>
-<tr class="header">
-<th align="right">Sepal.Length</th>
-<th align="right">Sepal.Width</th>
-<th align="right">Petal.Length</th>
-<th align="right">Petal.Width</th>
-<th align="left">Species</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td align="right">5.1</td>
-<td align="right">3.5</td>
-<td align="right">1.4</td>
-<td align="right">0.2</td>
-<td align="left">setosa</td>
-</tr>
-<tr class="even">
-<td align="right">4.9</td>
-<td align="right">3.0</td>
-<td align="right">1.4</td>
-<td align="right">0.2</td>
-<td align="left">setosa</td>
-</tr>
-<tr class="odd">
-<td align="right">4.7</td>
-<td align="right">3.2</td>
-<td align="right">1.3</td>
-<td align="right">0.2</td>
-<td align="left">setosa</td>
-</tr>
-<tr class="even">
-<td align="right">4.6</td>
-<td align="right">3.1</td>
-<td align="right">1.5</td>
-<td align="right">0.2</td>
-<td align="left">setosa</td>
-</tr>
-<tr class="odd">
-<td align="right">5.0</td>
-<td align="right">3.6</td>
-<td align="right">1.4</td>
-<td align="right">0.2</td>
-<td align="left">setosa</td>
-</tr>
-<tr class="even">
-<td align="right">5.4</td>
-<td align="right">3.9</td>
-<td align="right">1.7</td>
-<td align="right">0.4</td>
-<td align="left">setosa</td>
-</tr>
-<tr class="odd">
-<td align="right">4.6</td>
-<td align="right">3.4</td>
-<td align="right">1.4</td>
-<td align="right">0.3</td>
-<td align="left">setosa</td>
-</tr>
-<tr class="even">
-<td align="right">5.0</td>
-<td align="right">3.4</td>
-<td align="right">1.5</td>
-<td align="right">0.2</td>
-<td align="left">setosa</td>
-</tr>
-<tr class="odd">
-<td align="right">4.4</td>
-<td align="right">2.9</td>
-<td align="right">1.4</td>
-<td align="right">0.2</td>
-<td align="left">setosa</td>
-</tr>
-<tr class="even">
-<td align="right">4.9</td>
-<td align="right">3.1</td>
-<td align="right">1.5</td>
-<td align="right">0.1</td>
-<td align="left">setosa</td>
-</tr>
-<tr class="odd">
-<td align="right">5.4</td>
-<td align="right">3.7</td>
-<td align="right">1.5</td>
-<td align="right">0.2</td>
-<td align="left">setosa</td>
-</tr>
-<tr class="even">
-<td align="right">4.8</td>
-<td align="right">3.4</td>
-<td align="right">1.6</td>
-<td align="right">0.2</td>
-<td align="left">setosa</td>
-</tr>
-<tr class="odd">
-<td align="right">4.8</td>
-<td align="right">3.0</td>
-<td align="right">1.4</td>
-<td align="right">0.1</td>
-<td align="left">setosa</td>
-</tr>
-<tr class="even">
-<td align="right">4.3</td>
-<td align="right">3.0</td>
-<td align="right">1.1</td>
-<td align="right">0.1</td>
-<td align="left">setosa</td>
-</tr>
-<tr class="odd">
-<td align="right">5.8</td>
-<td align="right">4.0</td>
-<td align="right">1.2</td>
-<td align="right">0.2</td>
-<td align="left">setosa</td>
-</tr>
-<tr class="even">
-<td align="right">5.7</td>
-<td align="right">4.4</td>
-<td align="right">1.5</td>
-<td align="right">0.4</td>
-<td align="left">setosa</td>
-</tr>
-<tr class="odd">
-<td align="right">5.4</td>
-<td align="right">3.9</td>
-<td align="right">1.3</td>
-<td align="right">0.4</td>
-<td align="left">setosa</td>
-</tr>
-<tr class="even">
-<td align="right">5.1</td>
-<td align="right">3.5</td>
-<td align="right">1.4</td>
-<td align="right">0.3</td>
-<td align="left">setosa</td>
-</tr>
-<tr class="odd">
-<td align="right">5.7</td>
-<td align="right">3.8</td>
-<td align="right">1.7</td>
-<td align="right">0.3</td>
-<td align="left">setosa</td>
-</tr>
-<tr class="even">
-<td align="right">5.1</td>
-<td align="right">3.8</td>
-<td align="right">1.5</td>
-<td align="right">0.3</td>
-<td align="left">setosa</td>
-</tr>
-</tbody>
-</table>
+<div id="results" class="section level2" number="2.5">
+<h2><span class="header-section-number">2.5</span> Results</h2>
+<div id="data-viz" class="section level3" number="2.5.1">
+<h3><span class="header-section-number">2.5.1</span> Data visualization and exploration</h3>
+<ul>
+<li>The US MMR (2007-2019) was 16.3 per 100k live births</li>
+<li>Most states have an MMR between 10 and 25 deaths per 100k live births</li>
+<li>To minimize states with suppressed data, this analysis will focus on the White and Black MMRs only</li>
+</ul>
+<pre><code>##     mmr_us
+## 1 16.26307</code></pre>
+<p><img src="valerio-portfolio_files/figure-html/unnamed-chunk-8-1.png" width="672" /></p>
+<p><img src="valerio-portfolio_files/figure-html/unnamed-chunk-9-1.png" width="672" /></p>
+<p><img src="valerio-portfolio_files/figure-html/fig-race-ethn-1.png" width="672" /></p>
+<p>Visualize the distribution of residential segregation scores:</p>
+<p><img src="valerio-portfolio_files/figure-html/unnamed-chunk-10-1.png" width="672" /></p>
+<p>Determine if MVI, MMR and residential segregation are correlated (unweighted) before statistical modeling:</p>
+<ul>
+<li>There is a strong correlation (0.65) between MVI and state-MMR, but they are not colinear</li>
+<li>In general, states with high MMR don’t necessarily have high residential segregation</li>
+<li>Highly vulnerable states are not necessarily highly segregated</li>
+<li>Even though the MVI is built without explicitly weighting its themes, sub-themes and indicators, its multi-dimensional nature might be capturing many factors that make an environment more or less safe for birthing people (hence the high correlation)</li>
+</ul>
+<p><img src="valerio-portfolio_files/figure-html/unnamed-chunk-11-1.png" width="672" /></p>
 </div>
+<div id="stat-model" class="section level3" number="2.5.2">
+<h3><span class="header-section-number">2.5.2</span> Statistical modeling</h3>
+<ol style="list-style-type: decimal">
+<li><strong>Examine the relationship between maternal vulnerability and maternal morality at the state level in the US</strong></li>
+</ol>
+<p><strong>Findings:</strong></p>
+<ul>
+<li>MVI is significantly associated with state-level MMR, in both (1) population-weighted and (2) unweighted analyses. The small sample might be a concern when modeling this relationship, however there are over 30 observations and just one covariate in these first model fits.</li>
+<li>There are no strong concerns about violating linear model assumptions</li>
+</ul>
+<pre><code>## 
+## Call:
+## lm(formula = mmr_state ~ mvi_mc, data = mmr.state)
+## 
+## Residuals:
+##     Min      1Q  Median      3Q     Max 
+## -9.8014 -2.7784 -0.2653  2.8935 11.6276 
+## 
+## Coefficients:
+##             Estimate Std. Error t value Pr(&gt;|t|)    
+## (Intercept) 16.35756    0.60861  26.877  &lt; 2e-16 ***
+## mvi_mc       0.12515    0.02103   5.952 2.96e-07 ***
+## ---
+## Signif. codes:  0 &#39;***&#39; 0.001 &#39;**&#39; 0.01 &#39;*&#39; 0.05 &#39;.&#39; 0.1 &#39; &#39; 1
+## 
+## Residual standard error: 4.301 on 48 degrees of freedom
+##   (1 observation deleted due to missingness)
+## Multiple R-squared:  0.4247, Adjusted R-squared:  0.4127 
+## F-statistic: 35.43 on 1 and 48 DF,  p-value: 2.964e-07</code></pre>
+<p><img src="valerio-portfolio_files/figure-html/unnamed-chunk-12-1.png" width="672" /></p>
+<pre><code>## 
+## Call:
+## lm(formula = mmr_state ~ mvi_mc, data = mmr.state, weights = pop_wra_s)
+## 
+## Weighted Residuals:
+##      Min       1Q   Median       3Q      Max 
+## -16464.5  -1231.9    803.6   2597.2  11910.5 
+## 
+## Coefficients:
+##             Estimate Std. Error t value Pr(&gt;|t|)    
+## (Intercept) 15.23458    0.60197  25.308  &lt; 2e-16 ***
+## mvi_mc       0.15540    0.02205   7.046 6.25e-09 ***
+## ---
+## Signif. codes:  0 &#39;***&#39; 0.001 &#39;**&#39; 0.01 &#39;*&#39; 0.05 &#39;.&#39; 0.1 &#39; &#39; 1
+## 
+## Residual standard error: 4686 on 48 degrees of freedom
+##   (1 observation deleted due to missingness)
+## Multiple R-squared:  0.5084, Adjusted R-squared:  0.4982 
+## F-statistic: 49.65 on 1 and 48 DF,  p-value: 6.251e-09</code></pre>
+<p>MVI is significantly associated with state-level MMR, for both (1) population-weighted and (2) unweighted analyses.</p>
+<div class="sourceCode" id="cb30"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb30-1"><a href="mvi-race.html#cb30-1" aria-hidden="true" tabindex="-1"></a>stargazer<span class="sc">::</span><span class="fu">stargazer</span>(f.mvi, f.mvi.w , <span class="at">type =</span> <span class="st">&#39;text&#39;</span>)</span></code></pre></div>
+<pre><code>## 
+## ==========================================================
+##                                   Dependent variable:     
+##                               ----------------------------
+##                                        mmr_state          
+##                                    (1)            (2)     
+## ----------------------------------------------------------
+## mvi_mc                           0.125***      0.155***   
+##                                  (0.021)        (0.022)   
+##                                                           
+## Constant                        16.358***      15.235***  
+##                                  (0.609)        (0.602)   
+##                                                           
+## ----------------------------------------------------------
+## Observations                        50            50      
+## R2                                0.425          0.508    
+## Adjusted R2                       0.413          0.498    
+## Residual Std. Error (df = 48)     4.301        4,686.385  
+## F Statistic (df = 1; 48)        35.431***      49.646***  
+## ==========================================================
+## Note:                          *p&lt;0.1; **p&lt;0.05; ***p&lt;0.01</code></pre>
+<div class="sourceCode" id="cb32"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb32-1"><a href="mvi-race.html#cb32-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Calculate estimated marginal means ------</span></span>
+<span id="cb32-2"><a href="mvi-race.html#cb32-2" aria-hidden="true" tabindex="-1"></a><span class="co"># mvi only </span></span>
+<span id="cb32-3"><a href="mvi-race.html#cb32-3" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(emmeans)</span>
+<span id="cb32-4"><a href="mvi-race.html#cb32-4" aria-hidden="true" tabindex="-1"></a>emms_mvi <span class="ot">&lt;-</span> <span class="fu">emmip</span>(f.mvi, <span class="sc">~</span>mvi_mc, <span class="at">at =</span> <span class="fu">list</span>(<span class="st">&#39;mvi_mc&#39;</span> <span class="ot">=</span> <span class="fu">seq</span>(<span class="sc">-</span><span class="dv">50</span>, <span class="dv">50</span>, <span class="dv">10</span>)), </span>
+<span id="cb32-5"><a href="mvi-race.html#cb32-5" aria-hidden="true" tabindex="-1"></a>                  <span class="at">CIs =</span> <span class="cn">TRUE</span>, <span class="at">type =</span> <span class="st">&#39;response&#39;</span>, <span class="at">plotit =</span> <span class="cn">FALSE</span>) </span>
+<span id="cb32-6"><a href="mvi-race.html#cb32-6" aria-hidden="true" tabindex="-1"></a><span class="co"># Viz</span></span>
+<span id="cb32-7"><a href="mvi-race.html#cb32-7" aria-hidden="true" tabindex="-1"></a>(g<span class="ot">&lt;-</span>emms_mvi <span class="sc">%&gt;%</span></span>
+<span id="cb32-8"><a href="mvi-race.html#cb32-8" aria-hidden="true" tabindex="-1"></a>   <span class="fu">ggplot</span>(<span class="fu">aes</span>(<span class="at">x =</span> mvi_mc <span class="sc">+</span> <span class="dv">50</span>, <span class="at">y =</span> yvar)) <span class="sc">+</span></span>
+<span id="cb32-9"><a href="mvi-race.html#cb32-9" aria-hidden="true" tabindex="-1"></a>   <span class="fu">geom_line</span>() <span class="sc">+</span></span>
+<span id="cb32-10"><a href="mvi-race.html#cb32-10" aria-hidden="true" tabindex="-1"></a>   <span class="fu">geom_point</span>() <span class="sc">+</span></span>
+<span id="cb32-11"><a href="mvi-race.html#cb32-11" aria-hidden="true" tabindex="-1"></a>   <span class="fu">geom_errorbar</span>(<span class="fu">aes</span>(<span class="at">y =</span> yvar ,<span class="at">ymin =</span> LCL, <span class="at">ymax =</span> UCL),</span>
+<span id="cb32-12"><a href="mvi-race.html#cb32-12" aria-hidden="true" tabindex="-1"></a>                 <span class="at">width =</span> <span class="dv">1</span>) <span class="sc">+</span></span>
+<span id="cb32-13"><a href="mvi-race.html#cb32-13" aria-hidden="true" tabindex="-1"></a>   <span class="fu">ylab</span>(<span class="st">&#39;Predicted state MMR&#39;</span>)  <span class="sc">+</span> <span class="fu">xlab</span>(<span class="st">&#39;Maternal Vulnerability Index&#39;</span>) <span class="sc">+</span></span>
+<span id="cb32-14"><a href="mvi-race.html#cb32-14" aria-hidden="true" tabindex="-1"></a>   <span class="fu">geom_hline</span>(<span class="at">yintercept =</span> mmr.us<span class="sc">$</span>mmr_us, <span class="at">color =</span> <span class="st">&#39;orange&#39;</span>, <span class="at">lty=</span><span class="dv">2</span>) <span class="sc">+</span></span>
+<span id="cb32-15"><a href="mvi-race.html#cb32-15" aria-hidden="true" tabindex="-1"></a>   <span class="fu">geom_text</span>(<span class="fu">aes</span>(<span class="at">x =</span> <span class="dv">75</span>, <span class="at">y =</span> mmr.us<span class="sc">$</span>mmr_us<span class="dv">-1</span>), <span class="at">label=</span><span class="fu">paste0</span>(<span class="st">&#39;US MMR =&#39;</span>, mmr.us<span class="sc">$</span>mmr_us<span class="sc">%&gt;%</span><span class="fu">round</span>()), <span class="at">color =</span> <span class="st">&#39;orange&#39;</span>) <span class="sc">+</span></span>
+<span id="cb32-16"><a href="mvi-race.html#cb32-16" aria-hidden="true" tabindex="-1"></a>    <span class="fu">labs</span>(<span class="at">title =</span> <span class="st">&#39;Estimated marginal means and 95% Confidence Intervals for MMR by MVI&#39;</span>,</span>
+<span id="cb32-17"><a href="mvi-race.html#cb32-17" aria-hidden="true" tabindex="-1"></a>  <span class="at">caption =</span> <span class="st">&#39;Unweighted model&#39;</span>))</span></code></pre></div>
+<p><img src="valerio-portfolio_files/figure-html/unnamed-chunk-14-1.png" width="672" /></p>
+<ol start="2" style="list-style-type: decimal">
+<li><strong>Assess if maternal vulnerability is differently associated with Black and White maternal mortality</strong></li>
+</ol>
+<p><strong>Findings:</strong></p>
+<ul>
+<li>As MVI increases, so does MMR
+<ul>
+<li>Birthing individuals of White race and ethnicity are at a significantly decreased risk of mortality, and this held in both weighted and unweighted analyses.</li>
+<li>As the MVI increases, the risk of death increases for both Black and White mothers: Though the MVI*race/ethnicity interaction was not found to be significant, the data (see <a href="#fig:fig-race-ethn"><strong>??</strong></a>) suggests that the MVI might increase the risk of death for Black mothers differently than for White mothers. This would correspond with the findings of our individual-level analysis. However, when talking strictly about this state-level analysis, the technically correct finding is that at the state level, there is not significant difference in how vulnerability increases the risk of death for Black mothers vs White mothers. This is presumably due a small sample size and lack of more information on the birtging individuals (pre-existing conditions, age, etc.)</li>
+</ul></li>
+<li>The Black-White mortality gap is not a problem of certain areas or states in the US.</li>
+<li>Weighting further amplified the effect of race on mortality, suggesting the biggest MMR gaps exist in larger states such as CA, TX, NY.</li>
+</ul>
+<pre><code>## 
+## Call:
+## lm(formula = mmr ~ mvi_mc + race_ethn + mvi_mc * race_ethn, data = mmr.state.race.ethn %&gt;% 
+##     filter(n_suppressed_rows == 0))
+## 
+## Residuals:
+##     Min      1Q  Median      3Q     Max 
+## -18.419  -3.809  -0.279   2.930  34.721 
+## 
+## Coefficients:
+##                        Estimate Std. Error t value Pr(&gt;|t|)    
+## (Intercept)            32.67180    1.49226  21.894  &lt; 2e-16 ***
+## mvi_mc                  0.19037    0.04826   3.945 0.000212 ***
+## race_ethnWhite        -20.02208    2.11037  -9.487 1.51e-13 ***
+## mvi_mc:race_ethnWhite  -0.08572    0.06825  -1.256 0.213973    
+## ---
+## Signif. codes:  0 &#39;***&#39; 0.001 &#39;**&#39; 0.01 &#39;*&#39; 0.05 &#39;.&#39; 0.1 &#39; &#39; 1
+## 
+## Residual standard error: 7.946 on 60 degrees of freedom
+## Multiple R-squared:  0.6861, Adjusted R-squared:  0.6704 
+## F-statistic: 43.71 on 3 and 60 DF,  p-value: 4.191e-15</code></pre>
+<pre><code>## 
+## Call:
+## lm(formula = mmr ~ mvi_mc + race_ethn + mvi_mc * race_ethn, data = mmr.state.race.ethn %&gt;% 
+##     filter(n_suppressed_rows == 0), weights = pop_wra_race_ethn)
+## 
+## Weighted Residuals:
+##     Min      1Q  Median      3Q     Max 
+## -8316.4 -3189.4  -667.6  2457.3 15899.6 
+## 
+## Coefficients:
+##                         Estimate Std. Error t value Pr(&gt;|t|)    
+## (Intercept)            3.551e+01  1.892e+00  18.771   &lt;2e-16 ***
+## mvi_mc                 1.390e-01  6.430e-02   2.162   0.0346 *  
+## race_ethnWhite        -2.343e+01  2.048e+00 -11.437   &lt;2e-16 ***
+## mvi_mc:race_ethnWhite  8.108e-04  7.027e-02   0.012   0.9908    
+## ---
+## Signif. codes:  0 &#39;***&#39; 0.001 &#39;**&#39; 0.01 &#39;*&#39; 0.05 &#39;.&#39; 0.1 &#39; &#39; 1
+## 
+## Residual standard error: 4671 on 60 degrees of freedom
+## Multiple R-squared:  0.7917, Adjusted R-squared:  0.7813 
+## F-statistic: 76.01 on 3 and 60 DF,  p-value: &lt; 2.2e-16</code></pre>
+<div class="sourceCode" id="cb35"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb35-1"><a href="mvi-race.html#cb35-1" aria-hidden="true" tabindex="-1"></a>stargazer<span class="sc">::</span><span class="fu">stargazer</span>(f.race.mvi, f.race.mvi.w, <span class="at">type =</span> <span class="st">&#39;text&#39;</span>)</span></code></pre></div>
+<pre><code>## 
+## ==========================================================
+##                                   Dependent variable:     
+##                               ----------------------------
+##                                           mmr             
+##                                    (1)            (2)     
+## ----------------------------------------------------------
+## mvi_mc                           0.190***       0.139**   
+##                                  (0.048)        (0.064)   
+##                                                           
+## race_ethnWhite                  -20.022***    -23.425***  
+##                                  (2.110)        (2.048)   
+##                                                           
+## mvi_mc:race_ethnWhite             -0.086         0.001    
+##                                  (0.068)        (0.070)   
+##                                                           
+## Constant                        32.672***      35.507***  
+##                                  (1.492)        (1.892)   
+##                                                           
+## ----------------------------------------------------------
+## Observations                        64            64      
+## R2                                0.686          0.792    
+## Adjusted R2                       0.670          0.781    
+## Residual Std. Error (df = 60)     7.946        4,671.014  
+## F Statistic (df = 3; 60)        43.711***      76.007***  
+## ==========================================================
+## Note:                          *p&lt;0.1; **p&lt;0.05; ***p&lt;0.01</code></pre>
+<p><img src="valerio-portfolio_files/figure-html/unnamed-chunk-17-1.png" width="672" /></p>
+<ol start="3" style="list-style-type: decimal">
+<li><strong>Determine if residential segregation helps explain maternal mortality, if possible</strong></li>
+</ol>
+<p><strong>Findings:</strong></p>
+<ul>
+<li>Residential segregation was found to be associated (p&lt;0.1) with maternal mortality beyond the effect of maternal vulnerability, but only in the unweighted model.</li>
+<li>Due to suppression of maternal deaths, only 30 states were available, which affects the power of the statistical analyses as a minimum of 10 observations per covariate should be included in the sample (rule of thumb). Including interactions becomes difficult when using such a small dataset.</li>
+</ul>
+<pre><code>## 
+## Call:
+## lm(formula = mmr ~ mvi_mc + race_ethn + res_segregation, data = mmr.state.race.ethn %&gt;% 
+##     filter(n_suppressed_rows == 0))
+## 
+## Residuals:
+##     Min      1Q  Median      3Q     Max 
+## -14.753  -4.819  -0.393   3.558  33.439 
+## 
+## Coefficients:
+##                  Estimate Std. Error t value Pr(&gt;|t|)    
+## (Intercept)      19.84817    7.39904   2.683  0.00943 ** 
+## mvi_mc            0.16505    0.03499   4.717 1.47e-05 ***
+## race_ethnWhite  -20.91682    1.95865 -10.679 1.67e-15 ***
+## res_segregation   0.22626    0.12378   1.828  0.07252 .  
+## ---
+## Signif. codes:  0 &#39;***&#39; 0.001 &#39;**&#39; 0.01 &#39;*&#39; 0.05 &#39;.&#39; 0.1 &#39; &#39; 1
+## 
+## Residual standard error: 7.835 on 60 degrees of freedom
+## Multiple R-squared:  0.6948, Adjusted R-squared:  0.6796 
+## F-statistic: 45.54 on 3 and 60 DF,  p-value: 1.807e-15</code></pre>
+<pre><code>## 
+## Call:
+## lm(formula = mmr ~ mvi_mc + race_ethn + res_segregation, data = mmr.state.race.ethn %&gt;% 
+##     filter(n_suppressed_rows == 0), weights = pop_wra_race_ethn)
+## 
+## Weighted Residuals:
+##    Min     1Q Median     3Q    Max 
+##  -7689  -3241   -812   2746  15852 
+## 
+## Coefficients:
+##                  Estimate Std. Error t value Pr(&gt;|t|)    
+## (Intercept)      28.40965    5.22949   5.433 1.06e-06 ***
+## mvi_mc            0.14952    0.02642   5.659 4.52e-07 ***
+## race_ethnWhite  -23.40966    1.71992 -13.611  &lt; 2e-16 ***
+## res_segregation   0.11996    0.08429   1.423     0.16    
+## ---
+## Signif. codes:  0 &#39;***&#39; 0.001 &#39;**&#39; 0.01 &#39;*&#39; 0.05 &#39;.&#39; 0.1 &#39; &#39; 1
+## 
+## Residual standard error: 4594 on 60 degrees of freedom
+## Multiple R-squared:  0.7985, Adjusted R-squared:  0.7884 
+## F-statistic: 79.25 on 3 and 60 DF,  p-value: &lt; 2.2e-16</code></pre>
+<div class="sourceCode" id="cb39"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb39-1"><a href="mvi-race.html#cb39-1" aria-hidden="true" tabindex="-1"></a>stargazer<span class="sc">::</span><span class="fu">stargazer</span>(f.race.mvi.sr, f.race.mvi.sr.w, <span class="at">type =</span> <span class="st">&#39;text&#39;</span>)</span></code></pre></div>
+<pre><code>## 
+## ==========================================================
+##                                   Dependent variable:     
+##                               ----------------------------
+##                                           mmr             
+##                                    (1)            (2)     
+## ----------------------------------------------------------
+## mvi_mc                           0.165***      0.150***   
+##                                  (0.035)        (0.026)   
+##                                                           
+## race_ethnWhite                  -20.917***    -23.410***  
+##                                  (1.959)        (1.720)   
+##                                                           
+## res_segregation                   0.226*         0.120    
+##                                  (0.124)        (0.084)   
+##                                                           
+## Constant                        19.848***      28.410***  
+##                                  (7.399)        (5.229)   
+##                                                           
+## ----------------------------------------------------------
+## Observations                        64            64      
+## R2                                0.695          0.798    
+## Adjusted R2                       0.680          0.788    
+## Residual Std. Error (df = 60)     7.835        4,594.113  
+## F Statistic (df = 3; 60)        45.536***      79.248***  
+## ==========================================================
+## Note:                          *p&lt;0.1; **p&lt;0.05; ***p&lt;0.01</code></pre>
+</div>
+</div>
+<div id="conclusion" class="section level2" number="2.6">
+<h2><span class="header-section-number">2.6</span> Conclusion</h2>
+<ol style="list-style-type: decimal">
+<li>Maternal mortality ratio increased with the Maternal Vulnerability of the state.</li>
+<li>Though the interaction between Maternal Vulnerability and race was non-significant, White mothers were found to be at a significantly decreased risk of death than Black mothers.</li>
+<li>Residential segregation is significantly associated with maternal mortality at the state level, but the effect is much weaker than the findings of the individual-level analysis. This might be due to the state-scale not being appropriate to study racial inequities, to suppression in the data, or to the lack of individual-level characteristics to control for. In addition, state-level structural racism proxies might mask intra-state variability - in this case, in residential segregation.</li>
+</ol>
+<p>The state-level might not be appropriate to study the effects of structural racism on maternal health.</p>
+<div id="limitations" class="section level3" number="2.6.1">
+<h3><span class="header-section-number">2.6.1</span> Limitations</h3>
+<ul>
+<li>Data years available: Though the risk of maternal mortality is high in the US, it is still a rare event. Multiple years had to be combined to source the data for this analysis, but only 2007-2019 were available in both natality and mortality files. Notable surveillance changes have happened during those years.</li>
+<li>Individual-level characteristics: There are no individual-level characteristics to control for other than race.</li>
+<li>Residential segregation: state-level measures of structural racism mask intra-state variability.</li>
+<li>Disaggregation by race and ethnicity: Due to suppression of maternal deaths, only ~30 states could be included in the regression.</li>
+</ul>
+
 </div>
 </div>
 </div>
 <h3>References</h3>
-<div id="refs" class="references">
-<div id="ref-mvi-zenodo">
-<p>Valerio, Valerie, Jordan Downey, Nick Stewart, Staci Sutermaster, Bettina Hammer, Sema Sgaier, and Peter Smittenaar. 2021. <em>The Us Maternal Vulnerability Index</em>. Washington, DC, USA: Surgo Ventures. <a href="https://zenodo.org/record/5590225#.YYfkK5pBw2w">https://zenodo.org/record/5590225#.YYfkK5pBw2w</a>.</p>
+<div id="refs" class="references csl-bib-body hanging-indent">
+<div id="ref-liu_structural_2019" class="csl-entry">
+Liu, Sze Yan, Christina Fiorentini, Zinzi Bailey, Mary Huynh, Katharine McVeigh, and Deborah Kaplan. 2019. <span>“Structural <span>Racism</span> and <span>Severe</span> <span>Maternal</span> <span>Morbidity</span> in <span>New</span> <span>York</span> <span>State</span>.”</span> <em>Clinical Medicine Insights: Women’s Health</em> 12. <a href="https://doi.org/10.1177/1179562x19854778">https://doi.org/10.1177/1179562x19854778</a>.
+</div>
+<div id="ref-mujahid_birth_2021" class="csl-entry">
+Mujahid, Mahasin S., Peiyi Kan, Stephanie A. Leonard, Elleni M. Hailu, Elizabeth Wall-Wieler, Barbara Abrams, Elliott Main, Jochen Profit, and Suzan L. Carmichael. 2021. <span>“Birth Hospital and Racial and Ethnic Differences in Severe Maternal Morbidity in the State of <span>California</span>.”</span> <em>American Journal of Obstetrics and Gynecology</em> 224 (2): 219.e1–15. <a href="https://doi.org/10.1016/j.ajog.2020.08.017">https://doi.org/10.1016/j.ajog.2020.08.017</a>.
+</div>
+<div id="ref-mvi-zenodo" class="csl-entry">
+Valerio, Valerie, Jordan Downey, Nick Stewart, Staci Sutermaster, Bettina Hammer, Sema Sgaier, and Peter Smittenaar. 2021. <em>The US Maternal Vulnerability Index</em>. Washington, DC, USA: Surgo Ventures. <a href="https://zenodo.org/record/5590225#.YYfkK5pBw2w">https://zenodo.org/record/5590225#.YYfkK5pBw2w</a>.
 </div>
 </div>
             </section>
@@ -469,11 +801,10 @@ Figure 2.1: Here is a nice figure!
         </div>
       </div>
 <a href="index.html" class="navigation navigation-prev " aria-label="Previous page"><i class="fa fa-angle-left"></i></a>
-<a href="discussion.html" class="navigation navigation-next " aria-label="Next page"><i class="fa fa-angle-right"></i></a>
+<a href="resources.html" class="navigation navigation-next " aria-label="Next page"><i class="fa fa-angle-right"></i></a>
     </div>
   </div>
 <script src="libs/gitbook-2.6.7/js/app.min.js"></script>
-<script src="libs/gitbook-2.6.7/js/lunr.js"></script>
 <script src="libs/gitbook-2.6.7/js/clipboard.min.js"></script>
 <script src="libs/gitbook-2.6.7/js/plugin-search.js"></script>
 <script src="libs/gitbook-2.6.7/js/plugin-sharing.js"></script>
@@ -492,6 +823,7 @@ gitbook.start({
 "weibo": false,
 "instapaper": false,
 "vk": false,
+"whatsapp": false,
 "all": ["facebook", "twitter", "linkedin", "weibo", "instapaper"]
 },
 "fontsettings": {
@@ -512,6 +844,10 @@ gitbook.start({
 "text": null
 },
 "download": ["valerio-portfolio.pdf", "valerio-portfolio.epub"],
+"search": {
+"engine": "fuse",
+"options": null
+},
 "toc": {
 "collapse": "subsection"
 }

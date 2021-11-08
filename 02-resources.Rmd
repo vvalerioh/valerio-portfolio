@@ -21,16 +21,16 @@ Check out more of my work
 
   * [OECD West African Paper (2020)](https://read.oecd.org/10.1787/f8c71341-en?format=pdf): Author
 
-  * [Feed the Future Livestock Systems Innovation Lab Infographic](https://github.com/vvalerioh/valerio-portfolio/blob/main/assets/INFOGRAPHIC_Valerio_Mapping_Regional_Patterns_Livestock_Trade_West_Africa_approved-2020.06.10%20(1).pdf): Author
+  * [Feed the Future Livestock Systems Innovation Lab Infographic (2019)](https://github.com/vvalerioh/valerio-portfolio/blob/main/assets/INFOGRAPHIC_Valerio_Mapping_Regional_Patterns_Livestock_Trade_West_Africa_approved-2020.06.10%20(1).pdf): Author
 
-  * [Youtube video](https://www.youtube.com/watch?v=yYDZfLe5aSs): Author and narrator
+  * [Youtube video (2019)](https://www.youtube.com/watch?v=yYDZfLe5aSs): Author and narrator
 
-  * [Scientific Manuscript](https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0232681): First author
+  * [Scientific Manuscript (2019)](https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0232681): First author
 
 
 **Projects I contributed to:**
 
-* [The US COVID-10 Community Vulnerability Index (US CCVI)](https://precisionforcovid.org/ccvi): Contributing research scientist, supported code review, coding, analysis and the construction of the index (Specifically, the High Risk Environments Theme)
+* [The US COVID-10 Community Vulnerability Index (US CCVI, 2020)](https://precisionforcovid.org/ccvi): Contributing research scientist, supported code review, coding, analysis and the construction of the index (Specifically, the High Risk Environments Theme)
 
 
 * The Africa COVID-19 Community Vulnerability Index (CCVI)
@@ -40,9 +40,4 @@ Check out more of my work
   * Scientific manuscript (2020, submitted): Co-author
 
 
-* [Filling knowledge gaps to strenghthen livestock policies in low-income countries(2020)](https://linkinghub.elsevier.com/retrieve/pii/S2211912420300821): Co-author
-
-
-**Grad school projects:**
-
-  * Modeling Cassava G using the SIMPLE R model
+* [Filling knowledge gaps to strenghthen livestock policies in low-income countries (2020)](https://linkinghub.elsevier.com/retrieve/pii/S2211912420300821): Co-author

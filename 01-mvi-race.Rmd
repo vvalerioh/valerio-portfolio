@@ -2,57 +2,67 @@
 
 ## Background
 
-* The US has one of the highest maternal mortality risks amongst high-income countries, along with some of the highest racial disparities - Black and Native American women are 2-4 times more likely than their White counterparts to die from pregnancy-related causes.
+I conducted this analys with open-source data while Surgo Ventures experienced a delay in accessing restricted, individual-level data to evaluate the association between county-level Maternal Vulnerability, structural racism measures, and a birthing person's individual-risk of maternal mortality. The secondary purpose was to understand at what levels structural racism may or may not affect maternal health in the US, which may inform future analyses and interventions to reduce maternal health disparities.
 
-* Evidence-based interventions are needed to address this public health crisis. A systematic understanding of why maternal mortality ratios are so high in the United States is lacking, partly due to surveillance data gaps and standardization issues.
+* The US has one of the highest maternal mortality risks amongst high-income countries, along with some of the highest racial disparities - Black and Native American mothers are 2-4 times more likely to die from pregnancy-related causes than White mothers.
 
-* It is now well-established that death certificate changes - like adoption of the pregnancy check box - have contributed to the 'increasing' trend of maternal mortality in the US. In addition, individual-level characteristics like heart disease, diabetes and increasing age at pregnancy also contribute to the observed maternal mortality rate (MMR). However, neither surveillance changes nor individual-level characteristics can explain the marked racial disparities in maternal health.
+* Evidence-based interventions are needed to address this public health crisis. However, this is hampered by surveillance data gaps and standardization issues.
 
-* Multiple studies have found that characteristics of the environments in which birthing individuals live, work and give birth in are associated with pregnancy outcomes. These studies tend to consider on one covariate at a time (e.g. rate of obgyns per 100k population, abortion supportive policies, educational attainment), and systematic knowledge on how these affect maternal health outcomes is lacking in the US. To address this, Surgo Ventures created the US Maternal Vulnerability Index (MVI), a multi-dimensional index that ranks US counties and states on a score from 0-100, where 0 and 100 are assigned to the geographies that are the most and least conducive to good maternal health, respectively.
+* It is now well-established that surveillance changes and population health trends - such as the adoption of a pregnancy check box, heart disease, diabetes and increase maternal age - contribute to the increasing maternal mortality ratios (MMR). However, it is likely that neither surveillance changes nor individual-level characteristics fully explain the marked racial disparities in maternal health.
 
-* Another potential driver of these inequities is racism. Though the field is still young, various racism metrics (like educational attainment disparities) have been found to be associated with disparities in maternal health outcomes.
+* The environments in which birthing individuals live, work and give birth in have been found to be associated with pregnancy outcomes [@mujahid_birth_2021]. Existing studies tend to consider one or few covariates at a time, and systematic knowledge on how these affect maternal health outcomes is lacking in the US. Specifically, the contribution of each 'level' (individual, neighborhood/community, birth hospital, state) is still unknown.
 
-* Using the MVI, Surgo Ventures found that Black and American Indian and Native American (AIAN) mothers are 2.6 and 1.6 more likely to live under 'High Maternal Vulnerability' as their White counterparts, suggesting part of the observed racial disparities can be attributed to ecological/environmental characteristics. However, it remains unclear if there is an interaction between maternal vulneability and race. In other words: _does maternal vulnerability affect mothers from different races differently?_
+* Black and American Indian and Native American (AIAN) mothers are 2.6 and 1.6 more likely to live under 'Very High' maternal vulnerability environments as their White counterparts, suggesting part of the observed racial disparities might be attributable to ecological/environmental characteristics.
 
-The objective of this analysis are to:
+* Another potential driver of these inequities is racism. Though the field is still young and developing, various structural racism metrics, like racial gap in educational attainment [@liu_structural_2019], have been associated with disparities in maternal health outcomes.
 
-1. Examine the relationship between maternal vulnerability and maternal morality at the state level across the U.S.
+The  objectives of this analysis are to:
 
-2. Assess if maternal vulnerability affects maternal mortality differently for Black and White birthing individuals.
+1. **Examine the relationship between maternal vulnerability and maternal morality at the state level in the US**
+
+2. **Assess if maternal vulnerability is differently associated with Black and White maternal mortality.**
+
+3. **Determine if residential segregation helps explain maternal mortality**
 
 ## Methods
 
-First, the data will be visualized. Based on the visual inspection of the relationships, I will use the following statistical analyses:
+First, the data will be visualized. Based on the visual inspection of the relationships (see \@ref(data-viz)), I will use the following statistical analyses:
 
-1. Linear regression of maternal mortality on state-level Maternal Vulnerability (MV) Score.
+1. Linear regression of maternal mortality on state-level Maternal Vulnerability Score.
 
-2. Linear regression of maternal mortality by race on state-level MVS, including an interaction between race and MV Score
+2. Linear regression of maternal mortality by race on state-level Maternal Vulnerability score, including an interaction between race and MVI Score.
+
+3. Linear regression of maternal mortality on state-level MVI and residential segregation, if possible.
 
 ## Data sources
 
 Open-source data were obtained from Surgo Ventures and the CDC National Center for Health Statistics.
 
-```{r tab-1, tidy = FALSE, echo = FALSE}
+```{r tab-1, tidy = FALSE, echo = FALSE, warning = FALSE}
 
 table1 <- data.frame(
-  Dataset = c('US Maternal Vulnerability Index (MVI)', 'Natality data', 'Mortality data*'),
-  Source = c('Surgo Ventures (2021)', 'CDC Wonder (2020)', 'CDC Wonder(2020)'),
-  Description = c('US MVI state-level scores (overall). The US MVI "...ranks [...] states and counties on indicators measuring drivers of poor maternal health outcomes. Maternal vulnerability is assessed based on 43 drivers grouped into six themes: (1) Reproductive Healthcare, (2) Physical Health, (3) Mental Health and Substance Abuse, (4) General Healthcare, (5) Socioeconomic Determinants, and (6) Physical Environment. The MVI captures factors that put birthing people at increased risk of adverse outcomes during pregnancy that may lead to morbidities and/or death." [@mvi-zenodo]', 'National Vital Statistics data including all births that occurred in the US between 2007 and 2019, to mothers between 10 and 44 years of age by state and race', 'National Vital Statistics data including all deaths that occurred in the US between 2007 and 2019, of mothers between 15 and 44 years of age by state and race.')  
+  Dataset = c('US Maternal Vulnerability Index (MVI)', 'Natality data', 'Mortality data*', 'Residential segregation'),
+  Source = c('Surgo Ventures (2021)', 'CDC Wonder (2020)', 'CDC Wonder(2020)', 'County Health Rankings (2020)'),
+  Description = c('US MVI state-level scores (overall). The US MVI "...ranks [...] states and counties on indicators measuring drivers of poor maternal health outcomes. Maternal vulnerability is assessed based on 43 drivers grouped into six themes: (1) Reproductive Healthcare, (2) Physical Health, (3) Mental Health and Substance Abuse, (4) General Healthcare, (5) Socioeconomic Determinants, and (6) Physical Environment. The MVI captures factors that put birthing people at increased risk of adverse outcomes during pregnancy that may lead to morbidities and/or death." [@mvi-zenodo]', 'National Vital Statistics data including all births that occurred in the US between 2007 and 2019, to mothers between 10 and 44 years of age by state and race.', 'National Vital Statistics data including all deaths that occurred in the US between 2007 and 2019, of mothers between 15 and 44 years of age by state and race. Following [Hoyert (2019)](https://www.cdc.gov/nchs/data/hestat/maternal-mortality-2021/E-Stat-Maternal-Mortality-Rates-H.pdf), deaths were included if the underlying cause of death corresponded to ICD-10 (International Statistical Classification of Diseases, 10th Revision) codes A34, O00-O95, and O98-O99. Only births and deaths to and of mothers under 45 years of age were included, following the CDC recommendations - which are based on [NCHS assessment of errors](https://www.cdc.gov/nchs/maternal-mortality/faq.htm).', 'Measure of racial residential segregation at the state-level.')  
 )
 
 knitr::kable( x = table1,
-  caption = 'Data sources used in this analysis',
+  caption = 'Description of data sources',
   booktabls = TRUE
 )
 ```
 
-*See Data pre-processing (subsection '\@ref(data-preprocess)) for details
+*See Data pre-processing (subsection \@ref(data-preprocess)) for details
 
 ## Data pre-processing {#data-preprocess}
+
+### Data download {#data-download}
 
 The MVI and data dictionary are downloaded from a [Zenodo repository](https://zenodo.org/record/5590225#.YYfkK5pBw2w) and need no pre-processing (see preview below).
 
 ```{r }
+# Setup ---
+library(tidyverse)
 
 # Download MVI data ----
 # Set urls
@@ -70,43 +80,383 @@ head(mvi.state)
 head(data.dict)
 
 ```
-CDC's natality and mortality data are downloaded from CDC Wonder. For reproducibility purposes, I've provided the 2 data files below (click to download):
 
-1. [Natality data]()
+CDC's natality and mortality data were downloaded from CDC Wonder. For reproducibility purposes, I will read the files from one of my GitHub repositories. The data are downloaded at the lowest level of detail needed for each calculation, because counts under10 will be suppressed (this is a concern with death counts in small states, and when disaggregating by race).
 
-2. [Mortality data]()
+```{r}
+# Load natality and mortality data----
 
-### Race and ethnicity
+## Region-level data ----
+# Births
+wonder_births_region_under45yo_2007_2019 <- read.csv('https://raw.githubusercontent.com/vvalerioh/valerio-portfolio/main/assets/data/wonder_births_region_under45yo_2007_2019.csv')
+# Deaths
+wonder_deaths_region_under45yo_2007_2019 <- read.csv('https://raw.githubusercontent.com/vvalerioh/valerio-portfolio/main/assets/data/wonder_deaths_region_under45yo_2007_2019.csv')
 
-### Births
+## State-level data ----
+# Births
+wonder_deaths_total_state_under45yo_2007_2019 <- read.csv('https://raw.githubusercontent.com/vvalerioh/valerio-portfolio/main/assets/data/wonder_deaths_total_state_under45yo_2007_2019.csv')
+# Deaths
+wonder_births_total_state_under45yo_2007_2019 <- read.csv('https://raw.githubusercontent.com/vvalerioh/valerio-portfolio/main/assets/data/wonder_births_total_state_under45yo_2007_2019.csv')
 
-### Deaths
+## State-level data by race and ethnicity ----
+# Births
+wonder_births_state_race_ethn_under45yo_2007_2019 <- read.csv('https://raw.githubusercontent.com/vvalerioh/valerio-portfolio/main/assets/data/wonder_births_state_race_ethn_under45yo_2007_2019.csv')
+# Deaths
+wonder_deaths_state_race_ethn_under45yo_2007_2019 <- read.csv('https://raw.githubusercontent.com/vvalerioh/valerio-portfolio/main/assets/data/wonder_deaths_state_race_ethn_under45yo_2007_2019.csv')
 
-Following [Hoyert (2019)](https://www.cdc.gov/nchs/data/hestat/maternal-mortality-2021/E-Stat-Maternal-Mortality-Rates-H.pdf), deaths were included if the underlying cause of death corresponded to ICD-10 (International Statistical Classification of Diseases, 10th Revision) codes A34, O00-O95, and O98-O99. Only births and deaths to and of mothers under 45 years of age were included, following the CDC's recommendations - which are based on [NCHS assessment of errors](https://www.cdc.gov/nchs/maternal-mortality/faq.htm).
 
-#### Maternal Mortality Ratio (MMR)
+```
+
+The residential segregation data were downloaded from County Health Rankings:
+
+```{r}
+## Res segregation state-level ----
+df.res.segregation.state <- read.csv('https://raw.githubusercontent.com/vvalerioh/valerio-portfolio/main/assets/data/2020-America_Health_Rankings_annual_report.csv') %>%
+  # Filter to desired measure and select relevant columns
+  filter(Measure.Name == 'Residential Segregation') %>% 
+  select(State = State.Name,
+         res_segregation = Value)
+```
+
+Population data are were downloaded from the American Community Survey:
+
+```{r}
+pop_race_state <- read.csv('https://raw.githubusercontent.com/vvalerioh/valerio-portfolio/main/assets/data/pop_race_state.csv')
+
+# census.regions df needed to simplify plotting
+census.regions <- read.csv('https://raw.githubusercontent.com/vvalerioh/valerio-portfolio/main/assets/data/census_regions.csv')
+```
+
+### Pre-process {#pre-process}
+
+Then, I calculate:
+
+1. Maternal Mortality Ratio (MMR) for the US - using region-level data
+2. MMR by state - Using state-level data
+3. MMR by state and race and ethnicity - Using the state-level data by race and ethnicity
+
 The Maternal Mortality Ratio was calculated as: $MMR = (deaths/births)* 100,000 births$
 
-#### Analysis
+```{r, warning = FALSE}
+# 1 US MMR (ALL states 2007-2019)----
+mmr.us <- wonder_deaths_region_under45yo_2007_2019 %>% 
+  filter(Census.Region != '') %>%
+  mutate(Deaths = as.numeric(Deaths)) %>% 
+  left_join(wonder_births_region_under45yo_2007_2019 %>%
+              filter(Census.Region!='') %>%
+              mutate(Births = as.numeric(Births))) %>%
+  summarize(mmr_us=sum(Deaths)/sum(Births)*100000)
 
+# 2 State-level MMR (excludes VT due to suppression of deaths)----
+mmr.state <- wonder_deaths_total_state_under45yo_2007_2019 %>% 
+  transmute(State, Deaths = as.numeric(Deaths)) %>%
+  filter(State !='') %>%
+  left_join(wonder_births_total_state_under45yo_2007_2019 %>% 
+              select(State, Births) %>% 
+              filter(State!='')) %>%
+  mutate(mmr_state = Deaths/Births*100000) %>%
+  left_join(mvi.state) %>%
+  left_join(df.res.segregation.state) %>%
+  left_join(pop_race_state) %>%
+  mutate(mvi_mc = mvi - mean(mvi),
+         res_segregation = res_segregation - mean(res_segregation))
 
-```{r nice-fig, fig.cap='Here is a nice figure!', out.width='80%', fig.asp=.75, fig.align='center'}
-par(mar = c(4, 4, .1, .1))
-plot(pressure, type = 'b', pch = 19)
+# 3 State-level MMR by race/ethnicity (excludes various states) ----
+## Deaths by race/ethnicity ----
+df.deaths <- wonder_deaths_state_race_ethn_under45yo_2007_2019 %>%
+  select(-Notes) %>%
+  filter(State!='') %>%
+  # Filter our 'Not Stated' Hispanic.Origin to minimize suppressed values
+  # This ensures that once filtering in only Black and White later, only 
+  # Hispanic.Origins == Not Hispanic or Latino remain in the df
+  filter(Hispanic.Origin!='Not Stated') %>%
+  mutate(race_ethn = case_when(
+    Race == 'White' & Hispanic.Origin != 'Hispanic or Latino' ~ 'White',
+    Race == 'Black or African American' & Hispanic.Origin != 'Hispanic or Latino' ~ 'Black',
+    Race == 'American Indian or Alaska Native' & Hispanic.Origin != 'Hispanic or Latino' ~ 'AIAN',
+    Race == 'Asian or Pacific Islander' & Hispanic.Origin != 'Hispanic or Latino' ~ 'AAPI',
+    Hispanic.Origin == 'Hispanic or Latino' ~ 'Hispanic or Latino'  ),
+    Deaths = as.numeric(Deaths)) %>%
+  # For White and Black race_ethn only, calculate how many suppressed values there are
+  # if 1 or more, that state needs to be excluded from the regression completely
+  filter(race_ethn %in% c('White', 'Black')) %>%
+  # For each State, how many suppressed values remain?
+  group_by(State) %>%
+  mutate(n_suppressed_rows = sum(is.na(Deaths)))
+
+## Births by race/ethnicity ----
+df.births <- wonder_births_state_race_ethn_under45yo_2007_2019 %>%
+  rename (Notes=1) %>%
+  select(-Notes) %>%
+  filter(State!='') %>%
+  # Filter out unknown Mother.s.Hispanic.Origin == 'Unknown or Not Stated'
+  filter(Mother.s.Hispanic.Origin != 'Unknown or Not Stated') %>%
+  mutate(State,
+           race_ethn = case_when(
+             Mother.s.Bridged.Race == 'White' & Mother.s.Hispanic.Origin == 'Not Hispanic or Latino' ~ 'White',
+             Mother.s.Bridged.Race == 'Black or African American' & Mother.s.Hispanic.Origin == 'Not Hispanic or Latino' ~ 'Black',
+             Mother.s.Bridged.Race == 'American Indian or Alaska Native' & Mother.s.Hispanic.Origin == 'Not Hispanic or Latino' ~ 'AIAN',
+             Mother.s.Bridged.Race == 'Asian or Pacific Islander' & Mother.s.Hispanic.Origin == 'Not Hispanic or Latino' ~ 'AAPI',
+             Mother.s.Hispanic.Origin == 'Hispanic or Latino' ~ 'Hispanic or Latino'  )) %>%
+  filter(race_ethn %in% c('Black', 'White'))
+
+# Check that no suppressed values remain before adding Births by race_ethn and State
+stopifnot(df.births$Births%>%is.na()%>%sum()==0)
+
+# Add births by race_ethn and state
+df.births1 <- df.births %>%
+  group_by(State, race_ethn) %>%
+  summarize(Births = sum(as.numeric(Births)))
+
+# Check that no NAs in Births column 
+stopifnot(df.births1$Births%>%is.na()%>%sum()==0)
+
+#### State-level df ----
+mmr.state.race.ethn <- df.deaths %>% select(-State.Code)%>% 
+  left_join(df.births1)%>% 
+  # Calculate mmr by race_ethnicity
+  # Because some values are suppressed, some MMRs (mmr column) will be NAs
+  # race_ethn has been filtered to White or Black only in earlier steps
+  # Note: 
+  # The births used in the mmr calculation do not include 
+  # Mother.sHispanic.Origin == 'Unknown or not stated"
+  # The deaths used in the mmr calculation do not include
+  # Hispanic.Origin == 'Not Stated' 
+  mutate(mmr = Deaths/Births*100000) %>%
+  left_join(mmr.state %>% select(State, mmr_state)) %>%
+  left_join(mvi.state) %>%
+  left_join(census.regions) %>%
+  # add structural racism data
+  left_join(df.res.segregation.state) %>%
+  left_join(pop_race_state%>%select(State,
+                                        pop_wra_s,
+                                        pop_wra_black,
+                                        pop_wra_white) %>%
+              pivot_longer(c(pop_wra_black, pop_wra_white),
+                           names_to = 'race_ethn',
+                           values_to = 'pop_wra_race_ethn') %>%
+              mutate(race_ethn = case_when(race_ethn == 'pop_wra_white' ~ 'White',
+                                           race_ethn == 'pop_wra_black' ~ 'Black'))) %>%
+  ungroup() %>%
+  # Mean-center MVI scores and residential segregation    
+  mutate(mvi_mc = mvi - mean(mvi),
+         res_segregation_mc = res_segregation - mean(res_segregation)) %>%
+  # Select only columns needed
+  select(State, Deaths, Births, mmr, Population, race_ethn, pop_wra_race_ethn, n_suppressed_rows, mvi, mvi_mc, res_segregation, res_segregation_mc)
+  
+
 ```
 
-Reference a figure by its code chunk label with the `fig:` prefix, e.g., see Figure \@ref(fig:nice-fig). Similarly, you can reference tables generated from `knitr::kable()`, e.g., see Table \@ref(tab:nice-tab).
+## Results {#results}
 
-```{r nice-tab, tidy=FALSE}
-knitr::kable(
-  head(iris, 20), caption = 'Here is a nice table!',
-  booktabs = TRUE
-)
+### Data visualization and exploration {#data-viz}
+
+* The US MMR (2007-2019) was 16.3 per 100k live births
+* Most states have an MMR between 10 and 25 deaths per 100k live births
+* To minimize states with suppressed data, this analysis will focus on the White and Black MMRs only
+
+```{r, echo = FALSE, warning = FALSE}
+mmr.us
+
+mmr.state$mmr_state %>% hist(main = 'Histogram of state-level MMR')
+
 ```
 
-# Discussion
+```{r, echo = FALSE, warning = FALSE}
+## Overall state MMR x MVI ----
+mmr.state %>% 
+  ggplot(aes(x = mvi, y = mmr_state)) +
+  geom_point() + 
+  labs(title = 'State-level MVI and MMR',
+       subtitle = 'Visual inspection suggests a weak, linear relationship between MVI and MMR',
+       caption = 'Vermont is excluded from this plot.')
 
-## Limitations
+```
 
-## Future work
-You can write citations, too. For example, we are using the **bookdown** package [@R-bookdown] in this sample book, which was built on top of R Markdown and **knitr** [@xie2015].
+```{r fig-race-ethn, echo = FALSE, warning = FALSE}
+## Race/ethnicity MMR x state MVI ----
+mmr.state.race.ethn %>%
+   filter(n_suppressed_rows==0) %>%
+  ggplot(aes(x = mvi, y = mmr, color = race_ethn)) +
+  geom_point() +
+  labs(title = 'State-level MVI and MMR by race/ethnicity',
+       subtitle = 'Both Black and White MMR seem to increase with MVI,\nbut there are some outliers (e.g. MMR>50)')
+```
+
+Visualize the distribution of residential segregation scores:
+
+```{r, echo = FALSE, warning = FALSE}
+mmr.state.race.ethn$res_segregation %>% hist(main = 'Histogram of residential segregation scores')
+
+```
+
+Determine if MVI, MMR and residential segregation are correlated (unweighted) before statistical modeling:
+
+* There is a strong correlation (0.65) between MVI and state-MMR, but they are not colinear
+* In general, states with high MMR don't necessarily have high residential segregation
+* Highly vulnerable states are not necessarily highly segregated
+* Even though the MVI is built without explicitly weighting its themes, sub-themes and indicators, its multi-dimensional nature might be capturing many factors that make an environment more or less safe for birthing people (hence the high correlation)
+
+
+```{r, echo = FALSE, warning = FALSE}
+df.cor<-cor(mmr.state %>%
+                filter(!is.na(mmr_state)) %>%
+                select(mmr_state, res_segregation, mvi))
+
+corrplot::corrplot(df.cor, method = 'number', type = 'lower')
+
+```
+
+### Statistical modeling {#stat-model}
+
+1. **Examine the relationship between maternal vulnerability and maternal morality at the state level in the US**
+
+**Findings:**
+
+  * MVI is significantly associated with state-level MMR, in both (1) population-weighted and (2) unweighted analyses. The small sample might be a concern when modeling this relationship, however there are over 30 observations and just one covariate in these first model fits.
+  * There are no strong concerns about violating linear model assumptions
+
+```{r, echo = FALSE, warning = FALSE}
+# Fit linear regressions -----------
+## state MMR ~ mvi ----
+#### Unweighted ----
+f.mvi <- lm(mmr_state ~ mvi_mc, data = mmr.state)
+summary(f.mvi)
+par(mfrow = c(2,2))
+plot(f.mvi)
+
+#### Weighted ----
+f.mvi.w <- lm(mmr_state ~ mvi_mc, data = mmr.state, weights = pop_wra_s)
+summary(f.mvi.w)
+
+```
+
+
+MVI is significantly associated with state-level MMR, for both (1) population-weighted and (2) unweighted analyses.
+
+```{r}
+stargazer::stargazer(f.mvi, f.mvi.w , type = 'text')
+```
+
+```{r}
+# Calculate estimated marginal means ------
+# mvi only 
+library(emmeans)
+emms_mvi <- emmip(f.mvi, ~mvi_mc, at = list('mvi_mc' = seq(-50, 50, 10)), 
+                  CIs = TRUE, type = 'response', plotit = FALSE) 
+# Viz
+(g<-emms_mvi %>%
+   ggplot(aes(x = mvi_mc + 50, y = yvar)) +
+   geom_line() +
+   geom_point() +
+   geom_errorbar(aes(y = yvar ,ymin = LCL, ymax = UCL),
+                 width = 1) +
+   ylab('Predicted state MMR')  + xlab('Maternal Vulnerability Index') +
+   geom_hline(yintercept = mmr.us$mmr_us, color = 'orange', lty=2) +
+   geom_text(aes(x = 75, y = mmr.us$mmr_us-1), label=paste0('US MMR =', mmr.us$mmr_us%>%round()), color = 'orange') +
+    labs(title = 'Estimated marginal means and 95% Confidence Intervals for MMR by MVI',
+  caption = 'Unweighted model'))
+
+
+```
+
+
+2. **Assess if maternal vulnerability is differently associated with Black and White maternal mortality**
+
+**Findings:**
+
+* As MVI increases, so does MMR
+  * Birthing individuals of White race and ethnicity are at a significantly decreased risk of mortality, and this held in both weighted and unweighted analyses.
+  * As the MVI increases, the risk of death increases for both Black and White mothers: Though the MVI*race/ethnicity interaction was not found to be significant, the data (see \@ref(fig:fig-race-ethn)) suggests that the MVI might increase the risk of death for Black mothers differently than for White mothers. This would correspond with the findings of our individual-level analysis. However, when talking strictly about this state-level analysis, the technically correct finding is that at the state level, there is not significant difference in how vulnerability increases the risk of death for Black mothers vs White mothers. This is presumably due a small sample size and lack of more information on the birtging individuals (pre-existing conditions, age, etc.)
+* The Black-White mortality gap is not a problem of certain areas or states in the US.
+* Weighting further amplified the effect of race on mortality, suggesting the biggest MMR gaps exist in larger states such as CA, TX, NY.
+
+```{r, warning = FALSE, echo = FALSE}
+### state MMRxrace/ethn ~ mvi_mc*race_ethn ----
+#### Unweighted ----
+f.race.mvi <- lm(mmr ~ mvi_mc + race_ethn + mvi_mc*race_ethn, data = mmr.state.race.ethn %>% 
+                    # Filter out states with any missing value (for Black OR White)
+                    filter(n_suppressed_rows==0))
+summary(f.race.mvi)
+
+#### Weighted -----
+f.race.mvi.w <- lm(mmr ~ mvi_mc + race_ethn + mvi_mc*race_ethn, data = mmr.state.race.ethn %>% 
+                      # Filter out states with any missing value
+                      filter(n_suppressed_rows==0),
+                   weights = pop_wra_race_ethn)
+summary(f.race.mvi.w)
+
+```
+
+
+```{r}
+stargazer::stargazer(f.race.mvi, f.race.mvi.w, type = 'text')
+
+```
+
+
+```{r, echo = FALSE, warning = FALSE}
+# Calculate estimated marginal means ------
+# mvi + race_ethn 
+emms_mvi_race <- emmip(f.race.mvi, ~mvi_mc|race_ethn,  at = list('mvi_mc' = seq(-50, 50, 10)),
+                       CIs = TRUE, type = 'response', plotit=FALSE)
+# viz ----
+(emms_mvi_race %>%
+   ggplot(aes(x = mvi_mc + 50, y = yvar, color = race_ethn)) +
+   geom_line() +
+   geom_point() +
+   geom_errorbar(aes(ymin = LCL, ymax = UCL),
+                 width = 1) +
+   ylab('Predicted MMR')  + xlab('Maternal Vulnerability Index') +
+   labs( color = 'Race/Ethnicity',
+ title = 'Estimated marginal means and CIs for MMR by race and ethnicity and MVI',
+ caption = 'Excludes states with suppressed data.\nThough the mvi and race and interaction was not found to be significant, I included\nthe interaction in this model. The slope for Black is 0.19, for White it is 0.10.'))
+
+```
+
+
+3. **Determine if residential segregation helps explain maternal mortality, if possible**
+
+**Findings:**
+
+* Residential segregation was found to be associated (p<0.1) with maternal mortality beyond the effect of maternal vulnerability, but only in the unweighted model.
+* Due to suppression of maternal deaths, only 30 states were available, which affects the power of the statistical analyses as a minimum of 10 observations per covariate should be included in the sample (rule of thumb). Including interactions becomes difficult when using such a small dataset.
+
+```{r, echo = FALSE, warning = FALSE}
+### state MMR ~ mvi_mc + race_ethn + res_segregation----
+f.race.mvi.sr <- lm(mmr ~ mvi_mc + race_ethn + res_segregation , 
+                     data = mmr.state.race.ethn %>% 
+                        # Filter out states with any missing value
+                        filter(n_suppressed_rows==0))
+summary(f.race.mvi.sr)
+f.race.mvi.sr.w <- lm(mmr ~ mvi_mc + race_ethn + res_segregation , 
+                       data = mmr.state.race.ethn %>% 
+                          # Filter out states with any missing value
+                          filter(n_suppressed_rows==0),
+                       weights = pop_wra_race_ethn)
+summary(f.race.mvi.sr.w)
+
+
+```
+
+
+```{r}
+stargazer::stargazer(f.race.mvi.sr, f.race.mvi.sr.w, type = 'text')
+
+```
+
+
+## Conclusion {#conclusion}
+
+1. Maternal mortality ratio increased with the Maternal Vulnerability of the state.
+2. Though the interaction between Maternal Vulnerability and race was non-significant, White mothers were found to be at a significantly decreased risk of death than Black mothers.
+3. Residential segregation is significantly associated with maternal mortality at the state level, but the effect is much weaker than the findings of the individual-level analysis. This might be due to the state-scale not being appropriate to study racial inequities, to suppression in the data, or to the lack of individual-level characteristics to control for. In addition, state-level structural racism proxies might mask intra-state variability - in this case, in residential segregation.
+
+The state-level might not be appropriate to study the effects of structural racism on maternal health.
+
+### Limitations
+
+* Data years available: Though the risk of maternal mortality is high in the US, it is still a rare event. Multiple years had to be combined to source the data for this analysis, but only 2007-2019 were available in both natality and mortality files. Notable surveillance changes have happened during those years. 
+* Individual-level characteristics: There are no individual-level characteristics to control for other than race.
+* Residential segregation: state-level measures of structural racism mask intra-state variability.
+* Disaggregation by race and ethnicity: Due to suppression of maternal deaths, only ~30 states could be included in the regression.

@@ -25,8 +25,8 @@ This website includes text, figures and R code chunks.
 # Comments are preceded by a hash sign (#)
 # Comments help my colleagues (and Valerie from the future) understand what the code is supposed to do and why
 
-## Install packages -----
-install.packages("tidyverse") 
+## Load packages -----
+library("tidyverse") 
 ```
 
 
