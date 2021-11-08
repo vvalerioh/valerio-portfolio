@@ -1,0 +1,75 @@
+Notes,State,State Code,Births
+,Alabama,1,780747
+,Alaska,2,143361
+,Arizona,4,1137134
+,Arkansas,5,501668
+,California,6,6489683
+,Colorado,8,858425
+,Connecticut,9,479205
+,Delaware,10,145171
+,District of Columbia,11,120416
+,Florida,12,2876813
+,Georgia,13,1735528
+,Hawaii,15,239001
+,Idaho,16,298170
+,Illinois,17,2072368
+,Indiana,18,1093932
+,Iowa,19,507407
+,Kansas,20,508746
+,Kentucky,21,726482
+,Louisiana,22,817912
+,Maine,23,166572
+,Maryland,24,952816
+,Massachusetts,25,940822
+,Michigan,26,1486745
+,Minnesota,27,901293
+,Mississippi,28,517183
+,Missouri,29,987912
+,Montana,30,157373
+,Nebraska,31,340234
+,Nevada,32,473440
+,New Hampshire,33,164319
+,New Jersey,34,1365200
+,New Mexico,35,344194
+,New York,36,3091487
+,North Carolina,37,1588352
+,North Dakota,38,131861
+,Ohio,39,1819817
+,Oklahoma,40,683677
+,Oregon,41,589773
+,Pennsylvania,42,1843195
+,Rhode Island,44,143384
+,South Carolina,45,759237
+,South Dakota,46,156486
+,Tennessee,47,1059024
+,Texas,48,5080718
+,Utah,49,664757
+,Vermont,50,77307
+,Virginia,51,1334893
+,Washington,53,1140062
+,West Virginia,54,261577
+,Wisconsin,55,878081
+,Wyoming,56,96756
+Total,,,51730716
+---,,,
+"Dataset: Natality, 2007-2019",,,
+Query Parameters:,,,
+Age of Mother 9: Under 15 years; 15-19 years; 20-24 years; 25-29 years; 30-34 years; 35-39 years; 40-44 years,,,
+Year: 2007; 2008; 2009; 2010; 2011; 2012; 2013; 2014; 2015; 2016; 2017; 2018; 2019,,,
+Group By: State,,,
+Show Totals: True,,,
+Show Zero Values: True,,,
+Show Suppressed: True,,,
+"Calculate Rates Per: 1,000",,,
+Population Option: No populations shown because rates were not selected.,,,
+---,,,
+Help: See http://wonder.cdc.gov/wonder/help/Natality.html for more information.,,,
+---,,,
+"Query Date: Sep 3, 2021 2:51:56 AM",,,
+---,,,
+"Suggested Citation: United States Department of Health and Human Services (US DHHS), Centers for Disease Control and Prevention",,,
+"(CDC), National Center for Health Statistics (NCHS), Division of Vital Statistics, Natality public-use data 2007-2019, on CDC",,,
+"WONDER Online Database, October 2020. Accessed at http://wonder.cdc.gov/natality-current.html on Sep 3, 2021 2:51:56 AM",,,
+---,,,
+Caveats:,,,
+1. Each birth record represents one liveborn infant.,,,
