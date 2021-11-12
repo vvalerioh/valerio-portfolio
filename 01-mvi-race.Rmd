@@ -1,5 +1,8 @@
 # Racial disparities in maternal mortality in the US {#mvi-race}
 
+## Acknowledgements
+Though most of the code in this case study was written by myself as the lead technical developer, the analysis and code may have been made better by my colleagues: Jordan Downey, Nick Stewart and Peter Smittenaar. This post is meant to show my analytical and programming skills, and by no means reflects the position of Surgo Ventures about this topic, nor does it comprise a finished report and/or product by the author.
+
 ## Background
 
 I conducted this analys with open-source data while Surgo Ventures experienced a delay in accessing restricted, individual-level data to evaluate the association between county-level Maternal Vulnerability, structural racism measures, and a birthing person's individual-risk of maternal mortality. The secondary purpose was to understand at what levels structural racism may or may not affect maternal health in the US, which may inform future analyses and interventions to reduce maternal health disparities.
