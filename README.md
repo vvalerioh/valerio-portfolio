@@ -1,5 +1,6 @@
 This website contains examples from Valerie C. Valerio's analytical portfolio.
 
+* [See examples in my analytic portfolio](https://vvalerioh.github.io/valerio-portfolio/)
 * [Contact me](mailto:valerievalerioh@gmail.com)
 * [Visit my website](https://www.valeriecvalerio.com)
 * [Follow me on Twitter](https://twitter.com/v_valerioh)
