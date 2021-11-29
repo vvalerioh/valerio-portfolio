@@ -1,23 +1,28 @@
 # Resources
 
-Check out more of my work
+Check out more of my work!
 
 **Projects I led on:**
 
+* [This website (2021)](https://vvalerioh.github.io/analytic-portfolio): Developer (see the valerio-portfolio repo in my GitHub profile)
 
 * [The Impact of COVID-19 on antenatal careseeking in the US (In progress, 2021)](https://healthcostinstitute.org/in-the-news/winners-of-covid-19-research-accelerator-grants-announced): Lead technical developer and grant writing coordinator
 
 
 * The US Maternal Vulnerability index
 
+  * [What We See in the Shameful Trends on U.S. Maternal Health (New York Times Opinion Article, 2021)](https://www.nytimes.com/interactive/2021/11/17/opinion/maternal-pregnancy-health.html): Lead research Scientist
+  
   * [Website (2021)](https://www.mvi.surgoventures.org): Lead technical developer, lead research scientist
+  
   * [Zenodo repository (2020)](https://zenodo.org/record/5590225#.YYfGd5pBw2w): Lead technical developer
+  
   * [Methodology (2021)](https://mvi-us.s3.amazonaws.com/assets/SurgoVentures_MVI_Methodology_Jul2021.pdf): Lead author
 
   * [Findings report (2021)](https://surgoventures.org/resource-library/getting-hyperlocal-to-improve-outcomes-achieve-racial-equity-in-maternal-health-the-us-maternal-vulnerability-index): Lead technical developer, co-author
 
 
-* Livestock Trade in West Africa:
+* Intraregional Livestock Trade in West Africa:
 
   * [OECD West African Paper (2020)](https://read.oecd.org/10.1787/f8c71341-en?format=pdf): Author
 

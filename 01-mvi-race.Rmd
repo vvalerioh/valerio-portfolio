@@ -1,7 +1,8 @@
 # Racial disparities in maternal mortality in the US {#mvi-race}
 
 ## Acknowledgements
-Though most of the code in this case study was written by myself as the lead technical developer, the analysis and code may have been made better by my colleagues: Jordan Downey, Nick Stewart and Peter Smittenaar. This post is meant to show my analytical and programming skills, and by no means reflects the position of Surgo Ventures about this topic, nor does it comprise a finished report or product by the organization nor the author.
+
+Though most of the code in this case study was written by myself as the lead technical developer, the analysis and code may have been made better by my colleagues: Jordan Downey, Nick Stewart and Peter Smittenaar. This example is meant to show my analytical and programming skills, and by no means reflects the position of Surgo Ventures about this topic, nor does it comprise a finished report or product by the organization nor by the author. No proprietary tools and/or data were used to carry out the analysis.
 
 ## Purpose
 
