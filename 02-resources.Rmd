@@ -2,7 +2,7 @@
 
 Check out more of my work!
 
-**Projects I led on:**
+**Projects I led in:**
 
 * [This website (2021)](https://vvalerioh.github.io/analytic-portfolio): Developer (see the valerio-portfolio repo in my GitHub profile)
 

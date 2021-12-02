@@ -1,38 +1,42 @@
 # My Interests{#interests}
 
-My career interests lie at the intersection of innovative data science, sustainable development and public health. Having grown up in the Dominican Republic, I am passionate about using my skills to help inform life-saving actions - by governments, organizations or by the public.
+My career interests lie at the intersection of innovative data science, sustainable development and public health. Having grown up in the Dominican Republic, I am passionate about using my skills to help inform life-saving actions - by governments, organizations or by the public. I also enjoy writing [tutorials](https://www.valeriecvalerio.com/tutorials/), writing R code to automate repetitive tasks (like creating customized color palettes or data viz styles), and learning new things. I spend a lot of my free time making bread, going on walks with my dog, and exercising.
 
 I am keen to work in the following topics:
 
 * Food Security and Nutrition Security
 * Agricultural Development
-* Resilience and Robustness
+* Household Resilience and Robustness
 * One Health and Public Health
 * Dietary patterns and Health
+* Cross-border agricultural trade
+* Evidence-based public health policies
 
 I have experience with the following:
 
-_Methods_
+##_Methods_
 
   * Geospatial analysis
   * Network Analysis
-  * Time series analysis
+  * Time series analysis (linear and non-linear)
   * Statistical Machine Learning
   * Food security analysis using household survey data
-  * (Agricultural) value chain modeling
+  * (Agricultural) quantitative value chain modeling
+  * System Dynamics modeling
   * Quantitative Microbial Risk Analysis
   
-_Cloud computing_
+## Cloud computing
 
   * Amazon AWS
   * Snowflake
+  * [HiPerGATOR](https://www.rc.ufl.edu/services/hipergator/)
 
-_Languages_
+## Languages
 
   * R
   * SQL
   * Python
   * C# (this was my first language)
-  * Spanish (native proficiency)
-  * English (professional proficiency)
-  * French (beginner proficiency, keen to learn)
+  * Spanish - native proficiency)
+  * English - professional proficiency)
+  * French - beginner proficiency, keen to learn)
