@@ -14,7 +14,7 @@ description: "This website contains examples from Valerie's analytic portfolio."
 
 Because most of my work to date is not available to the public, this website contains _short examples_ from my analytic portfolio. These examples are not finished products and are meant to showcase how I approach Data Science projects (analysis and code).
 
-Examples on this site might include code and analyses carried out as a researcher at the University of Florida, as a Research Scientist at Surgo Ventures, and/or as side (aka passion) projects. If you have any questions, you can reach me at [valerievalerioh@gmail.com](mailto: valerievalerioh@gmail.com). To see more of my work, please visit Chapter (# \@ref(resources)). My interestes are listed in Chapter (# \@ref(interests)).
+Examples on this site might include code and analyses carried out as a researcher at the University of Florida, as a Research Scientist at Surgo Ventures, and/or as side (aka passion) projects. If you have any questions, you can reach me at [valerievalerioh@gmail.com](mailto: valerievalerioh@gmail.com). To see more of my work, please visit Chapter (# \@ref(resources)). My interests are listed in Chapter (# \@ref(interests)).
 
 ## Notes
 

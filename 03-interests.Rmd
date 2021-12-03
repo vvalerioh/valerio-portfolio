@@ -14,7 +14,7 @@ I am keen to work in the following topics:
 
 I have experience with the following:
 
-##_Methods_
+## Methods
 
   * Geospatial analysis
   * Network Analysis
